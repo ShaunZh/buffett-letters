@@ -61,7 +61,9 @@ const currentPath = Astro.url.pathname;
       </aside>
 
       <main class="page-shell">
-        <slot />
+        <div class="page-shell__inner">
+          <slot />
+        </div>
       </main>
     </div>
   </body>

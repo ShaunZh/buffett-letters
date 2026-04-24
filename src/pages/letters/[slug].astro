@@ -25,25 +25,22 @@ const blocks = parseLetterBlocks(entry.body);
     <a class="back-link" href="/">← 返回首页</a>
 
     <header class="letter-detail__header">
-      <p class="letter-detail__eyebrow">{entry.data.type}</p>
+      <!-- <p class="letter-detail__eyebrow">{entry.data.type}</p> -->
       <h1 class="letter-detail__title">{entry.data.title_zh}</h1>
-      <p class="letter-detail__subtitle">{entry.data.title}</p>
 
-      <div class="letter-detail__meta">
+      <!-- <div class="letter-detail__meta">
         <time datetime={entry.data.date.toISOString()}>{entry.data.date.toLocaleDateString("zh-CN")}</time>
         <div class="tag-list">
           {entry.data.tags.map((tag) => (
             <a class="tag-chip tag-chip--interactive" href={`/tags/${tag}/`}>{tag}</a>
           ))}
         </div>
-      </div>
+      </div> -->
 
       {entry.data.summary && <p class="letter-detail__summary">{entry.data.summary}</p>}
     </header>
 
-    <section class="reader-toolbar" aria-label="View mode controls">
-      <ViewModeToggle />
-    </section>
+    <ViewModeToggle />
 
     <section class="letter-blocks" aria-label="Letter content blocks">
       {blocks.map((block) => (

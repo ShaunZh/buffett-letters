@@ -1,17 +1,39 @@
-<div class="view-mode-toggle" data-view-mode-toggle>
-  <button type="button" class="view-mode-toggle__button is-active" data-view-mode-trigger="bilingual">
-    Bilingual
+<div class="lang-fab" data-lang-fab>
+  <button
+    type="button"
+    class="lang-fab__trigger"
+    data-lang-trigger
+    aria-label="切换语言显示模式"
+    aria-expanded="false"
+  >
+    <span class="lang-fab__icon" data-lang-icon>文</span>
+    <span class="lang-fab__ring"></span>
   </button>
-  <button type="button" class="view-mode-toggle__button" data-view-mode-trigger="en">
-    English
-  </button>
-  <button type="button" class="view-mode-toggle__button" data-view-mode-trigger="zh">
-    中文
-  </button>
+
+  <div class="lang-fab__menu" data-lang-menu aria-hidden="true">
+    <button type="button" class="lang-fab__option is-active" data-view-mode-trigger="bilingual">
+      <span class="lang-fab__label">双语</span>
+      <span class="lang-fab__hint">Bilingual</span>
+    </button>
+    <button type="button" class="lang-fab__option" data-view-mode-trigger="en">
+      <span class="lang-fab__label">English</span>
+      <span class="lang-fab__hint">英文</span>
+    </button>
+    <button type="button" class="lang-fab__option" data-view-mode-trigger="zh">
+      <span class="lang-fab__label">中文</span>
+      <span class="lang-fab__hint">Chinese</span>
+    </button>
+  </div>
 </div>
 
 <script>
   const modes = ["bilingual", "en", "zh"];
+
+  const iconMap = {
+    bilingual: "文",
+    en: "En",
+    zh: "中",
+  };
 
   function applyViewMode(mode) {
     const safeMode = modes.includes(mode) ? mode : "bilingual";
@@ -23,6 +45,9 @@
       button.setAttribute("aria-pressed", String(isActive));
     });
 
+    const icon = document.querySelector("[data-lang-icon]");
+    if (icon) icon.textContent = iconMap[safeMode];
+
     window.localStorage.setItem("preferred-letter-view-mode", safeMode);
   }
 
@@ -30,10 +55,41 @@
     const preferredMode = window.localStorage.getItem("preferred-letter-view-mode") || "bilingual";
     applyViewMode(preferredMode);
 
+    const fab = document.querySelector("[data-lang-fab]");
+    const trigger = document.querySelector("[data-lang-trigger]");
+    const menu = document.querySelector("[data-lang-menu]");
+
+    if (!fab || !trigger || !menu) return;
+
+    let isOpen = false;
+
+    function toggleMenu(open) {
+      isOpen = open;
+      trigger.setAttribute("aria-expanded", String(open));
+      menu.setAttribute("aria-hidden", String(!open));
+      fab.classList.toggle("is-open", open);
+    }
+
+    trigger.addEventListener("click", () => toggleMenu(!isOpen));
+
     document.querySelectorAll("[data-view-mode-trigger]").forEach((button) => {
       button.addEventListener("click", () => {
         applyViewMode(button.dataset.viewModeTrigger);
+        toggleMenu(false);
       });
+    });
+
+    document.addEventListener("click", (e) => {
+      if (isOpen && !fab.contains(e.target)) {
+        toggleMenu(false);
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && isOpen) {
+        toggleMenu(false);
+        trigger.focus();
+      }
     });
   }
 
