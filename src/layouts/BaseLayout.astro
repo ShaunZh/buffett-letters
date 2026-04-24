@@ -1,0 +1,68 @@
+---
+import { getCollection } from "astro:content";
+
+import "../styles/global.css";
+import { getLetterNavItems } from "../lib/letterUtils.js";
+
+const {
+  title = "Learn Letters",
+  description = "A bilingual long-form reading site for shareholder letters.",
+} = Astro.props;
+
+const navEntries = getLetterNavItems(await getCollection("letters"));
+const currentPath = Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang="zh-CN" data-view-mode="bilingual">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <div class="site-shell">
+      <aside class="site-sidebar">
+        <div class="site-sidebar__inner">
+          <a class="site-brand" href="/">
+            <span class="site-brand__mark">◎</span>
+            <span class="site-brand__text">
+              <strong>巴菲特知识库</strong>
+              <small>Buffett Letters</small>
+            </span>
+          </a>
+
+          <nav class="site-nav" aria-label="Primary">
+            <a class:list={["site-nav__home", currentPath === "/" && "is-active"]} href="/">
+              首页
+            </a>
+          </nav>
+
+          <details class="site-directory" open>
+            <summary class="site-directory__heading">
+              <span class="site-directory__heading-main">
+                <span class="site-directory__caret" aria-hidden="true">▾</span>
+                <span class="site-directory__title">伯克希尔股东信</span>
+              </span>
+              <span>{navEntries.length}</span>
+            </summary>
+
+            <div class="site-directory__list">
+              {navEntries.map((entry) => (
+                <a class:list={["site-directory__item", currentPath === entry.href && "is-active"]} href={entry.href}>
+                  <span class="site-directory__year">{entry.year}</span>
+                  <span class="site-directory__label">{entry.label}</span>
+                </a>
+              ))}
+            </div>
+          </details>
+        </div>
+      </aside>
+
+      <main class="page-shell">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

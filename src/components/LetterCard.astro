@@ -1,0 +1,25 @@
+---
+const { entry } = Astro.props;
+const href = `/letters/${entry.slug}/`;
+---
+
+<article class="letter-card">
+  <a class="letter-card__link" href={href}>
+    <header class="letter-card__header">
+      <p class="letter-card__eyebrow">{entry.data.type}</p>
+      <h2 class="letter-card__title">{entry.data.title_zh}</h2>
+      <p class="letter-card__subtitle">{entry.data.title}</p>
+    </header>
+
+    <div class="letter-card__meta">
+      <time datetime={entry.data.date.toISOString()}>{entry.data.date.toLocaleDateString("zh-CN")}</time>
+      <div class="tag-list">
+        {entry.data.tags.map((tag) => (
+          <span class="tag-chip">{tag}</span>
+        ))}
+      </div>
+    </div>
+
+    {entry.data.summary && <p class="letter-card__summary">{entry.data.summary}</p>}
+  </a>
+</article>

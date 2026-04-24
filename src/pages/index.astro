@@ -1,0 +1,25 @@
+---
+import { getCollection } from "astro:content";
+
+import LetterCard from "../components/LetterCard.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { filterPublishedLetters, sortLettersByDateDesc } from "../lib/letterUtils.js";
+
+const entries = sortLettersByDateDesc(filterPublishedLetters(await getCollection("letters")));
+---
+
+<BaseLayout title="Learn Letters">
+  <section class="page-intro">
+    <p class="page-intro__eyebrow">Letters Archive</p>
+    <h1 class="page-intro__title">中英对照长文阅读</h1>
+    <p class="page-intro__description">
+      用更适合长期阅读的方式浏览巴菲特致股东信，支持中英对照和标签索引。
+    </p>
+  </section>
+
+  <section class="letter-list" aria-label="Letters list">
+    {entries.map((entry) => (
+      <LetterCard entry={entry} />
+    ))}
+  </section>
+</BaseLayout>

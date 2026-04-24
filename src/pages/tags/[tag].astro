@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+
+import LetterCard from "../../components/LetterCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getAllTags, getLettersForTag } from "../../lib/letterUtils.js";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("letters");
+
+  return getAllTags(entries).map((tag) => ({
+    params: { tag },
+    props: {
+      tag,
+      entries: getLettersForTag(entries, tag),
+    },
+  }));
+}
+
+const { tag, entries } = Astro.props;
+---
+
+<BaseLayout title={`Tag: ${tag} | Learn Letters`}>
+  <section class="page-intro">
+    <a class="back-link" href="/">← 返回首页</a>
+    <p class="page-intro__eyebrow">Tag Archive</p>
+    <h1 class="page-intro__title">#{tag}</h1>
+    <p class="page-intro__description">共找到 {entries.length} 篇相关文章。</p>
+  </section>
+
+  <section class="letter-list" aria-label={`Letters tagged with ${tag}`}>
+    {entries.map((entry) => (
+      <LetterCard entry={entry} />
+    ))}
+  </section>
+</BaseLayout>

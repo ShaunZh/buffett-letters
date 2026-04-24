@@ -1,0 +1,54 @@
+---
+import { getCollection } from "astro:content";
+
+import LetterBlock from "../../components/LetterBlock.astro";
+import ViewModeToggle from "../../components/ViewModeToggle.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { filterPublishedLetters, sortLettersByDateDesc } from "../../lib/letterUtils.js";
+import { parseLetterBlocks } from "../../lib/parseLetterBlocks.js";
+
+export async function getStaticPaths() {
+  const entries = sortLettersByDateDesc(filterPublishedLetters(await getCollection("letters")));
+
+  return entries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const blocks = parseLetterBlocks(entry.body);
+---
+
+<BaseLayout title={`${entry.data.title_zh} | Learn Letters`}>
+  <article class="letter-detail">
+    <a class="back-link" href="/">← 返回首页</a>
+
+    <header class="letter-detail__header">
+      <p class="letter-detail__eyebrow">{entry.data.type}</p>
+      <h1 class="letter-detail__title">{entry.data.title_zh}</h1>
+      <p class="letter-detail__subtitle">{entry.data.title}</p>
+
+      <div class="letter-detail__meta">
+        <time datetime={entry.data.date.toISOString()}>{entry.data.date.toLocaleDateString("zh-CN")}</time>
+        <div class="tag-list">
+          {entry.data.tags.map((tag) => (
+            <a class="tag-chip tag-chip--interactive" href={`/tags/${tag}/`}>{tag}</a>
+          ))}
+        </div>
+      </div>
+
+      {entry.data.summary && <p class="letter-detail__summary">{entry.data.summary}</p>}
+    </header>
+
+    <section class="reader-toolbar" aria-label="View mode controls">
+      <ViewModeToggle />
+    </section>
+
+    <section class="letter-blocks" aria-label="Letter content blocks">
+      {blocks.map((block) => (
+        <LetterBlock block={block} />
+      ))}
+    </section>
+  </article>
+</BaseLayout>

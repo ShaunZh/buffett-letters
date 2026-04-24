@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip list *)",
+      "Bash(conda list *)",
+      "Bash(pip show *)",
+      "Bash(/Users/zhangjie/.hermes/hermes-agent/venv/bin/pip list *)",
+      "Bash(/Users/zhangjie/.hermes/hermes-agent/venv/bin/python -m pip list)"
+    ]
+  }
+}

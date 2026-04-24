@@ -1,0 +1,45 @@
+<div class="view-mode-toggle" data-view-mode-toggle>
+  <button type="button" class="view-mode-toggle__button is-active" data-view-mode-trigger="bilingual">
+    Bilingual
+  </button>
+  <button type="button" class="view-mode-toggle__button" data-view-mode-trigger="en">
+    English
+  </button>
+  <button type="button" class="view-mode-toggle__button" data-view-mode-trigger="zh">
+    中文
+  </button>
+</div>
+
+<script>
+  const modes = ["bilingual", "en", "zh"];
+
+  function applyViewMode(mode) {
+    const safeMode = modes.includes(mode) ? mode : "bilingual";
+    document.documentElement.dataset.viewMode = safeMode;
+
+    document.querySelectorAll("[data-view-mode-trigger]").forEach((button) => {
+      const isActive = button.dataset.viewModeTrigger === safeMode;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
+    });
+
+    window.localStorage.setItem("preferred-letter-view-mode", safeMode);
+  }
+
+  function setupViewModeToggle() {
+    const preferredMode = window.localStorage.getItem("preferred-letter-view-mode") || "bilingual";
+    applyViewMode(preferredMode);
+
+    document.querySelectorAll("[data-view-mode-trigger]").forEach((button) => {
+      button.addEventListener("click", () => {
+        applyViewMode(button.dataset.viewModeTrigger);
+      });
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setupViewModeToggle, { once: true });
+  } else {
+    setupViewModeToggle();
+  }
+</script>
