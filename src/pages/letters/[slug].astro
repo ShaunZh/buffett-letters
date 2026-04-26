@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 
 import LetterBlock from "../../components/LetterBlock.astro";
+import LetterNotes from "../../components/LetterNotes.astro";
 import ViewModeToggle from "../../components/ViewModeToggle.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { filterPublishedLetters, sortLettersByDateDesc } from "../../lib/letterUtils.js";
@@ -21,7 +22,7 @@ const blocks = parseLetterBlocks(entry.body);
 ---
 
 <BaseLayout title={`${entry.data.title_zh} | Learn Letters`}>
-  <article class="letter-detail">
+  <article class="letter-detail" data-letter-page data-letter-slug={entry.slug}>
     <a class="back-link" href="/">← 返回首页</a>
 
     <header class="letter-detail__header">
@@ -48,4 +49,6 @@ const blocks = parseLetterBlocks(entry.body);
       ))}
     </section>
   </article>
+
+  <LetterNotes />
 </BaseLayout>

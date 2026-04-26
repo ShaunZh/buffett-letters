@@ -74,10 +74,10 @@ At other times, I've made mistakes when assessing the abilities or fidelity of t
 ## p8
 
 **EN**
-A decent batting average in personnel decisions is all that can be hoped for. The cardinal sin is delaying the correction of mistakes or what Charlie Munger called "thumb-sucking." Problems, he would tell me, cannot be wished away. They require action, however uncomfortable that may be.
+A decent batting average in personnel decisions is all that can be hoped for. The cardinal sin is delaying the correction of mistakes or what Charlie Munger called "thumb-sucking". Problems, he would tell me, cannot be wished away. They require action, however uncomfortable that may be.
 
 **ZH**
-在人事决策上，能维持一个还不错的打击率，就已经是奢望了。真正的大忌，是迟迟不去纠正错误，也就是查理·芒格所说的“吮拇指”。他总会告诉我：问题不会因为你希望它消失就自动消失。它们需要行动，无论那样做有多不舒服。
+在人事决策方面，我们所能期望的仅仅是取得尚可的准确率。真正的大忌，是迟迟不去纠正错误，也就是查理·芒格所说的“吮拇指”。他总会告诉我：问题不会因为你希望它消失就自动消失。它们需要行动，无论那样做有多不舒服。
 
 ## p9
 
@@ -85,7 +85,7 @@ A decent batting average in personnel decisions is all that can be hoped for. Th
 During the 2019-23 period, I have used the words "mistake" or "error" 16 times in my letters to you. Many other huge companies have never used either word over that span. Amazon, I should acknowledge, made some brutally candid observations in its 2021 letter. Elsewhere, it has generally been happy talk and pictures.
 
 **ZH**
-在 2019 到 2023 年这段时间里，我在写给你们的信中一共用了 16 次 “mistake” 或 “error” 这样的词。许多其他大型公司在同一时期里，从未用过这两个词中的任何一个。亚马逊倒是例外，我得承认，它在 2021 年的信里做过一些非常坦率、甚至近乎“残酷诚实”的表述。除此之外，多数地方看到的通常都是一片喜气洋洋的说辞和漂亮图片。
+在 2019 到 2023 年这段时间里，我在写给你们的信中一共用了 16 次 “mistake” 或 “error” 这样的词。在此期间，许多其他大型公司从未用过这两个词。 亚马逊倒是例外，我得承认，它在 2021 年的信里做过一些非常坦率、甚至近乎“残酷诚实”的表述。除此之外，多数地方看到的通常都是一片喜气洋洋的说辞，以及配上一些漂亮图片而已。
 
 ## p10
 
@@ -274,10 +274,45 @@ Our measure excludes capital gains or losses on the stocks and bonds we own, whe
 ## p33
 
 **EN**
-Here's a breakdown of the 2023-24 earnings as we see them. All calculations are after depreciation, amortization and income tax. EBITDA, a flawed favorite of Wall Street, is not for us. Insurance-underwriting: $9.020 billion vs. $5.428 billion. Insurance-investment income: $13.670 billion vs. $9.567 billion. BNSF: $5.031 billion vs. $5.087 billion. Berkshire Hathaway Energy: $3.730 billion vs. $2.331 billion. Other controlled businesses: $13.072 billion vs. $13.362 billion. Non-controlled businesses: $1.519 billion vs. $1.750 billion. Other: $1.395 billion vs. -$0.175 billion. Operating earnings totaled $47.437 billion vs. $37.350 billion.
+Here's a breakdown of the 2023-24 earnings as we see them. All calculations are after depreciation, amortization and income tax. EBITDA, a flawed favorite of Wall Street, is not for us.
+
+**Operating Earnings (in $ millions)**
+
+| Segment                          | 2024  | 2023  |
+|----------------------------------|-------|-------|
+| Insurance-underwriting           | 9,020 | 5,428 |
+| Insurance-investment income      | 13,670| 9,567 |
+| BNSF                            | 5,031 | 5,087 |
+| Berkshire Hathaway Energy        | 3,730 | 2,331 |
+| Other controlled businesses      | 13,072| 13,362|
+| Non-controlled businesses*       | 1,519 | 1,750 |
+| Other**                          | 1,395 | (175) |
+| **Operating earnings**           | **47,437** | **37,350** |
+
+**Includes certain businesses in which Berkshire had between a 20% and 50% ownership such as Kraft Heinz, Occidental Petroleum and Berkadia.*
+
+***Includes foreign currency exchange gains of approximately $1.1 billion in 2024 and approximately $211 million in 2023 produced by our usage of non-U.S. dollar-denominated debt.*
+
 
 **ZH**
-以下是我们眼中的 2023-2024 年利润拆分。所有计算都已经扣除了折旧、摊销和所得税。至于华尔街钟爱的、但在我们看来有缺陷的 EBITDA 指标，不在我们的体系里。具体来看：保险承保利润为 90.20 亿美元，上年为 54.28 亿美元；保险投资收益为 136.70 亿美元，上年为 95.67 亿美元；BNSF 为 50.31 亿美元，上年为 50.87 亿美元；伯克希尔哈撒韦能源为 37.30 亿美元，上年为 23.31 亿美元；其他控股企业为 130.72 亿美元，上年为 133.62 亿美元；非控股企业为 15.19 亿美元，上年为 17.50 亿美元；其他项目为 13.95 亿美元，上年为负 1.75 亿美元。营业利润合计为 474.37 亿美元，上年为 373.50 亿美元。
+以下是我们眼中的 2023-2024 年利润拆分。所有计算都已经扣除了折旧、摊销和所得税。至于华尔街钟爱的、但在我们看来有缺陷的 EBITDA 指标，不在我们的体系里。具体来看：
+
+**营业利润（单位：百万美元）**
+
+| 业务板块                         | 2024年 | 2023年 |
+|----------------------------------|--------|--------|
+| 保险承保业务                     | 9,020  | 5,428  |
+| 保险投资收益                     | 13,670 | 9,567  |
+| BNSF铁路                         | 5,031  | 5,087  |
+| 伯克希尔哈撒韦能源               | 3,730  | 2,331  |
+| 其他控股企业                     | 13,072 | 13,362 |
+| 非控股企业*                      | 1,519  | 1,750  |
+| 其他**                           | 1,395  | (175)  |
+| **营业利润合计**                 | **47,437** | **37,350** |
+
+**包括伯克希尔持股20%至50%的部分公司，如卡夫亨氏（Kraft Heinz）、西方石油（Occidental Petroleum）和Berkadia。*  
+
+***包括因使用非美元计价债务产生的外汇收益：2024年约11亿美元，2023年约2.11亿美元。*
 
 ## p34
 
@@ -285,7 +320,7 @@ Here's a breakdown of the 2023-24 earnings as we see them. All calculations are 
 Surprise, Surprise! An Important American Record is Smashed
 
 **ZH**
-惊喜，惊喜！一项重要的美国纪录被打破了
+非常惊喜！一项重要的美国纪录被打破了
 
 ## p35
 
@@ -357,7 +392,7 @@ Berkshire's equity activity is ambidextrous. In one hand we own control of many 
 In the other hand, we own a small percentage of a dozen or so very large and highly profitable businesses with household names such as Apple, American Express, Coca-Cola and Moody's. Many of these companies earn very high returns on the net tangible equity required for their operations. At yearend, our partial-ownership holdings were valued at $272 billion. Understandably, really outstanding businesses are very seldom offered in their entirety, but small fractions of these gems can be purchased Monday through Friday on Wall Street and, very occasionally, they sell at bargain prices.
 
 **ZH**
-另一只手，我们持有十几家规模极大、盈利能力极强、且家喻户晓企业的一小部分股权，比如苹果、美国运通、可口可乐和穆迪。许多这样的公司，只需要很少的净有形资本就能取得极高回报。到年末，我们这些“部分持股”的投资市值达到 2720 亿美元。可以理解，真正卓越的企业几乎不会整家拿出来卖；但这些瑰宝的小小一部分股权，周一到周五都可以在华尔街买到，而且极少数时候，它们还会以便宜价格出售。
+另一方面，我们持有十几家规模极大、盈利能力极强、且家喻户晓企业的一小部分股权，比如苹果、美国运通、可口可乐和穆迪。许多这样的公司，只需要很少的净有形资本就能取得极高回报。到年末，我们这些“部分持股”的投资市值达到 2720 亿美元。可以理解，真正卓越的企业几乎不会整家拿出来卖；但这些瑰宝的小小一部分股权，周一到周五都可以在华尔街买到，而且极少数时候，它们还会以便宜价格出售。
 
 ## p44
 
@@ -766,3 +801,154 @@ The Berkshire directors and I immensely enjoy having you come to Omaha, and I pr
 
 **ZH**
 伯克希尔的董事们和我都非常享受你们来到奥马哈的这段时光。我相信，你们会过得很愉快，而且很可能还能结识一些新朋友。2025 年 2 月 22 日。沃伦·E·巴菲特，董事长。
+
+## p95
+
+**EN**
+
+### Berkshire’s Performance vs. the S&P 500
+**Annual Percentage Change**
+
+| Year | Berkshire (Per-Share Market Value) | S&P 500 (with Dividends) |
+|------|------------------------------------|--------------------------|
+| 1965 | 49.5% | 10.0% |
+| 1966 | (3.4) | (11.7) |
+| 1967 | 13.3 | 30.9 |
+| 1968 | 77.8 | 11.0 |
+| 1969 | 19.4 | (8.4) |
+| 1970 | (4.6) | 3.9 |
+| 1971 | 80.5 | 14.6 |
+| 1972 | 8.1 | 18.9 |
+| 1973 | (2.5) | (14.8) |
+| 1974 | (48.7) | (26.4) |
+| 1975 | 2.5 | 37.2 |
+| 1976 | 129.3 | 23.6 |
+| 1977 | 46.8 | (7.4) |
+| 1978 | 14.5 | 6.4 |
+| 1979 | 102.5 | 18.2 |
+| 1980 | 32.8 | 32.3 |
+| 1981 | 31.8 | (5.0) |
+| 1982 | 38.4 | 21.4 |
+| 1983 | 69.0 | 22.4 |
+| 1984 | (2.7) | 6.1 |
+| 1985 | 93.7 | 31.6 |
+| 1986 | 14.2 | 18.6 |
+| 1987 | 4.6 | 5.1 |
+| 1988 | 59.3 | 16.6 |
+| 1989 | 84.6 | 31.7 |
+| 1990 | (23.1) | (3.1) |
+| 1991 | 35.6 | 30.5 |
+| 1992 | 29.8 | 7.6 |
+| 1993 | 38.9 | 10.1 |
+| 1994 | 25.0 | 1.3 |
+| 1995 | 57.4% | 37.6% |
+| 1996 | 6.2 | 23.0 |
+| 1997 | 34.9 | 33.4 |
+| 1998 | 52.2 | 28.6 |
+| 1999 | (19.9) | 21.0 |
+| 2000 | 26.6 | (9.1) |
+| 2001 | 6.5 | (11.9) |
+| 2002 | (3.8) | (22.1) |
+| 2003 | 15.8 | 28.7 |
+| 2004 | 4.3 | 10.9 |
+| 2005 | 0.8 | 4.9 |
+| 2006 | 24.1 | 15.8 |
+| 2007 | 28.7 | 5.5 |
+| 2008 | (31.8) | (37.0) |
+| 2009 | 2.7 | 26.5 |
+| 2010 | 21.4 | 15.1 |
+| 2011 | (4.7) | 2.1 |
+| 2012 | 16.8 | 16.0 |
+| 2013 | 32.7 | 32.4 |
+| 2014 | 27.0 | 13.7 |
+| 2015 | (12.5) | 1.4 |
+| 2016 | 23.4 | 12.0 |
+| 2017 | 21.9 | 21.8 |
+| 2018 | 2.8 | (4.4) |
+| 2019 | 11.0 | 31.5 |
+| 2020 | 2.4 | 18.4 |
+| 2021 | 29.6 | 28.7 |
+| 2022 | 4.0 | (18.1) |
+| 2023 | 15.8 | 26.3 |
+| 2024 | 25.5 | 25.0 |
+
+| Summary | Berkshire | S&P 500 |
+|---------|----------|---------|
+| Compounded Annual Gain (1965–2024) | 19.9% | 10.4% |
+| Overall Gain (1964–2024) | 5,502,284% | 39,054% |
+
+**Note:** Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31.
+
+**ZH**
+### 伯克希尔 vs 标普500表现对比  
+**年度收益率（百分比）**
+
+| 年份 | 伯克希尔（每股市值） | 标普500（含股息） |
+|------|----------------------|------------------|
+| 1965 | 49.5% | 10.0% |
+| 1966 | (3.4) | (11.7) |
+| 1967 | 13.3 | 30.9 |
+| 1968 | 77.8 | 11.0 |
+| 1969 | 19.4 | (8.4) |
+| 1970 | (4.6) | 3.9 |
+| 1971 | 80.5 | 14.6 |
+| 1972 | 8.1 | 18.9 |
+| 1973 | (2.5) | (14.8) |
+| 1974 | (48.7) | (26.4) |
+| 1975 | 2.5 | 37.2 |
+| 1976 | 129.3 | 23.6 |
+| 1977 | 46.8 | (7.4) |
+| 1978 | 14.5 | 6.4 |
+| 1979 | 102.5 | 18.2 |
+| 1980 | 32.8 | 32.3 |
+| 1981 | 31.8 | (5.0) |
+| 1982 | 38.4 | 21.4 |
+| 1983 | 69.0 | 22.4 |
+| 1984 | (2.7) | 6.1 |
+| 1985 | 93.7 | 31.6 |
+| 1986 | 14.2 | 18.6 |
+| 1987 | 4.6 | 5.1 |
+| 1988 | 59.3 | 16.6 |
+| 1989 | 84.6 | 31.7 |
+| 1990 | (23.1) | (3.1) |
+| 1991 | 35.6 | 30.5 |
+| 1992 | 29.8 | 7.6 |
+| 1993 | 38.9 | 10.1 |
+| 1994 | 25.0 | 1.3 |
+| 1995 | 57.4% | 37.6% |
+| 1996 | 6.2 | 23.0 |
+| 1997 | 34.9 | 33.4 |
+| 1998 | 52.2 | 28.6 |
+| 1999 | (19.9) | 21.0 |
+| 2000 | 26.6 | (9.1) |
+| 2001 | 6.5 | (11.9) |
+| 2002 | (3.8) | (22.1) |
+| 2003 | 15.8 | 28.7 |
+| 2004 | 4.3 | 10.9 |
+| 2005 | 0.8 | 4.9 |
+| 2006 | 24.1 | 15.8 |
+| 2007 | 28.7 | 5.5 |
+| 2008 | (31.8) | (37.0) |
+| 2009 | 2.7 | 26.5 |
+| 2010 | 21.4 | 15.1 |
+| 2011 | (4.7) | 2.1 |
+| 2012 | 16.8 | 16.0 |
+| 2013 | 32.7 | 32.4 |
+| 2014 | 27.0 | 13.7 |
+| 2015 | (12.5) | 1.4 |
+| 2016 | 23.4 | 12.0 |
+| 2017 | 21.9 | 21.8 |
+| 2018 | 2.8 | (4.4) |
+| 2019 | 11.0 | 31.5 |
+| 2020 | 2.4 | 18.4 |
+| 2021 | 29.6 | 28.7 |
+| 2022 | 4.0 | (18.1) |
+| 2023 | 15.8 | 26.3 |
+| 2024 | 25.5 | 25.0 |
+
+| 汇总 | 伯克希尔 | 标普500 |
+|------|----------|----------|
+| 年复合增长率（1965–2024） | 19.9% | 10.4% |
+| 总回报（1964–2024） | 5,502,284% | 39,054% |
+
+**注：** 数据按自然年统计，但以下年份除外：1965、1966为截至9月30日的年度；1967为截至12月31日的15个月期间。

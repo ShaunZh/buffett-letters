@@ -1,30 +1,61 @@
-<div class="lang-fab" data-lang-fab>
+<div class="reader-fab" data-reader-fab>
   <button
     type="button"
-    class="lang-fab__trigger"
-    data-lang-trigger
-    aria-label="切换语言显示模式"
+    class="reader-fab__trigger"
+    data-reader-trigger
+    aria-label="打开阅读操作菜单"
     aria-expanded="false"
   >
-    <span class="lang-fab__icon" data-lang-icon>文</span>
-    <span class="lang-fab__ring"></span>
+    <span class="reader-fab__icon" data-lang-icon>文</span>
+    <span class="reader-fab__ring"></span>
   </button>
 
-  <div class="lang-fab__menu" data-lang-menu aria-hidden="true">
-    <button type="button" class="lang-fab__option is-active" data-view-mode-trigger="bilingual">
-      <span class="lang-fab__label">双语</span>
-      <span class="lang-fab__hint">Bilingual</span>
-    </button>
-    <button type="button" class="lang-fab__option" data-view-mode-trigger="en">
-      <span class="lang-fab__label">English</span>
-      <span class="lang-fab__hint">英文</span>
-    </button>
-    <button type="button" class="lang-fab__option" data-view-mode-trigger="zh">
-      <span class="lang-fab__label">中文</span>
-      <span class="lang-fab__hint">Chinese</span>
+  <div class="reader-fab__menu" data-reader-menu aria-hidden="true">
+    <div class="reader-fab__item reader-fab__item--submenu" data-language-item>
+      <button type="button" class="reader-fab__menu-button" data-language-trigger aria-expanded="false">
+        <span>语言</span>
+        <span class="reader-fab__chevron" aria-hidden="true">›</span>
+      </button>
+
+      <div class="reader-fab__submenu" data-lang-menu aria-hidden="true">
+        <button type="button" class="reader-fab__option is-active" data-view-mode-trigger="bilingual">
+          <span class="reader-fab__label">双语</span>
+          <span class="reader-fab__hint">Bilingual</span>
+        </button>
+        <button type="button" class="reader-fab__option" data-view-mode-trigger="en">
+          <span class="reader-fab__label">English</span>
+          <span class="reader-fab__hint">英文</span>
+        </button>
+        <button type="button" class="reader-fab__option" data-view-mode-trigger="zh">
+          <span class="reader-fab__label">中文</span>
+          <span class="reader-fab__hint">Chinese</span>
+        </button>
+      </div>
+    </div>
+
+    <button type="button" class="reader-fab__menu-button" data-notes-drawer-toggle aria-expanded="false">
+      <span>笔记</span>
+      <span class="reader-fab__count" data-notes-count>0</span>
     </button>
   </div>
 </div>
+
+<div class="notes-drawer__scrim" data-notes-drawer-scrim hidden></div>
+
+<aside class="notes-drawer" data-notes-drawer aria-hidden="true" hidden>
+  <header class="notes-drawer__header">
+    <div>
+      <h2>笔记</h2>
+      <p>当前文章的本地高亮与记录</p>
+    </div>
+    <button type="button" class="notes-drawer__close" data-notes-drawer-close aria-label="关闭笔记">×</button>
+  </header>
+
+  <div class="notes-drawer__body">
+    <p class="notes-panel__empty" data-notes-empty>还没有笔记，先在正文里选一段文字试试。</p>
+    <div class="notes-list" data-notes-list></div>
+  </div>
+</aside>
 
 <script>
   const modes = ["bilingual", "en", "zh"];
@@ -51,15 +82,19 @@
     window.localStorage.setItem("preferred-letter-view-mode", safeMode);
   }
 
-  function setupViewModeToggle() {
+  function setupReaderMenu() {
     const preferredMode = window.localStorage.getItem("preferred-letter-view-mode") || "bilingual";
     applyViewMode(preferredMode);
 
-    const fab = document.querySelector("[data-lang-fab]");
-    const trigger = document.querySelector("[data-lang-trigger]");
-    const menu = document.querySelector("[data-lang-menu]");
+    const fab = document.querySelector("[data-reader-fab]");
+    const trigger = document.querySelector("[data-reader-trigger]");
+    const menu = document.querySelector("[data-reader-menu]");
+    const languageItem = document.querySelector("[data-language-item]");
+    const languageTrigger = document.querySelector("[data-language-trigger]");
+    const languageMenu = document.querySelector("[data-lang-menu]");
+    const notesToggle = document.querySelector("[data-notes-drawer-toggle]");
 
-    if (!fab || !trigger || !menu) return;
+    if (!fab || !trigger || !menu || !languageItem || !languageTrigger || !languageMenu) return;
 
     let isOpen = false;
 
@@ -68,9 +103,23 @@
       trigger.setAttribute("aria-expanded", String(open));
       menu.setAttribute("aria-hidden", String(!open));
       fab.classList.toggle("is-open", open);
+      if (!open) {
+        languageTrigger.setAttribute("aria-expanded", "false");
+        languageMenu.setAttribute("aria-hidden", "true");
+      }
+    }
+
+    function toggleLanguageSubmenu(open) {
+      languageTrigger.setAttribute("aria-expanded", String(open));
+      languageMenu.setAttribute("aria-hidden", String(!open));
+      languageItem.classList.toggle("is-submenu-open", open);
     }
 
     trigger.addEventListener("click", () => toggleMenu(!isOpen));
+    languageItem.addEventListener("mouseenter", () => toggleLanguageSubmenu(true));
+    languageItem.addEventListener("mouseleave", () => toggleLanguageSubmenu(false));
+    languageTrigger.addEventListener("focus", () => toggleLanguageSubmenu(true));
+    notesToggle?.addEventListener("click", () => toggleMenu(false));
 
     document.querySelectorAll("[data-view-mode-trigger]").forEach((button) => {
       button.addEventListener("click", () => {
@@ -94,8 +143,8 @@
   }
 
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", setupViewModeToggle, { once: true });
+    document.addEventListener("DOMContentLoaded", setupReaderMenu, { once: true });
   } else {
-    setupViewModeToggle();
+    setupReaderMenu();
   }
 </script>

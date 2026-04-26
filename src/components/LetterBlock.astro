@@ -6,12 +6,26 @@ const { block } = Astro.props;
 
 <article class="letter-block">
   <div class="letter-block__body">
-    <section class="letter-block__section" data-letter-language="en" aria-label={`English block ${block.id}`}>
-      <div class="rich-text" set:html={renderRichText(block.en)} />
+    <section
+      class="letter-block__section"
+      data-letter-language="en"
+      data-note-scope
+      data-block-id={block.id}
+      data-language="en"
+      aria-label={`English block ${block.id}`}
+    >
+      <div class="rich-text" data-note-content set:html={renderRichText(block.en)} />
     </section>
 
-    <section class="letter-block__section" data-letter-language="zh" aria-label={`Chinese block ${block.id}`}>
-      <div class="rich-text" set:html={renderRichText(block.zh)} />
+    <section
+      class="letter-block__section"
+      data-letter-language="zh"
+      data-note-scope
+      data-block-id={block.id}
+      data-language="zh"
+      aria-label={`Chinese block ${block.id}`}
+    >
+      <div class="rich-text" data-note-content set:html={renderRichText(block.zh)} />
     </section>
   </div>
 </article>
