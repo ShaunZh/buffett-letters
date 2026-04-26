@@ -71,26 +71,31 @@ export function findTopBlock(blocks, viewportTop) {
  */
 export function setupReadingPosition() {
   const article = document.querySelector("[data-letter-page]");
-  if (!article) return;
+  if (!article || article.dataset.readingPositionInitialized === "true") return;
+  article.dataset.readingPositionInitialized = "true";
 
   const slug = article.getAttribute("data-letter-slug");
   if (!slug) return;
 
   // Restore position on load
-  const raw = localStorage.getItem(STORAGE_KEY);
-  const positions = loadReadingPositions(raw);
-  const savedBlockId = positions[slug];
-  if (savedBlockId) {
-    const block = document.querySelector(`[data-block-id="${savedBlockId}"]`);
-    if (block) {
-      block.scrollIntoView({ block: "start" });
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    const positions = loadReadingPositions(raw);
+    const savedBlockId = positions[slug];
+    if (savedBlockId && /^[a-zA-Z0-9_-]+$/.test(savedBlockId)) {
+      const block = document.querySelector(`[data-block-id="${savedBlockId}"]`);
+      if (block) {
+        block.scrollIntoView({ block: "start" });
+      }
     }
+  } catch {
+    // localStorage unavailable (private mode, quota, etc.)
   }
 
-  // Debounced scroll handler
+  // Debounced scroll handler — saves after user stops scrolling for 3s
   let debounceTimer = null;
   window.addEventListener("scroll", () => {
-    if (debounceTimer) return;
+    clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => {
       debounceTimer = null;
 
@@ -104,11 +109,15 @@ export function setupReadingPosition() {
 
       const topBlockId = findTopBlock(blocks, 0);
       if (topBlockId) {
-        const currentRaw = localStorage.getItem(STORAGE_KEY);
-        let currentPositions = loadReadingPositions(currentRaw);
-        currentPositions = saveReadingPosition(currentPositions, slug, topBlockId);
-        currentPositions = prunePositions(currentPositions);
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(currentPositions));
+        try {
+          const currentRaw = localStorage.getItem(STORAGE_KEY);
+          let currentPositions = loadReadingPositions(currentRaw);
+          currentPositions = saveReadingPosition(currentPositions, slug, topBlockId);
+          currentPositions = prunePositions(currentPositions);
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(currentPositions));
+        } catch {
+          // localStorage unavailable
+        }
       }
     }, 3000);
   });
