@@ -432,7 +432,7 @@ Despite what some commentators currently view as an extraordinary cash position 
 Berkshire shareholders can rest assured that we will forever deploy a substantial majority of their money in equities - mostly American equities although many of these will have international operations of significance. Berkshire will never prefer ownership of cash-equivalent assets over the ownership of good businesses, whether controlled or only partially owned.
 
 **ZH**
-伯克希尔股东可以放心，我们会永远把绝大部分资金配置在权益资产上——其中主要是美国企业的权益，尽管很多公司本身也拥有重要的国际业务。无论是控股还是部分持股，伯克希尔都不会把持有类现金资产放在持有优秀企业之上。
+伯克希尔的股东们可以放心，我们将永远把他们的大部分资金投资于股票——主要是美国股票，尽管很多公司本身也拥有重要的国际业务。无论是控股还是部分持股，伯克希尔都不会把持有类现金资产（如现金、债券等）放在持有优秀企业的股票之上。
 
 ## p49
 
