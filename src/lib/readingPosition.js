@@ -43,3 +43,73 @@ export function prunePositions(positions = {}) {
 }
 
 export { STORAGE_KEY, MAX_ENTRIES };
+
+/**
+ * Given an array of { id, rect: { top } } objects and a viewportTop number,
+ * returns the id of the last block whose rect.top <= viewportTop.
+ * If all blocks are below viewportTop, returns the first block's id.
+ * Returns null for an empty array.
+ */
+export function findTopBlock(blocks, viewportTop) {
+  if (!blocks || blocks.length === 0) return null;
+
+  let candidate = blocks[0].id;
+  for (const block of blocks) {
+    if (block.rect.top <= viewportTop) {
+      candidate = block.id;
+    } else {
+      break;
+    }
+  }
+  return candidate;
+}
+
+/**
+ * Sets up reading position persistence for a letter page.
+ * On load: restores scroll position to the last saved block.
+ * On scroll: debounced save of the current top block to localStorage.
+ */
+export function setupReadingPosition() {
+  const article = document.querySelector("[data-letter-page]");
+  if (!article) return;
+
+  const slug = article.getAttribute("data-letter-slug");
+  if (!slug) return;
+
+  // Restore position on load
+  const raw = localStorage.getItem(STORAGE_KEY);
+  const positions = loadReadingPositions(raw);
+  const savedBlockId = positions[slug];
+  if (savedBlockId) {
+    const block = document.querySelector(`[data-block-id="${savedBlockId}"]`);
+    if (block) {
+      block.scrollIntoView({ block: "start" });
+    }
+  }
+
+  // Debounced scroll handler
+  let debounceTimer = null;
+  window.addEventListener("scroll", () => {
+    if (debounceTimer) return;
+    debounceTimer = setTimeout(() => {
+      debounceTimer = null;
+
+      const blocks = Array.from(
+        document.querySelectorAll("[data-block-id]"),
+        (el) => ({
+          id: el.getAttribute("data-block-id"),
+          rect: el.getBoundingClientRect(),
+        }),
+      );
+
+      const topBlockId = findTopBlock(blocks, 0);
+      if (topBlockId) {
+        const currentRaw = localStorage.getItem(STORAGE_KEY);
+        let currentPositions = loadReadingPositions(currentRaw);
+        currentPositions = saveReadingPosition(currentPositions, slug, topBlockId);
+        currentPositions = prunePositions(currentPositions);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(currentPositions));
+      }
+    }, 3000);
+  });
+}

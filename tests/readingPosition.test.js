@@ -7,6 +7,7 @@ import {
   loadReadingPositions,
   saveReadingPosition,
   prunePositions,
+  findTopBlock,
 } from "../src/lib/readingPosition.js";
 
 test("STORAGE_KEY and MAX_ENTRIES have correct values", () => {
@@ -120,4 +121,26 @@ test("saveReadingPosition and prunePositions work together", () => {
   assert.equal(pruned["letter-0"], undefined);
   // The newest entry should be present
   assert.equal(pruned["new-letter"], "p1");
+});
+
+test("findTopBlock returns the last block whose top <= viewportTop", () => {
+  const blocks = [
+    { id: "p1", rect: { top: -500 } },
+    { id: "p2", rect: { top: -200 } },
+    { id: "p3", rect: { top: 50 } },
+    { id: "p4", rect: { top: 300 } },
+  ];
+  assert.equal(findTopBlock(blocks, 0), "p2");
+});
+
+test("findTopBlock returns first block if all are below viewport", () => {
+  const blocks = [
+    { id: "p1", rect: { top: 100 } },
+    { id: "p2", rect: { top: 300 } },
+  ];
+  assert.equal(findTopBlock(blocks, 0), "p1");
+});
+
+test("findTopBlock returns null for empty array", () => {
+  assert.equal(findTopBlock([], 0), null);
 });
