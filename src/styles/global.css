@@ -1573,7 +1573,6 @@ html[data-view-mode="zh"] .letter-block__section + .letter-block__section {
 }
 
 .ai-result {
-  white-space: pre-wrap;
   padding: 0.9rem 1rem;
   border: 1px solid rgba(36, 31, 26, 0.1);
   border-radius: 12px;
@@ -1581,6 +1580,13 @@ html[data-view-mode="zh"] .letter-block__section + .letter-block__section {
   color: var(--text);
   line-height: 1.7;
 }
+
+.ai-result.rich-text p { margin: 0.5em 0; }
+.ai-result.rich-text h2 { font-size: 1.2rem; margin: 0.8em 0 0.4em; }
+.ai-result.rich-text h3 { font-size: 1.05rem; margin: 0.6em 0 0.3em; }
+.ai-result.rich-text ul, .ai-result.rich-text ol { margin: 0.4em 0; padding-left: 1.4em; }
+.ai-result.rich-text li + li { margin-top: 0.2em; }
+.ai-result.rich-text code { font-size: 0.88em; }
 
 @media (max-width: 720px) {
   .notes-toolbar {

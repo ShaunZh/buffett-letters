@@ -15,6 +15,7 @@ import {
   requestAiExplanation,
   serializeAiSettings,
 } from "./aiExplain.js";
+import { renderRichText } from "./renderRichText.js";
 
 const COLOR_LABELS = {
   amber: "Amber",
@@ -357,7 +358,7 @@ function createAiModals() {
             <button type="button" class="ai-dialog__secondary" data-ai-settings-open>模型设置</button>
             <button type="button" class="ai-dialog__primary" data-ai-send>发送</button>
           </div>
-          <div class="ai-result" data-ai-result hidden></div>
+          <div class="ai-result rich-text" data-ai-result hidden></div>
         </div>
       </section>
     </div>
@@ -700,11 +701,12 @@ export function setupLetterNotes() {
       sendButton.disabled = true;
 
       try {
-        result.textContent = await requestAiExplanation({
+        const text = await requestAiExplanation({
           settings: loadAiSettings(),
           sourceText,
           question,
         });
+        result.innerHTML = renderRichText(text);
       } catch (error) {
         result.textContent = error.message || "AI 解释失败，请检查 Key 或网络。";
       } finally {
