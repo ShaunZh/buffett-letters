@@ -1,5 +1,5 @@
-export const STORAGE_KEY = "buffett-reading-position";
-export const MAX_ENTRIES = 20;
+const STORAGE_KEY = "buffett-reading-position";
+const MAX_ENTRIES = 20;
 
 /**
  * Parses a raw JSON string from localStorage into a positions object.
@@ -22,7 +22,8 @@ export function loadReadingPositions(rawValue) {
  * Returns a new positions object with the slug/blockId entry added or updated.
  * Does NOT mutate the input.
  */
-export function saveReadingPosition(positions, slug, blockId) {
+export function saveReadingPosition(positions = {}, slug, blockId) {
+  if (!slug || !blockId) return { ...positions };
   return { ...positions, [slug]: blockId };
 }
 
@@ -30,7 +31,7 @@ export function saveReadingPosition(positions, slug, blockId) {
  * If entries exceed MAX_ENTRIES, removes the oldest (first keys).
  * Returns a pruned object. Does NOT mutate the input.
  */
-export function prunePositions(positions) {
+export function prunePositions(positions = {}) {
   const keys = Object.keys(positions);
   if (keys.length <= MAX_ENTRIES) return { ...positions };
   const excess = keys.length - MAX_ENTRIES;
@@ -40,3 +41,5 @@ export function prunePositions(positions) {
   }
   return pruned;
 }
+
+export { STORAGE_KEY, MAX_ENTRIES };
