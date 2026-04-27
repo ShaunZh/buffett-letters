@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --test tests/readingPosition.test.js)",
+      "Bash(git add:*)",
+      "Bash(npm test:*)"
+    ]
+  }
+}

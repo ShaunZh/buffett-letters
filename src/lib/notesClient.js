@@ -10,12 +10,15 @@ import {
 } from "./letterNotes.js";
 import {
   AI_SETTINGS_KEY,
+  DEFAULT_SYSTEM_PROMPT,
+  DEFAULT_USER_PROMPT_TEMPLATE,
   hasAiKey,
   parseAiSettings,
   requestAiExplanation,
   serializeAiSettings,
 } from "./aiExplain.js";
 import { renderRichText } from "./renderRichText.js";
+import { lookupWordTranslation } from "./wordTranslate.js";
 
 const COLOR_LABELS = {
   amber: "Amber",
@@ -265,6 +268,16 @@ function createSelectionMenu() {
   menu.hidden = true;
   menu.innerHTML = `
     <div class="selection-menu__actions" data-selection-actions>
+      <button type="button" class="selection-menu__icon-button" data-selection-translate aria-label="单词翻译">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 7h12" />
+          <path d="M7 5v4" />
+          <path d="M11 18l4-9 4 9" />
+          <path d="M12.5 14h5" />
+          <path d="M5 11c1.2 2.8 3.4 5.2 6 7" />
+          <path d="M8 11c-.4 2.3-1.7 4.4-4 6" />
+        </svg>
+      </button>
       <button type="button" class="selection-menu__icon-button" data-selection-edit aria-label="高亮和笔记">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <path d="M12 20h9" />
@@ -332,6 +345,25 @@ function createAiModals() {
             <input type="password" data-ai-openai-key placeholder="sk-proj-xxxxxxxxxxxxxxxxxxxx" autocomplete="off" />
             <a href="https://platform.openai.com/api-keys" target="_blank" rel="noreferrer">获取 Key</a>
           </label>
+          <section class="ai-prompt-settings" aria-labelledby="ai-prompt-settings-title">
+            <div class="ai-prompt-settings__header">
+              <h3 id="ai-prompt-settings-title">提示词</h3>
+              <button type="button" class="ai-dialog__secondary ai-dialog__secondary--compact" data-ai-prompts-reset>恢复内置默认</button>
+            </div>
+            <div class="ai-provider-choice" role="radiogroup" aria-label="提示词模式">
+              <label><input type="radio" name="ai-prompt-mode" value="default" data-ai-prompt-mode /> 使用内置默认提示词</label>
+              <label><input type="radio" name="ai-prompt-mode" value="custom" data-ai-prompt-mode /> 使用自定义提示词</label>
+            </div>
+            <label class="ai-field">
+              <span>System 提示词</span>
+              <textarea data-ai-system-prompt rows="6"></textarea>
+            </label>
+            <label class="ai-field">
+              <span>User 提示词模板</span>
+              <textarea data-ai-user-prompt-template rows="7"></textarea>
+            </label>
+            <p class="ai-dialog__hint">自定义 User 提示词模板必须包含 {{sourceText}}，{{question}} 可选。</p>
+          </section>
           <p class="ai-dialog__message" data-ai-settings-message></p>
           <button type="button" class="ai-dialog__primary" data-ai-settings-save>保存设置</button>
         </div>
@@ -354,11 +386,31 @@ function createAiModals() {
             <span>问题</span>
             <input type="text" data-ai-question value="解释一下" />
           </label>
+          <details class="ai-once-options">
+            <summary>本次额外要求</summary>
+            <label class="ai-field">
+              <span>只影响这一次解释</span>
+              <textarea data-ai-extra-instruction rows="3" placeholder="例如：再短一点，只解释会计含义，不要分标题。"></textarea>
+            </label>
+          </details>
           <div class="ai-dialog__actions">
             <button type="button" class="ai-dialog__secondary" data-ai-settings-open>模型设置</button>
             <button type="button" class="ai-dialog__primary" data-ai-send>发送</button>
           </div>
           <div class="ai-result rich-text" data-ai-result hidden></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="ai-modal" data-word-translate-modal hidden>
+      <div class="ai-modal__scrim" data-ai-close></div>
+      <section class="ai-dialog ai-dialog--dictionary" role="dialog" aria-modal="true" aria-labelledby="word-translate-title">
+        <header class="ai-dialog__header">
+          <h2 id="word-translate-title">单词翻译</h2>
+          <button type="button" class="ai-dialog__close" data-ai-close aria-label="关闭">×</button>
+        </header>
+        <div class="ai-dialog__body">
+          <div class="word-result" data-word-result></div>
         </div>
       </section>
     </div>
@@ -369,6 +421,7 @@ function createAiModals() {
   return {
     settingsModal: document.querySelector("[data-ai-settings-modal]"),
     explainModal: document.querySelector("[data-ai-explain-modal]"),
+    wordModal: document.querySelector("[data-word-translate-modal]"),
   };
 }
 
@@ -459,6 +512,85 @@ function createDraft(page, state) {
   });
 }
 
+function renderWordResult(result) {
+  if (!result.ok) {
+    return `<p class="word-result__empty">${result.reason}</p>`;
+  }
+
+  const { entry } = result;
+  const definitions = entry.definitions
+    .map((item) => {
+      const gloss = item.gloss ? `<span class="word-result__gloss">${item.gloss}</span>` : "";
+      const meaning = item.meaning ? `<span class="word-result__meaning-zh">${item.meaning}</span>` : "";
+      const posCn = item.posCn ? `<p class="word-result__pos-cn">${item.posCn}</p>` : "";
+      const examples = item.examples?.length
+        ? `
+          <ul class="word-result__examples">
+            ${item.examples
+              .map(
+                (example) => `
+                  <li class="word-result__example">
+                    <p>${example.en}</p>
+                    <p>${example.zh}</p>
+                  </li>
+                `,
+              )
+              .join("")}
+          </ul>
+        `
+        : "";
+
+      return `
+        <li class="word-result__item">
+          <div class="word-result__definition">
+            <span class="word-result__pos">${item.pos || "DEF"}</span>
+            <div class="word-result__definition-copy">
+              <p class="word-result__definition-line">
+                ${gloss}
+                ${meaning}
+              </p>
+              ${posCn}
+            </div>
+          </div>
+          ${examples}
+        </li>
+      `;
+    })
+    .join("");
+  const star = entry.star ? `<span class="word-result__star">${entry.star}</span>` : "";
+  const audios = (entry.audios ?? [])
+    .map(
+      (audio) => `
+        <button
+          type="button"
+          class="word-result__audio"
+          data-word-audio="${audio.url}"
+          aria-label="播放 ${audio.label} 发音"
+        >
+          <span>${audio.label}</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 9v6h4l5 4V5l-5 4Z" />
+            <path d="M19 9a5 5 0 0 1 0 6" />
+            <path d="M17 6a9 9 0 0 1 0 12" />
+          </svg>
+        </button>
+      `,
+    )
+    .join("");
+
+  return `
+    <div class="word-result__head">
+      <h3>${entry.expression}</h3>
+      <p>${entry.reading || ""}</p>
+      <div class="word-result__actions">
+        ${audios}
+        ${star}
+      </div>
+    </div>
+    <ul class="word-result__list">${definitions}</ul>
+  `;
+}
+
 export function shouldRefreshSelectionTrigger({ menu, mode, target }) {
   if (mode === "editor") {
     return false;
@@ -490,6 +622,7 @@ export function setupLetterNotes() {
     createSelectionMenu(),
   ]);
   const aiModals = createAiModals();
+  let activeWordAudio = null;
   const state = {
     selectionContext: null,
     noteColor: "amber",
@@ -560,6 +693,17 @@ export function setupLetterNotes() {
     }
   }
 
+  function syncPromptModeControls() {
+    const promptMode =
+      aiModals.settingsModal.querySelector("[data-ai-prompt-mode]:checked")?.value ?? "default";
+    const isCustom = promptMode === "custom";
+    const systemPrompt = aiModals.settingsModal.querySelector("[data-ai-system-prompt]");
+    const userPromptTemplate = aiModals.settingsModal.querySelector("[data-ai-user-prompt-template]");
+
+    systemPrompt.disabled = !isCustom;
+    userPromptTemplate.disabled = !isCustom;
+  }
+
   function openAiSettingsModal({ afterSave = false } = {}) {
     const settings = loadAiSettings();
     state.openExplainAfterSettings = afterSave;
@@ -569,7 +713,15 @@ export function setupLetterNotes() {
     });
     aiModals.settingsModal.querySelector("[data-ai-deepseek-key]").value = settings.deepseekKey;
     aiModals.settingsModal.querySelector("[data-ai-openai-key]").value = settings.openaiKey;
+    aiModals.settingsModal.querySelectorAll("[data-ai-prompt-mode]").forEach((input) => {
+      input.checked = input.value === settings.promptMode;
+    });
+    aiModals.settingsModal.querySelector("[data-ai-system-prompt]").value =
+      settings.promptMode === "custom" ? settings.systemPrompt : DEFAULT_SYSTEM_PROMPT;
+    aiModals.settingsModal.querySelector("[data-ai-user-prompt-template]").value =
+      settings.promptMode === "custom" ? settings.userPromptTemplate : DEFAULT_USER_PROMPT_TEMPLATE;
     aiModals.settingsModal.querySelector("[data-ai-settings-message]").textContent = "";
+    syncPromptModeControls();
     aiModals.settingsModal.hidden = false;
   }
 
@@ -578,9 +730,17 @@ export function setupLetterNotes() {
 
     aiModals.explainModal.querySelector("[data-ai-source]").value = sourceText;
     aiModals.explainModal.querySelector("[data-ai-question]").value = "解释一下";
+    aiModals.explainModal.querySelector("[data-ai-extra-instruction]").value = "";
     result.hidden = true;
     result.textContent = "";
     aiModals.explainModal.hidden = false;
+  }
+
+  async function openWordTranslateModal(sourceText = "") {
+    const result = aiModals.wordModal.querySelector("[data-word-result]");
+    result.innerHTML = '<p class="word-result__empty">正在查询...</p>';
+    aiModals.wordModal.hidden = false;
+    result.innerHTML = renderWordResult(await lookupWordTranslation(sourceText));
   }
 
   function refreshSelectionTrigger(eventTarget = null) {
@@ -621,6 +781,17 @@ export function setupLetterNotes() {
       return;
     }
 
+    if (event.target.closest("[data-selection-translate]")) {
+      if (!state.selectionContext) {
+        hideSelectionMenu(menu, state);
+        return;
+      }
+
+      menu.hidden = true;
+      openWordTranslateModal(state.selectionContext.selectedText);
+      return;
+    }
+
     if (event.target.closest("[data-selection-ai]")) {
       if (!state.selectionContext) {
         hideSelectionMenu(menu, state);
@@ -655,7 +826,9 @@ export function setupLetterNotes() {
 
   document.addEventListener("click", async (event) => {
     if (event.target.closest("[data-ai-close]")) {
-      closeAiModal(event.target.closest("[data-ai-settings-modal], [data-ai-explain-modal]"));
+      closeAiModal(
+        event.target.closest("[data-ai-settings-modal], [data-ai-explain-modal], [data-word-translate-modal]"),
+      );
       return;
     }
 
@@ -669,19 +842,32 @@ export function setupLetterNotes() {
     if (event.target.closest("[data-ai-settings-save]")) {
       const provider =
         aiModals.settingsModal.querySelector("[data-ai-provider]:checked")?.value ?? "deepseek";
+      const promptMode =
+        aiModals.settingsModal.querySelector("[data-ai-prompt-mode]:checked")?.value ?? "default";
       const settings = {
         provider,
         deepseekKey: aiModals.settingsModal.querySelector("[data-ai-deepseek-key]").value,
         openaiKey: aiModals.settingsModal.querySelector("[data-ai-openai-key]").value,
+        promptMode,
+        systemPrompt: aiModals.settingsModal.querySelector("[data-ai-system-prompt]").value,
+        userPromptTemplate: aiModals.settingsModal.querySelector("[data-ai-user-prompt-template]").value,
       };
       const normalizedSettings = parseAiSettings(serializeAiSettings(settings));
       const message = aiModals.settingsModal.querySelector("[data-ai-settings-message]");
 
-      saveAiSettings(normalizedSettings);
       if (!hasAiKey(normalizedSettings)) {
         message.textContent = "请至少填写一个 AI Key。";
         return;
       }
+      if (
+        normalizedSettings.promptMode === "custom" &&
+        !normalizedSettings.userPromptTemplate.includes("{{sourceText}}")
+      ) {
+        message.textContent = "自定义 User 提示词模板必须包含 {{sourceText}}。";
+        return;
+      }
+
+      saveAiSettings(normalizedSettings);
 
       closeAiModal(aiModals.settingsModal);
       if (state.openExplainAfterSettings) {
@@ -695,6 +881,7 @@ export function setupLetterNotes() {
       const sendButton = aiModals.explainModal.querySelector("[data-ai-send]");
       const sourceText = aiModals.explainModal.querySelector("[data-ai-source]").value;
       const question = aiModals.explainModal.querySelector("[data-ai-question]").value;
+      const extraInstruction = aiModals.explainModal.querySelector("[data-ai-extra-instruction]").value;
 
       result.hidden = false;
       result.textContent = "正在解释...";
@@ -705,6 +892,7 @@ export function setupLetterNotes() {
           settings: loadAiSettings(),
           sourceText,
           question,
+          extraInstruction,
         });
         result.innerHTML = renderRichText(text);
       } catch (error) {
@@ -712,6 +900,36 @@ export function setupLetterNotes() {
       } finally {
         sendButton.disabled = false;
       }
+    }
+
+    if (event.target.closest("[data-ai-prompts-reset]")) {
+      aiModals.settingsModal.querySelector("[data-ai-system-prompt]").value = DEFAULT_SYSTEM_PROMPT;
+      aiModals.settingsModal.querySelector("[data-ai-user-prompt-template]").value =
+        DEFAULT_USER_PROMPT_TEMPLATE;
+      aiModals.settingsModal.querySelector("[data-ai-settings-message]").textContent = "";
+      return;
+    }
+
+    const audioButton = event.target.closest("[data-word-audio]");
+    if (audioButton) {
+      const url = audioButton.dataset.wordAudio;
+      if (!url) {
+        return;
+      }
+
+      if (activeWordAudio) {
+        activeWordAudio.pause();
+      }
+
+      activeWordAudio = new Audio(url);
+      activeWordAudio.currentTime = 0;
+      void activeWordAudio.play().catch(() => {});
+    }
+  });
+
+  document.addEventListener("change", (event) => {
+    if (event.target.closest("[data-ai-prompt-mode]")) {
+      syncPromptModeControls();
     }
   });
 

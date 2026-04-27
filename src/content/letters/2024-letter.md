@@ -408,8 +408,7 @@ We are impartial in our choice of equity vehicles, investing in either variety b
 With marketable equities, it is easier to change course when I make a mistake. Berkshire's present size, it should be underscored, diminishes this valuable option. We can't come and go on a dime. Sometimes a year or more is required to establish or divest an investment. Additionally, with ownership of minority positions we can't change management if that action is needed or control what is done with capital flows if we are unhappy with the decisions being made.
 
 **ZH**
-对于上市股票来说，一旦我犯了错，掉头会更容易一些。不过需要强调的是，伯克希尔如今的体量削弱了这种宝贵的灵活性。我们没法像按个硬币那样说进就进、说出就出。有时，建仓或清仓一项投资都需要一年甚至更久。此外，当我们持有的是少数股权时，如果我们认为有必要更换管理层，我们也做不到；如果我们不满意对方的资本配置决策，我们同样无法直接控制资金流向。
-
+对于可交易的股票而言，犯错后更容易调整策略。不过需要强调的是，伯克希尔如今的体量削弱了这种宝贵的灵活性。我们没法像按个硬币那样说进就进、说出就出。有时，建仓或清仓一项投资都需要一年甚至更久。此外，当我们持有的是少数股权时，如果我们认为有必要更换管理层，我们也做不到；如果我们不满意对方的资本配置决策，我们同样无法直接控制资金流向。
 ## p46
 
 **EN**
@@ -464,7 +463,7 @@ One way or another, the sensible - better yet imaginative - deployment of saving
 Our country's progress over its mere 235 years of existence could not have been imagined by even the most optimistic colonists in 1789, when the Constitution was adopted and the country's energies were unleashed. True, our country in its infancy sometimes borrowed abroad to supplement our own savings. But, concurrently, we needed many Americans to consistently save and then needed those savers or other Americans to wisely deploy the capital thus made available. If America had consumed all that it produced, the country would have been spinning its wheels.
 
 **ZH**
-在这个国家仅仅 235 年的历史中取得的进步，就连 1789 年宪法通过、国家活力刚被释放出来时最乐观的殖民者也无法想象。诚然，在国家早期，我们有时需要向国外借款来补充本国储蓄；但与此同时，我们也需要大量美国人持续储蓄，并且需要这些储蓄者，或其他美国人，把这些资本明智地投出去。如果美国把自己生产的一切都消费掉，这个国家只能原地空转。
+我们国家在短短 235 年的历史中所取得的进步，即使是 1789 年最乐观的殖民者也无法想象。当时宪法获得通过，国家的能量得以释放。诚然，在国家早期，我们有时需要向国外借款来补充本国储蓄；但与此同时，我们也需要大量美国人持续储蓄，并且需要这些储蓄者，或其他美国人，把这些资本明智地投出去。如果美国把自己生产的一切都消费掉，这个国家只能原地空转。
 
 ## p53
 
@@ -472,7 +471,7 @@ Our country's progress over its mere 235 years of existence could not have been 
 The American process has not always been pretty - our country has forever had many scoundrels and promoters who seek to take advantage of those who mistakenly trust them with their savings. But even with such malfeasance - which remains in full force today - and also much deployment of capital that eventually floundered because of brutal competition or disruptive innovation, the savings of Americans has delivered a quantity and quality of output beyond the dreams of any colonist. From a base of only four million people - and despite a brutal internal war early on, pitting one American against another - America changed the world in the blink of a celestial eye.
 
 **ZH**
-美国的发展过程从来都不总是漂亮的——这个国家一直都有大量骗子和吹鼓手，试图利用那些误把储蓄托付给他们的人。但即使存在这样的恶行——而且今天依旧火力全开——再加上大量资本最终因残酷竞争或颠覆式创新而折戟，美国人的储蓄所创造出来的产出，无论数量还是质量，依然远远超出了任何一位殖民者的想象。美国从仅有 400 万人口的基础起步，尽管早期还经历过一场让美国人彼此厮杀的惨烈内战，却仍在天体眨眼般短暂的时刻里改变了世界。
+美国的发展过程从来都不总是漂亮的——这个国家一直都有大量骗子和吹鼓手，试图利用那些误把储蓄托付给他们的人。但即使存在这样的恶行——而且今天依旧火力全开——再加上大量资本最终因残酷竞争或颠覆式创新而折戟，美国人的储蓄所创造出来的产出，无论数量还是质量，依然远远超出了任何一位殖民者的想象。美国从仅有 400 万人口的基础起步，尽管早期还经历过一场让美国人彼此厮杀的惨烈内战，却仍在转瞬之间改变了世界。
 
 ## p54
 
@@ -496,7 +495,7 @@ However, as Charlie and I have always acknowledged, Berkshire would not have ach
 So thank you, Uncle Sam. Someday your nieces and nephews at Berkshire hope to send you even larger payments than we did in 2024. Spend it wisely. Take care of the many who, for no fault of their own, get the short straws in life. They deserve better. And never forget that we need you to maintain a stable currency and that result requires both wisdom and vigilance on your part.
 
 **ZH**
-所以，谢谢你，山姆大叔。总有一天，你在伯克希尔的这些侄子侄女们，希望能给你寄去比 2024 年更大的款项。请把钱花得明智一些。请照顾好那些并非因为自己的过错而在生活中抽到短签的人，他们理应拥有更好的处境。还有，别忘了，我们需要你维护一种稳定的货币，而做到这一点，需要你既有智慧，也保持警觉。
+所以，谢谢你，山姆大叔（指美国政府）。总有一天，伯克希尔作为你的侄子侄女，希望能向你缴纳比2024年更多的税款。请明智地使用这些钱。照顾好那些并非自身过错、却在生活中抽到短签（遭遇不幸）的人们。他们理应得到更好的对待。也请永远不要忘记，我们需要你维持稳定的货币，而这一结果需要你兼具智慧与警觉。
 
 ## p57
 
