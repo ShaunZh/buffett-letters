@@ -9,6 +9,8 @@ const letters = defineCollection({
     type: z.string(),
     tags: z.array(z.string()),
     summary: z.string().optional(),
+    sourceUrl: z.string().url().optional(),
+    pdfPath: z.string().optional(),
     draft: z.boolean().default(false),
   }),
 });

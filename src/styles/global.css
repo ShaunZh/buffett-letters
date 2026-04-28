@@ -281,6 +281,13 @@ a {
   max-width: 12ch;
 }
 
+.letter-detail__title-row {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.9rem;
+}
+
 .letter-detail__title {
   font-size: clamp(2rem, 4.2vw, 3.2rem);
 }
@@ -368,6 +375,43 @@ a {
   margin-bottom: 0.9rem;
   color: var(--muted);
   font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.source-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  transition: color 140ms ease;
+}
+
+.source-link--inline {
+  min-height: auto;
+  padding: 0;
+  color: rgba(32, 26, 22, 0.48);
+  font-size: 0.78rem;
+  line-height: 1;
+  white-space: nowrap;
+  opacity: 0.78;
+  align-self: flex-end;
+  transition:
+    color 140ms ease,
+    opacity 140ms ease;
+}
+
+.source-link__icon {
+  display: block;
+}
+
+.source-link:hover {
+  color: rgba(138, 75, 47, 0.9);
+  opacity: 1;
+}
+
+.source-link:focus-visible {
+  outline: 2px solid rgba(138, 75, 47, 0.45);
+  outline-offset: 3px;
 }
 
 .reader-toolbar {
@@ -1394,6 +1438,10 @@ html[data-view-mode="zh"] .letter-block__section + .letter-block__section {
   display: none;
 }
 
+body.ai-modal-open {
+  overflow: hidden;
+}
+
 .ai-modal {
   position: fixed;
   inset: 0;
@@ -1401,6 +1449,7 @@ html[data-view-mode="zh"] .letter-block__section + .letter-block__section {
   display: grid;
   place-items: center;
   padding: 1.25rem;
+  overscroll-behavior: contain;
 }
 
 .ai-modal__scrim {
@@ -1493,6 +1542,7 @@ html[data-view-mode="zh"] .letter-block__section + .letter-block__section {
 .ai-dialog__body {
   min-height: 0;
   overflow: auto;
+  overscroll-behavior: contain;
   display: grid;
   gap: 1rem;
   padding: 1.35rem;

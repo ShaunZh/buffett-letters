@@ -603,6 +603,11 @@ export function shouldRefreshSelectionTrigger({ menu, mode, target }) {
   return true;
 }
 
+export function syncBodyModalScrollLock({ body, modals }) {
+  const hasOpenModal = modals.some((modal) => modal && !modal.hidden);
+  body.classList.toggle("ai-modal-open", hasOpenModal);
+}
+
 export function setupLetterNotes() {
   const page = document.querySelector("[data-letter-page]");
 
@@ -691,6 +696,7 @@ export function setupLetterNotes() {
     if (modal) {
       modal.hidden = true;
     }
+    syncBodyModalScrollLock({ body: document.body, modals: Object.values(aiModals) });
   }
 
   function syncPromptModeControls() {
@@ -723,6 +729,7 @@ export function setupLetterNotes() {
     aiModals.settingsModal.querySelector("[data-ai-settings-message]").textContent = "";
     syncPromptModeControls();
     aiModals.settingsModal.hidden = false;
+    syncBodyModalScrollLock({ body: document.body, modals: Object.values(aiModals) });
   }
 
   function openAiExplainModal(sourceText = "") {
@@ -734,12 +741,14 @@ export function setupLetterNotes() {
     result.hidden = true;
     result.textContent = "";
     aiModals.explainModal.hidden = false;
+    syncBodyModalScrollLock({ body: document.body, modals: Object.values(aiModals) });
   }
 
   async function openWordTranslateModal(sourceText = "") {
     const result = aiModals.wordModal.querySelector("[data-word-result]");
     result.innerHTML = '<p class="word-result__empty">正在查询...</p>';
     aiModals.wordModal.hidden = false;
+    syncBodyModalScrollLock({ body: document.body, modals: Object.values(aiModals) });
     result.innerHTML = renderWordResult(await lookupWordTranslation(sourceText));
   }
 

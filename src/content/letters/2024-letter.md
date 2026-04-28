@@ -12,6 +12,7 @@ tags:
   - japan
   - equities
 summary: 巴菲特在这封 2024 年致股东信中讨论了错误与纠偏、GEICO 与保险业务、日本五大商社投资、资本配置、税收贡献以及 2025 年奥马哈股东大会安排。
+sourceUrl: https://www.berkshirehathaway.com/letters/2024ltr.pdf
 draft: false
 ---
 
@@ -535,7 +536,7 @@ This mode of operations has the desirable effect of giving P/C insurers cash bef
 Certain lines of insurance minimize this mismatch, such as crop insurance or hail damage in which losses are quickly reported, evaluated and paid. Other lines, however, can lead to executive and shareholder bliss as the company is going broke. Think coverages such as medical malpractice or product liability. In long-tail lines, a P/C insurer may report large but fictitious profits to its owners and regulators for many years - even decades. The accounting can be particularly dangerous if the CEO is an optimist or a crook. These possibilities are not fanciful: history reveals a large number of each species.
 
 **ZH**
-某些险种会减轻这种时间错配，比如农作物保险或冰雹损失保险，因为损失会很快被报告、评估并赔付。但另一些险种则可能让公司在走向破产时，管理层和股东还沉浸在“幸福”之中。比如医疗事故责任险或产品责任险。对于“长尾”险种来说，一家财险公司可能在很多年、甚至几十年里都向股东和监管者报告着巨额但虚假的利润。如果 CEO 是个乐观主义者，或者是个骗子，这种会计处理就尤其危险。这并不是危言耸听：历史上，这两类人都不少见。
+某些险种会减轻这种时间错配，比如农作物保险或冰雹损失保险，因为损失会很快被报告、评估并赔付。但另一些险种则可能让公司在走向破产时，管理层和股东还沉浸在“幸福”之中。比如医疗事故责任险或产品责任险。在长期保险业务中，财产保险公司可能在很多年、甚至几十年里都向股东和监管者报告着巨额但虚假的利润。如果 CEO 是个乐观主义者，或者是个骗子，这种会计处理就尤其危险。这并不是危言耸听：历史上，这两类人都不少见。
 
 ## p62
 
@@ -551,7 +552,7 @@ In recent decades, this money-up-front, loss-payments-later model has allowed Be
 We are not deterred by the dramatic and growing loss payments sustained by our activities. As I write this, think wildfires. It's our job to price to absorb these and unemotionally take our lumps when surprises develop. It's also our job to contest runaway verdicts, spurious litigation and outright fraudulent behavior.
 
 **ZH**
-我们并不会因为业务中不断出现、且规模越来越大的赔付而退缩。写这封信时，你可以想想野火。我们的职责，就是把价格定到足以吸收这些损失；当意外发生时，也要不带情绪地承受打击。同样，反击那些失控的判决、毫无根据的诉讼和赤裸裸的欺诈，也是我们的职责。
+我们并不会因为业务中不断出现、且规模越来越大的赔付而退缩。我写下这些文字时，请想想山火。我们的职责是为应对这些风险做好定价，并在意外发生时冷静地承受损失。我们的职责也是对失控的判决、无理诉讼和彻头彻尾的欺诈行为提出质疑。
 
 ## p64
 
