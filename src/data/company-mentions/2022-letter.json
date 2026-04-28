@@ -1,0 +1,126 @@
+{
+  "letter_slug": "2022-letter",
+  "companies": [
+    {
+      "slug": "apple",
+      "name_en": "Apple Inc.",
+      "name_zh": "苹果公司",
+      "blocks": [
+        "p31"
+      ]
+    },
+    {
+      "slug": "american-express",
+      "name_en": "American Express",
+      "name_zh": "美国运通",
+      "blocks": [
+        "p21",
+        "p22",
+        "p31",
+        "p45"
+      ]
+    },
+    {
+      "slug": "coca-cola",
+      "name_en": "The Coca-Cola Company",
+      "name_zh": "可口可乐公司",
+      "blocks": [
+        "p19",
+        "p20",
+        "p22",
+        "p45"
+      ]
+    },
+    {
+      "slug": "bank-of-america",
+      "name_en": "Bank of America",
+      "name_zh": "美国银行",
+      "blocks": [
+        "p45"
+      ]
+    },
+    {
+      "slug": "chevron",
+      "name_en": "Chevron Corporation",
+      "name_zh": "雪佛龙",
+      "blocks": [
+        "p45"
+      ]
+    },
+    {
+      "slug": "occidental-petroleum",
+      "name_en": "Occidental Petroleum",
+      "name_zh": "西方石油",
+      "blocks": [
+        "p45"
+      ]
+    },
+    {
+      "slug": "hp-inc",
+      "name_en": "HP Inc.",
+      "name_zh": "惠普公司",
+      "blocks": [
+        "p45"
+      ]
+    },
+    {
+      "slug": "moodys",
+      "name_en": "Moody's Corporation",
+      "name_zh": "穆迪公司",
+      "blocks": [
+        "p45"
+      ]
+    },
+    {
+      "slug": "paramount-global",
+      "name_en": "Paramount Global",
+      "name_zh": "派拉蒙环球",
+      "blocks": [
+        "p45"
+      ]
+    },
+    {
+      "slug": "bnsf",
+      "name_en": "BNSF Railway",
+      "name_zh": "BNSF铁路",
+      "blocks": [
+        "p46"
+      ]
+    },
+    {
+      "slug": "berkshire-hathaway-energy",
+      "name_en": "Berkshire Hathaway Energy",
+      "name_zh": "伯克希尔·哈撒韦能源",
+      "blocks": [
+        "p46"
+      ]
+    },
+    {
+      "slug": "alleghany",
+      "name_en": "Alleghany Corporation",
+      "name_zh": "Alleghany Corporation",
+      "blocks": [
+        "p29",
+        "p30"
+      ]
+    },
+    {
+      "slug": "sees-candies",
+      "name_en": "See's Candies",
+      "name_zh": "喜诗糖果",
+      "blocks": [
+        "p67",
+        "p69",
+        "p70"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国家赔偿公司",
+      "blocks": [
+        "p41"
+      ]
+    }
+  ]
+}

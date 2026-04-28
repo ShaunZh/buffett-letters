@@ -1,0 +1,128 @@
+{
+  "letter_slug": "2024-letter",
+  "companies": [
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway",
+      "name_zh": "伯克希尔·哈撒韦",
+      "blocks": [
+        "p1",
+        "p11",
+        "p39",
+        "p40",
+        "p63",
+        "p64",
+        "p65",
+        "p96"
+      ]
+    },
+    {
+      "slug": "geico",
+      "name_en": "GEICO",
+      "name_zh": "GEICO",
+      "blocks": [
+        "p29"
+      ]
+    },
+    {
+      "slug": "apple",
+      "name_en": "Apple",
+      "name_zh": "苹果",
+      "blocks": [
+        "p49"
+      ]
+    },
+    {
+      "slug": "american-express",
+      "name_en": "American Express",
+      "name_zh": "美国运通",
+      "blocks": [
+        "p49"
+      ]
+    },
+    {
+      "slug": "coca-cola",
+      "name_en": "Coca-Cola",
+      "name_zh": "可口可乐",
+      "blocks": [
+        "p49"
+      ]
+    },
+    {
+      "slug": "moodys",
+      "name_en": "Moody's",
+      "name_zh": "穆迪",
+      "blocks": [
+        "p49"
+      ]
+    },
+    {
+      "slug": "forest-river",
+      "name_en": "Forest River",
+      "name_zh": "森林河",
+      "blocks": [
+        "p14",
+        "p15",
+        "p16",
+        "p18",
+        "p19"
+      ]
+    },
+    {
+      "slug": "bnsf",
+      "name_en": "BNSF",
+      "name_zh": "BNSF",
+      "blocks": [
+        "p36"
+      ]
+    },
+    {
+      "slug": "berkshire-hathaway-energy",
+      "name_en": "Berkshire Hathaway Energy",
+      "name_zh": "伯克希尔·哈撒韦能源",
+      "blocks": [
+        "p36"
+      ]
+    },
+    {
+      "slug": "itochu",
+      "name_en": "ITOCHU",
+      "name_zh": "伊藤忠商事",
+      "blocks": [
+        "p84"
+      ]
+    },
+    {
+      "slug": "marubeni",
+      "name_en": "Marubeni",
+      "name_zh": "丸红",
+      "blocks": [
+        "p84"
+      ]
+    },
+    {
+      "slug": "mitsubishi",
+      "name_en": "Mitsubishi",
+      "name_zh": "三菱",
+      "blocks": [
+        "p84"
+      ]
+    },
+    {
+      "slug": "mitsui",
+      "name_en": "Mitsui",
+      "name_zh": "三井",
+      "blocks": [
+        "p84"
+      ]
+    },
+    {
+      "slug": "sumitomo",
+      "name_en": "Sumitomo",
+      "name_zh": "住友",
+      "blocks": [
+        "p84"
+      ]
+    }
+  ]
+}

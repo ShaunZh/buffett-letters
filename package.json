@@ -8,7 +8,11 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "test": "node --test"
+    "test": "node --test",
+    "letters:extract": "node scripts/extract-letters.js",
+    "letters:process": "node --env-file=.env scripts/process-letters-with-deepseek.js",
+    "letters:companies": "node scripts/build-company-index.js",
+    "letters:all": "npm run letters:extract && npm run letters:process && npm run letters:companies"
   },
   "dependencies": {
     "astro": "^5.2.0"
