@@ -1,11 +1,14 @@
-import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { access, constants, mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 import {
   buildDeepSeekPrompt,
   deriveLetterSlug,
   filterEntriesByRequestedFile,
+  formatElapsed,
+  getProcessOptions,
   parseDeepSeekResponse,
+  shouldSkipLetterProcessing,
 } from "../src/lib/letterPipeline.js";
 
 const rootDir = process.cwd();
@@ -13,7 +16,7 @@ const rawMarkdownDir = path.join(rootDir, "tmp", "raw-markdown");
 const lettersDir = path.join(rootDir, "src", "content", "letters");
 const mentionsDir = path.join(rootDir, "src", "data", "company-mentions");
 const templatePath = path.join(rootDir, "codex_letter_processing_prompt_template.md");
-const requestedFile = getRequestedFile(process.argv.slice(2));
+const options = getProcessOptions(process.argv.slice(2));
 
 const apiKey = process.env.DEEPSEEK_API_KEY;
 const model = process.env.DEEPSEEK_MODEL ?? "deepseek-chat";
@@ -32,7 +35,7 @@ const markdownEntries = filterEntriesByRequestedFile(
   entries
     .filter((entry) => entry.isFile() && path.extname(entry.name).toLowerCase() === ".md")
     .sort((left, right) => left.name.localeCompare(right.name)),
-  requestedFile,
+  options.file,
 );
 
 if (markdownEntries.length === 0) {
@@ -40,13 +43,35 @@ if (markdownEntries.length === 0) {
   process.exit(0);
 }
 
-for (const entry of markdownEntries) {
+console.log(`Found ${markdownEntries.length} markdown file(s) to inspect.`);
+
+let processedCount = 0;
+let skippedCount = 0;
+const batchStartedAt = Date.now();
+
+for (const [index, entry] of markdownEntries.entries()) {
   const rawMarkdownPath = path.join(rawMarkdownDir, entry.name);
   const rawMarkdown = await readFile(rawMarkdownPath, "utf8");
   const slug = deriveLetterSlug(rawMarkdownPath);
   const sourcePdfPath = path.join(rootDir, "raw-letters", `${path.basename(entry.name, ".md")}.pdf`);
   const letterOutputPath = path.join(lettersDir, `${slug}.md`);
   const mentionsOutputPath = path.join(mentionsDir, `${slug}.json`);
+  const letterExists = await fileExists(letterOutputPath);
+  const mentionsExist = await fileExists(mentionsOutputPath);
+  const label = `[${index + 1}/${markdownEntries.length}] ${path.basename(rawMarkdownPath)}`;
+
+  if (shouldSkipLetterProcessing({
+    force: options.force,
+    letterExists,
+    mentionsExist,
+  })) {
+    skippedCount += 1;
+    console.log(`${label} skipped because output files already exist.`);
+    continue;
+  }
+
+  console.log(`${label} preparing prompt for slug "${slug}".`);
+
   const prompt = buildDeepSeekPrompt({
     template,
     rawMarkdown,
@@ -57,34 +82,65 @@ for (const entry of markdownEntries) {
     slug,
   });
 
-  const responseText = await callDeepSeek({ apiKey, baseUrl, model, prompt });
+  console.log(`${label} sending request to DeepSeek with model "${model}".`);
+  const requestStartedAt = Date.now();
+  const responseText = await callDeepSeek({
+    apiKey,
+    baseUrl,
+    model,
+    prompt,
+    onHeartbeat: (elapsed) => {
+      console.log(`${label} still waiting for DeepSeek... ${formatElapsed(elapsed)} elapsed.`);
+    },
+  });
+  console.log(`${label} received DeepSeek response after ${formatElapsed(Date.now() - requestStartedAt)}.`);
   const payload = parseDeepSeekResponse(responseText);
 
   await writeFile(letterOutputPath, `${payload.letterMarkdown}\n`, "utf8");
   await writeFile(mentionsOutputPath, `${JSON.stringify(payload.companyMentions, null, 2)}\n`, "utf8");
+  processedCount += 1;
 
-  console.log(`Processed ${path.relative(rootDir, rawMarkdownPath)} -> ${path.relative(rootDir, letterOutputPath)}`);
+  console.log(
+    `${label} wrote ${path.relative(rootDir, letterOutputPath)} and ${path.relative(rootDir, mentionsOutputPath)}.`,
+  );
 }
 
-async function callDeepSeek({ apiKey, baseUrl, model, prompt }) {
-  const response = await fetch(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
-    method: "POST",
-    headers: {
-      "Authorization": `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model,
-      messages: [
-        {
-          role: "user",
-          content: prompt,
-        },
-      ],
-      temperature: 0.2,
-      response_format: { type: "json_object" },
-    }),
-  });
+console.log(
+  `Batch complete: processed ${processedCount}, skipped ${skippedCount}, total ${markdownEntries.length} in ${formatElapsed(Date.now() - batchStartedAt)}.`,
+);
+
+async function callDeepSeek({ apiKey, baseUrl, model, prompt, onHeartbeat }) {
+  const startedAt = Date.now();
+  const heartbeat = typeof onHeartbeat === "function"
+    ? setInterval(() => onHeartbeat(Date.now() - startedAt), 15_000)
+    : null;
+
+  let response;
+
+  try {
+    response = await fetch(`${baseUrl.replace(/\/$/, "")}/chat/completions`, {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model,
+        messages: [
+          {
+            role: "user",
+            content: prompt,
+          },
+        ],
+        response_format: { type: "json_object" },
+        // thinking: { type: "enabled" },
+      }),
+    });
+  } finally {
+    if (heartbeat) {
+      clearInterval(heartbeat);
+    }
+  }
 
   if (!response.ok) {
     const errorText = await response.text();
@@ -100,19 +156,15 @@ async function callDeepSeek({ apiKey, baseUrl, model, prompt }) {
 
   return content;
 }
+async function fileExists(filePath) {
+  try {
+    await access(filePath, constants.F_OK);
+    return true;
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return false;
+    }
 
-function getRequestedFile(argv) {
-  const fileFlagIndex = argv.indexOf("--file");
-
-  if (fileFlagIndex === -1) {
-    return "";
+    throw error;
   }
-
-  const requestedFile = argv[fileFlagIndex + 1];
-
-  if (!requestedFile) {
-    throw new Error("Missing value for --file.");
-  }
-
-  return requestedFile;
 }

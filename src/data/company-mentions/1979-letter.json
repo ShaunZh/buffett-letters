@@ -1,0 +1,104 @@
+{
+  "letter_slug": "1979-letter",
+  "companies": [
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹印花",
+      "blocks": [
+        "p3",
+        "p12",
+        "p20",
+        "p22",
+        "p23"
+      ]
+    },
+    {
+      "slug": "wesco-financial",
+      "name_en": "Wesco Financial Corporation",
+      "name_zh": "韦斯科金融公司",
+      "blocks": [
+        "p12",
+        "p20",
+        "p22",
+        "p23",
+        "p25"
+      ]
+    },
+    {
+      "slug": "sees-candies",
+      "name_en": "See's Candies",
+      "name_zh": "喜诗糖果",
+      "blocks": [
+        "p21",
+        "p58"
+      ]
+    },
+    {
+      "slug": "buffalo-evening-news",
+      "name_en": "Buffalo Evening News",
+      "name_zh": "布法罗晚报",
+      "blocks": [
+        "p21"
+      ]
+    },
+    {
+      "slug": "associated-retail-stores",
+      "name_en": "Associated Retail Stores, Inc.",
+      "name_zh": "联合零售商店公司",
+      "blocks": [
+        "p21",
+        "p25"
+      ]
+    },
+    {
+      "slug": "illinois-national-bank",
+      "name_en": "Illinois National Bank and Trust Company",
+      "name_zh": "伊利诺伊国民银行及信托公司",
+      "blocks": [
+        "p21",
+        "p25",
+        "p60",
+        "p61",
+        "p62",
+        "p63"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p31",
+        "p32",
+        "p36"
+      ]
+    },
+    {
+      "slug": "geico",
+      "name_en": "GEICO Corp.",
+      "name_zh": "盖可保险",
+      "blocks": [
+        "p41",
+        "p44"
+      ]
+    },
+    {
+      "slug": "safeco",
+      "name_en": "SAFECO Corporation",
+      "name_zh": "萨菲科公司",
+      "blocks": [
+        "p41",
+        "p44"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "The Washington Post Company",
+      "name_zh": "华盛顿邮报公司",
+      "blocks": [
+        "p44"
+      ]
+    }
+  ]
+}

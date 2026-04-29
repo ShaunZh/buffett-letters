@@ -1,0 +1,179 @@
+{
+  "letter_slug": "1987-letter",
+  "companies": [
+    {
+      "slug": "geico",
+      "name_en": "GEICO Corporation",
+      "name_zh": "GEICO公司",
+      "blocks": [
+        "p6",
+        "p83",
+        "p94",
+        "p95",
+        "p96",
+        "p97",
+        "p101",
+        "p108",
+        "p109",
+        "p110"
+      ]
+    },
+    {
+      "slug": "capital-cities-abc",
+      "name_en": "Capital Cities/ABC, Inc.",
+      "name_zh": "大都会/美国广播公司",
+      "blocks": [
+        "p6",
+        "p96",
+        "p97",
+        "p101",
+        "p160"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "The Washington Post Company",
+      "name_zh": "华盛顿邮报公司",
+      "blocks": [
+        "p6",
+        "p96",
+        "p97",
+        "p101",
+        "p108"
+      ]
+    },
+    {
+      "slug": "salomon",
+      "name_en": "Salomon Inc",
+      "name_zh": "所罗门公司",
+      "blocks": [
+        "p136",
+        "p137",
+        "p138",
+        "p139",
+        "p146",
+        "p160"
+      ]
+    },
+    {
+      "slug": "fechheimer",
+      "name_en": "Fechheimer Bros. Company",
+      "name_zh": "费奇海默兄弟公司",
+      "blocks": [
+        "p6",
+        "p40",
+        "p41"
+      ]
+    },
+    {
+      "slug": "scott-fetzer",
+      "name_en": "Scott Fetzer Manufacturing Group",
+      "name_zh": "斯科特-费策制造集团",
+      "blocks": [
+        "p6",
+        "p49",
+        "p50",
+        "p51",
+        "p52"
+      ]
+    },
+    {
+      "slug": "nebraska-furniture-mart",
+      "name_en": "Nebraska Furniture Mart",
+      "name_zh": "内布拉斯加家具商城",
+      "blocks": [
+        "p6",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31"
+      ]
+    },
+    {
+      "slug": "sees-candies",
+      "name_en": "See's Candies",
+      "name_zh": "喜诗糖果",
+      "blocks": [
+        "p6",
+        "p42",
+        "p43",
+        "p44",
+        "p45",
+        "p46",
+        "p47",
+        "p48"
+      ]
+    },
+    {
+      "slug": "world-book",
+      "name_en": "World Book",
+      "name_zh": "世界图书",
+      "blocks": [
+        "p6",
+        "p49",
+        "p51",
+        "p52"
+      ]
+    },
+    {
+      "slug": "kirby",
+      "name_en": "Kirby",
+      "name_zh": "柯比",
+      "blocks": [
+        "p6",
+        "p49"
+      ]
+    },
+    {
+      "slug": "buffalo-news",
+      "name_en": "Buffalo News",
+      "name_zh": "布法罗新闻报",
+      "blocks": [
+        "p6",
+        "p32",
+        "p33",
+        "p34",
+        "p35",
+        "p36",
+        "p37",
+        "p38",
+        "p39"
+      ]
+    },
+    {
+      "slug": "allegis",
+      "name_en": "Allegis",
+      "name_zh": "Allegis",
+      "blocks": [
+        "p133"
+      ]
+    },
+    {
+      "slug": "texaco",
+      "name_en": "Texaco, Inc.",
+      "name_zh": "德士古公司",
+      "blocks": [
+        "p134",
+        "p135"
+      ]
+    },
+    {
+      "slug": "wppss",
+      "name_en": "Washington Public Power Supply Systems",
+      "name_zh": "华盛顿公共电力供应系统",
+      "blocks": [
+        "p130"
+      ]
+    },
+    {
+      "slug": "kw-products",
+      "name_en": "K & W Products",
+      "name_zh": "K & W Products",
+      "blocks": [
+        "p163"
+      ]
+    }
+  ]
+}

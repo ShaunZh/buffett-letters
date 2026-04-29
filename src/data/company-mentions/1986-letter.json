@@ -1,0 +1,165 @@
+{
+  "letter_slug": "1986-letter",
+  "companies": [
+    {
+      "slug": "geico",
+      "name_en": "GEICO Corporation",
+      "name_zh": "GEICO公司",
+      "blocks": [
+        "p12",
+        "p77",
+        "p78",
+        "p79",
+        "p80",
+        "p81",
+        "p82",
+        "p83",
+        "p96",
+        "p97",
+        "p120"
+      ]
+    },
+    {
+      "slug": "capital-cities-abc",
+      "name_en": "Capital Cities/ABC, Inc.",
+      "name_zh": "首都城市/ABC公司",
+      "blocks": [
+        "p12",
+        "p96",
+        "p97",
+        "p110",
+        "p113",
+        "p120"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "The Washington Post Company",
+      "name_zh": "华盛顿邮报公司",
+      "blocks": [
+        "p96",
+        "p97",
+        "p110",
+        "p113",
+        "p120"
+      ]
+    },
+    {
+      "slug": "fechheimer-bros",
+      "name_en": "Fechheimer Bros. Co.",
+      "name_zh": "费希海默兄弟公司",
+      "blocks": [
+        "p13",
+        "p17",
+        "p18",
+        "p22",
+        "p23",
+        "p43",
+        "p44",
+        "p45",
+        "p46",
+        "p47",
+        "p48",
+        "p49",
+        "p50",
+        "p51"
+      ]
+    },
+    {
+      "slug": "nebraska-furniture-mart",
+      "name_en": "Nebraska Furniture Mart",
+      "name_zh": "内布拉斯加家具商城",
+      "blocks": [
+        "p22",
+        "p31",
+        "p32",
+        "p49",
+        "p95"
+      ]
+    },
+    {
+      "slug": "sees-candies",
+      "name_en": "See's Candies",
+      "name_zh": "时思糖果",
+      "blocks": [
+        "p22",
+        "p34",
+        "p35",
+        "p36",
+        "p50",
+        "p97"
+      ]
+    },
+    {
+      "slug": "buffalo-news",
+      "name_en": "The Buffalo News",
+      "name_zh": "布法罗新闻报",
+      "blocks": [
+        "p22",
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p97"
+      ]
+    },
+    {
+      "slug": "world-book",
+      "name_en": "World Book",
+      "name_zh": "世界图书",
+      "blocks": [
+        "p17",
+        "p22",
+        "p37",
+        "p38",
+        "p39",
+        "p40"
+      ]
+    },
+    {
+      "slug": "kirby",
+      "name_en": "Kirby",
+      "name_zh": "柯比",
+      "blocks": [
+        "p17",
+        "p22",
+        "p41",
+        "p42"
+      ]
+    },
+    {
+      "slug": "scott-fetzer",
+      "name_en": "Scott Fetzer",
+      "name_zh": "斯科特·费策尔",
+      "blocks": [
+        "p17",
+        "p18",
+        "p19",
+        "p22",
+        "p37",
+        "p140",
+        "p141",
+        "p142",
+        "p145"
+      ]
+    },
+    {
+      "slug": "nhp-inc",
+      "name_en": "NHP, Inc.",
+      "name_zh": "NHP公司",
+      "blocks": [
+        "p101",
+        "p102",
+        "p103",
+        "p104",
+        "p105",
+        "p106",
+        "p107",
+        "p108"
+      ]
+    }
+  ]
+}

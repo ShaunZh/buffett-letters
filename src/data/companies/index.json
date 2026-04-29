@@ -1,1 +1,1108 @@
-[]
+[
+  {
+    "slug": "exxon",
+    "name_en": "Exxon Corporation",
+    "name_zh": "埃克森公司",
+    "letters": [
+      "1984-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "borsheims",
+    "name_en": "Borsheim's",
+    "name_zh": "波珊珠宝",
+    "letters": [
+      "1988-letter",
+      "1989-letter"
+    ],
+    "mention_count": 20
+  },
+  {
+    "slug": "berkshire-waumbec-textiles",
+    "name_en": "Berkshire-Waumbec Textiles",
+    "name_zh": "伯克希尔-瓦姆贝克纺织",
+    "letters": [
+      "1980-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "berkshire-hathaway",
+    "name_en": "Berkshire Hathaway Inc.",
+    "name_zh": "伯克希尔·哈撒韦公司",
+    "letters": [
+      "1972-letter",
+      "1975-letter",
+      "1985-letter",
+      "2024-letter"
+    ],
+    "mention_count": 48
+  },
+  {
+    "slug": "berkshire-hathaway-energy",
+    "name_en": "Berkshire Hathaway Energy",
+    "name_zh": "伯克希尔·哈撒韦能源",
+    "letters": [
+      "2022-letter",
+      "2024-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "burlington-industries",
+    "name_en": "Burlington Industries",
+    "name_zh": "伯灵顿工业",
+    "letters": [
+      "1985-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "buffalo-evening-news",
+    "name_en": "Buffalo Evening News",
+    "name_zh": "布法罗晚报",
+    "letters": [
+      "1978-letter",
+      "1979-letter",
+      "1980-letter",
+      "1984-letter"
+    ],
+    "mention_count": 15
+  },
+  {
+    "slug": "buffalo-news",
+    "name_en": "Buffalo Evening News (Buffalo News)",
+    "name_zh": "布法罗晚报（布法罗新闻报）",
+    "letters": [
+      "1983-letter",
+      "1985-letter",
+      "1986-letter",
+      "1987-letter",
+      "1988-letter",
+      "1989-letter",
+      "1990-letter"
+    ],
+    "mention_count": 54
+  },
+  {
+    "slug": "texas-united-insurance",
+    "name_en": "Texas United Insurance",
+    "name_zh": "德克萨斯联合保险公司",
+    "letters": [
+      "1971-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "texas-united-insurance-company",
+    "name_en": "Texas United Insurance Company",
+    "name_zh": "德克萨斯联合保险公司",
+    "letters": [
+      "1975-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "texaco",
+    "name_en": "Texaco, Inc.",
+    "name_zh": "德士古公司",
+    "letters": [
+      "1987-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "diversified-retailing-company",
+    "name_en": "Diversified Retailing Company, Inc.",
+    "name_zh": "多元化零售公司",
+    "letters": [
+      "1976-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "diversified-retailing",
+    "name_en": "Diversified Retailing Company, Inc.",
+    "name_zh": "多元零售公司",
+    "letters": [
+      "1973-letter",
+      "1974-letter",
+      "1978-letter"
+    ],
+    "mention_count": 9
+  },
+  {
+    "slug": "philip-morris",
+    "name_en": "Philip Morris",
+    "name_zh": "菲利普·莫里斯",
+    "letters": [
+      "1985-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "fechheimer",
+    "name_en": "Fechheimer Bros. Company",
+    "name_zh": "费奇海默兄弟公司",
+    "letters": [
+      "1987-letter",
+      "1988-letter",
+      "1989-letter",
+      "1990-letter"
+    ],
+    "mention_count": 11
+  },
+  {
+    "slug": "fechheimer-bros",
+    "name_en": "Fechheimer Bros. Co.",
+    "name_zh": "费希海默兄弟公司",
+    "letters": [
+      "1986-letter"
+    ],
+    "mention_count": 14
+  },
+  {
+    "slug": "wells-fargo",
+    "name_en": "Wells Fargo & Company",
+    "name_zh": "富国银行",
+    "letters": [
+      "1991-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "columbia-insurance",
+    "name_en": "Columbia Insurance Company",
+    "name_zh": "哥伦比亚保险公司",
+    "letters": [
+      "1984-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "national-service-industries",
+    "name_en": "National Service Industries",
+    "name_zh": "国家服务工业公司",
+    "letters": [
+      "1981-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "national-fire-marine",
+    "name_en": "National Fire and Marine Insurance Company",
+    "name_zh": "国民火灾与海运保险公司",
+    "letters": [
+      "1973-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "national-indemnity-company",
+    "name_en": "National Indemnity Company",
+    "name_zh": "国民赔偿公司",
+    "letters": [
+      "1971-letter",
+      "1975-letter",
+      "1976-letter",
+      "1983-letter"
+    ],
+    "mention_count": 7
+  },
+  {
+    "slug": "national-indemnity",
+    "name_en": "National Indemnity Company",
+    "name_zh": "国民赔偿公司",
+    "letters": [
+      "1972-letter",
+      "1973-letter",
+      "1974-letter",
+      "1977-letter",
+      "1978-letter",
+      "1979-letter",
+      "1980-letter",
+      "1985-letter",
+      "2022-letter"
+    ],
+    "mention_count": 21
+  },
+  {
+    "slug": "interpublic-group",
+    "name_en": "Interpublic Group of Companies, Inc.",
+    "name_zh": "互众集团",
+    "letters": [
+      "1978-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "wppss",
+    "name_en": "Washington Public Power Supply System",
+    "name_zh": "华盛顿公共电力供应系统",
+    "letters": [
+      "1984-letter",
+      "1987-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "washington-post",
+    "name_en": "The Washington Post Company",
+    "name_zh": "华盛顿邮报公司",
+    "letters": [
+      "1975-letter",
+      "1977-letter",
+      "1978-letter",
+      "1979-letter",
+      "1981-letter",
+      "1982-letter",
+      "1984-letter",
+      "1985-letter",
+      "1986-letter",
+      "1987-letter",
+      "1990-letter",
+      "1991-letter"
+    ],
+    "mention_count": 34
+  },
+  {
+    "slug": "washington-post-company",
+    "name_en": "The Washington Post Company",
+    "name_zh": "华盛顿邮报公司",
+    "letters": [
+      "1983-letter",
+      "1988-letter"
+    ],
+    "mention_count": 5
+  },
+  {
+    "slug": "hp-inc",
+    "name_en": "HP Inc.",
+    "name_zh": "惠普公司",
+    "letters": [
+      "2022-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "gillette",
+    "name_en": "The Gillette Company",
+    "name_zh": "吉列公司",
+    "letters": [
+      "1991-letter"
+    ],
+    "mention_count": 9
+  },
+  {
+    "slug": "home-and-automobile-insurance-company",
+    "name_en": "Home & Automobile Insurance Company",
+    "name_zh": "家庭与汽车保险公司",
+    "letters": [
+      "1971-letter",
+      "1975-letter",
+      "1976-letter"
+    ],
+    "mention_count": 5
+  },
+  {
+    "slug": "home-automobile-insurance",
+    "name_en": "Home and Automobile Insurance Company",
+    "name_zh": "家庭与汽车保险公司",
+    "letters": [
+      "1973-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "home-and-automobile",
+    "name_en": "Home and Automobile Insurance Company",
+    "name_zh": "家庭与汽车保险公司",
+    "letters": [
+      "1974-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "home-and-auto",
+    "name_en": "Home and Auto",
+    "name_zh": "家庭与汽车保险公司",
+    "letters": [
+      "1980-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "guinness",
+    "name_en": "Guinness PLC",
+    "name_zh": "健力士公司",
+    "letters": [
+      "1991-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "precision-steel",
+    "name_en": "Precision Steel",
+    "name_zh": "精密钢铁",
+    "letters": [
+      "1980-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "kaiser-industries",
+    "name_en": "Kaiser Industries, Inc.",
+    "name_zh": "凯撒工业公司",
+    "letters": [
+      "1976-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "kaiser-aluminum",
+    "name_en": "Kaiser Aluminum and Chemical Corporation",
+    "name_zh": "凯撒铝业化工公司",
+    "letters": [
+      "1978-letter",
+      "1980-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "cornhusker-casualty",
+    "name_en": "Cornhusker Casualty Company",
+    "name_zh": "康哈斯卡意外险公司",
+    "letters": [
+      "1972-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "kirby",
+    "name_en": "Kirby",
+    "name_zh": "柯比",
+    "letters": [
+      "1986-letter",
+      "1987-letter",
+      "1988-letter",
+      "1989-letter",
+      "1990-letter"
+    ],
+    "mention_count": 14
+  },
+  {
+    "slug": "coca-cola",
+    "name_en": "Coca-Cola",
+    "name_zh": "可口可乐",
+    "letters": [
+      "1989-letter",
+      "1990-letter",
+      "1991-letter",
+      "2022-letter",
+      "2024-letter"
+    ],
+    "mention_count": 16
+  },
+  {
+    "slug": "coca-cola-company",
+    "name_en": "The Coca-Cola Company",
+    "name_zh": "可口可乐公司",
+    "letters": [
+      "1988-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "blue-chip-stamps",
+    "name_en": "Blue Chip Stamps",
+    "name_zh": "蓝筹印花公司",
+    "letters": [
+      "1973-letter",
+      "1974-letter",
+      "1975-letter",
+      "1976-letter",
+      "1977-letter",
+      "1978-letter",
+      "1979-letter",
+      "1980-letter",
+      "1982-letter",
+      "1983-letter",
+      "1984-letter"
+    ],
+    "mention_count": 43
+  },
+  {
+    "slug": "rj-reynolds",
+    "name_en": "R. J. Reynolds Industries, Inc.",
+    "name_zh": "雷诺烟草公司",
+    "letters": [
+      "1981-letter",
+      "1982-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "rj-reynolds-industries",
+    "name_en": "R. J. Reynolds Industries, Inc.",
+    "name_zh": "雷诺兹烟草工业公司",
+    "letters": [
+      "1983-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "fannie-mae",
+    "name_en": "Federal National Mortgage Association (Fannie Mae)",
+    "name_zh": "联邦国民抵押贷款协会（房利美）",
+    "letters": [
+      "1991-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "freddie-mac",
+    "name_en": "Federal Home Loan Mortgage Corp.",
+    "name_zh": "联邦住房贷款抵押公司（房地美）",
+    "letters": [
+      "1991-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "federal-home-loan-mortgage-corporation",
+    "name_en": "Federal Home Loan Mortgage Corporation",
+    "name_zh": "联邦住宅贷款抵押公司",
+    "letters": [
+      "1988-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "associated-retail-stores",
+    "name_en": "Associated Retail Stores, Inc.",
+    "name_zh": "联合零售商店公司",
+    "letters": [
+      "1978-letter",
+      "1979-letter",
+      "1980-letter"
+    ],
+    "mention_count": 6
+  },
+  {
+    "slug": "illinois-bank-and-trust",
+    "name_en": "Illinois Bank and Trust Co. of Rockford",
+    "name_zh": "罗克福德伊利诺伊国民银行及信托公司",
+    "letters": [
+      "1972-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "american-broadcasting",
+    "name_en": "American Broadcasting Companies, Inc.",
+    "name_zh": "美国广播公司",
+    "letters": [
+      "1978-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "aluminum-company-of-america",
+    "name_en": "Aluminum Company of America",
+    "name_zh": "美国铝业公司",
+    "letters": [
+      "1980-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "bank-of-america",
+    "name_en": "Bank of America",
+    "name_zh": "美国银行",
+    "letters": [
+      "2022-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "american-express",
+    "name_en": "American Express",
+    "name_zh": "美国运通",
+    "letters": [
+      "1980-letter",
+      "1991-letter",
+      "2022-letter",
+      "2024-letter"
+    ],
+    "mention_count": 10
+  },
+  {
+    "slug": "moodys",
+    "name_en": "Moody's Corporation",
+    "name_zh": "穆迪公司",
+    "letters": [
+      "2022-letter",
+      "2024-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "mutual-savings-and-loan",
+    "name_en": "Mutual Savings and Loan",
+    "name_zh": "穆图尔储蓄与贷款",
+    "letters": [
+      "1980-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "knight-ridder",
+    "name_en": "Knight-Ridder Newspapers, Inc.",
+    "name_zh": "奈特-里德报业",
+    "letters": [
+      "1978-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "nebraska-furniture-mart",
+    "name_en": "Nebraska Furniture Mart",
+    "name_zh": "内布拉斯加家具城",
+    "letters": [
+      "1983-letter",
+      "1984-letter",
+      "1985-letter",
+      "1986-letter",
+      "1987-letter",
+      "1988-letter",
+      "1989-letter",
+      "1990-letter"
+    ],
+    "mention_count": 50
+  },
+  {
+    "slug": "paramount-global",
+    "name_en": "Paramount Global",
+    "name_zh": "派拉蒙环球",
+    "letters": [
+      "2022-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "apple",
+    "name_en": "Apple Inc.",
+    "name_zh": "苹果公司",
+    "letters": [
+      "2022-letter",
+      "2024-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "usair",
+    "name_en": "USAir",
+    "name_zh": "全美航空",
+    "letters": [
+      "1991-letter"
+    ],
+    "mention_count": 4
+  },
+  {
+    "slug": "mitsui",
+    "name_en": "Mitsui",
+    "name_zh": "三井",
+    "letters": [
+      "2024-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "mitsubishi",
+    "name_en": "Mitsubishi",
+    "name_zh": "三菱",
+    "letters": [
+      "2024-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "forest-river",
+    "name_en": "Forest River",
+    "name_zh": "森林河",
+    "letters": [
+      "2024-letter"
+    ],
+    "mention_count": 5
+  },
+  {
+    "slug": "see-s-candies",
+    "name_en": "See's Candies",
+    "name_zh": "时思糖果",
+    "letters": [
+      "1990-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "world-book",
+    "name_en": "World Book",
+    "name_zh": "世界图书",
+    "letters": [
+      "1986-letter",
+      "1987-letter",
+      "1988-letter",
+      "1989-letter"
+    ],
+    "mention_count": 17
+  },
+  {
+    "slug": "capital-cities-communications",
+    "name_en": "Capital Cities Communications",
+    "name_zh": "首都通信公司",
+    "letters": [
+      "1977-letter",
+      "1981-letter"
+    ],
+    "mention_count": 4
+  },
+  {
+    "slug": "scott-fetzer",
+    "name_en": "Scott & Fetzer",
+    "name_zh": "斯科特·费策",
+    "letters": [
+      "1985-letter",
+      "1986-letter",
+      "1987-letter",
+      "1988-letter",
+      "1989-letter",
+      "1990-letter"
+    ],
+    "mention_count": 22
+  },
+  {
+    "slug": "salomon",
+    "name_en": "Salomon Inc",
+    "name_zh": "所罗门公司",
+    "letters": [
+      "1987-letter",
+      "1991-letter"
+    ],
+    "mention_count": 13
+  },
+  {
+    "slug": "salomon-inc",
+    "name_en": "Salomon Inc",
+    "name_zh": "所罗门公司",
+    "letters": [
+      "1988-letter"
+    ],
+    "mention_count": 6
+  },
+  {
+    "slug": "sun-newspapers",
+    "name_en": "Sun Newspapers, Inc.",
+    "name_zh": "太阳报业公司",
+    "letters": [
+      "1973-letter"
+    ],
+    "mention_count": 5
+  },
+  {
+    "slug": "teledyne",
+    "name_en": "Teledyne",
+    "name_zh": "特励达",
+    "letters": [
+      "1981-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "general-foods",
+    "name_en": "General Foods Corporation",
+    "name_zh": "通用食品公司",
+    "letters": [
+      "1981-letter",
+      "1982-letter",
+      "1984-letter",
+      "1985-letter"
+    ],
+    "mention_count": 13
+  },
+  {
+    "slug": "general-foods-corporation",
+    "name_en": "General Foods Corporation",
+    "name_zh": "通用食品公司",
+    "letters": [
+      "1983-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "marubeni",
+    "name_en": "Marubeni",
+    "name_zh": "丸红",
+    "letters": [
+      "2024-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "wesco-financial",
+    "name_en": "Wesco Financial Corporation",
+    "name_zh": "韦斯科金融公司",
+    "letters": [
+      "1973-letter",
+      "1974-letter",
+      "1978-letter",
+      "1979-letter",
+      "1980-letter",
+      "1983-letter",
+      "1984-letter",
+      "1985-letter"
+    ],
+    "mention_count": 23
+  },
+  {
+    "slug": "northwest-industries",
+    "name_en": "Northwest Industries",
+    "name_zh": "西北工业公司",
+    "letters": [
+      "1981-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "occidental-petroleum",
+    "name_en": "Occidental Petroleum",
+    "name_zh": "西方石油",
+    "letters": [
+      "2022-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "sees-candies",
+    "name_en": "See's Candies",
+    "name_zh": "喜诗糖果",
+    "letters": [
+      "1977-letter",
+      "1978-letter",
+      "1979-letter",
+      "1980-letter",
+      "1983-letter",
+      "1984-letter",
+      "1985-letter",
+      "1986-letter",
+      "1987-letter",
+      "1988-letter",
+      "1989-letter",
+      "1991-letter",
+      "2022-letter"
+    ],
+    "mention_count": 72
+  },
+  {
+    "slug": "chevron",
+    "name_en": "Chevron Corporation",
+    "name_zh": "雪佛龙",
+    "letters": [
+      "2022-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "illinois-national-bank",
+    "name_en": "Illinois National Bank & Trust Co. of Rockford",
+    "name_zh": "伊利诺伊国家银行与信托公司",
+    "letters": [
+      "1973-letter",
+      "1976-letter",
+      "1977-letter",
+      "1978-letter",
+      "1979-letter",
+      "1980-letter"
+    ],
+    "mention_count": 23
+  },
+  {
+    "slug": "illinois-national-bank-and-trust",
+    "name_en": "Illinois National Bank and Trust of Rockford, Illinois",
+    "name_zh": "伊利诺伊国民银行及信托公司",
+    "letters": [
+      "1975-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "illinois-national-bank-and-trust-company",
+    "name_en": "The Illinois National Bank & Trust Company",
+    "name_zh": "伊利诺伊国民银行与信托公司",
+    "letters": [
+      "1971-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "itochu",
+    "name_en": "ITOCHU",
+    "name_zh": "伊藤忠商事",
+    "letters": [
+      "2024-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "geico",
+    "name_en": "Government Employees Insurance Company",
+    "name_zh": "政府雇员保险公司",
+    "letters": [
+      "1977-letter",
+      "1978-letter",
+      "1979-letter",
+      "1980-letter",
+      "1982-letter",
+      "1984-letter",
+      "1985-letter",
+      "1986-letter",
+      "1987-letter",
+      "1989-letter",
+      "1990-letter",
+      "1991-letter",
+      "2024-letter"
+    ],
+    "mention_count": 64
+  },
+  {
+    "slug": "geico-corporation",
+    "name_en": "GEICO Corporation",
+    "name_zh": "政府雇员保险公司",
+    "letters": [
+      "1981-letter",
+      "1983-letter",
+      "1988-letter"
+    ],
+    "mention_count": 16
+  },
+  {
+    "slug": "home-and-automobile-insurance",
+    "name_en": "Home and Automobile Insurance Company of Chicago",
+    "name_zh": "芝加哥家庭与汽车保险公司",
+    "letters": [
+      "1972-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "sumitomo",
+    "name_en": "Sumitomo",
+    "name_zh": "住友",
+    "letters": [
+      "2024-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "alleghany",
+    "name_en": "Alleghany Corporation",
+    "name_zh": "Alleghany Corporation",
+    "letters": [
+      "2022-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "allegis",
+    "name_en": "Allegis",
+    "name_zh": "Allegis",
+    "letters": [
+      "1987-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "beatrice-companies",
+    "name_en": "Beatrice Companies, Inc.",
+    "name_zh": "Beatrice Companies, Inc.",
+    "letters": [
+      "1985-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "bnsf",
+    "name_en": "BNSF Railway",
+    "name_zh": "BNSF铁路",
+    "letters": [
+      "2022-letter",
+      "2024-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "capital-cities-abc",
+    "name_en": "Capital Cities/ABC",
+    "name_zh": "Capital Cities/ABC",
+    "letters": [
+      "1985-letter",
+      "1986-letter",
+      "1987-letter",
+      "1988-letter",
+      "1990-letter",
+      "1991-letter"
+    ],
+    "mention_count": 25
+  },
+  {
+    "slug": "chubb",
+    "name_en": "Chubb Corp.",
+    "name_zh": "Chubb 公司",
+    "letters": [
+      "1980-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "cornhusker-casualty-company",
+    "name_en": "Cornhusker Casualty Company",
+    "name_zh": "Cornhusker 灾害保险公司",
+    "letters": [
+      "1971-letter",
+      "1975-letter",
+      "1976-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "firemans-fund",
+    "name_en": "Fireman's Fund",
+    "name_zh": "Fireman's Fund",
+    "letters": [
+      "1985-letter"
+    ],
+    "mention_count": 7
+  },
+  {
+    "slug": "h-h-brown",
+    "name_en": "H. H. Brown Company",
+    "name_zh": "H. H. Brown 公司",
+    "letters": [
+      "1991-letter"
+    ],
+    "mention_count": 9
+  },
+  {
+    "slug": "kw-products",
+    "name_en": "K & W Products",
+    "name_zh": "K & W Products",
+    "letters": [
+      "1987-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "k-and-w-products",
+    "name_en": "K & W Products",
+    "name_zh": "K&W Products",
+    "letters": [
+      "1976-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "lakeland-fire-and-casualty-company",
+    "name_en": "Lakeland Fire & Casualty Company",
+    "name_zh": "Lakeland 消防与灾害保险公司",
+    "letters": [
+      "1971-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "levitz-furniture",
+    "name_en": "Levitz Furniture",
+    "name_zh": "Levitz家具",
+    "letters": [
+      "1984-letter"
+    ],
+    "mention_count": 2
+  },
+  {
+    "slug": "nhp-inc",
+    "name_en": "NHP, Inc.",
+    "name_zh": "NHP公司",
+    "letters": [
+      "1986-letter"
+    ],
+    "mention_count": 8
+  },
+  {
+    "slug": "pinkertons",
+    "name_en": "Pinkerton's, Inc.",
+    "name_zh": "Pinkerton 公司",
+    "letters": [
+      "1980-letter",
+      "1981-letter"
+    ],
+    "mention_count": 3
+  },
+  {
+    "slug": "safeco",
+    "name_en": "SAFECO Corporation",
+    "name_zh": "SAFECO公司",
+    "letters": [
+      "1978-letter",
+      "1979-letter"
+    ],
+    "mention_count": 7
+  },
+  {
+    "slug": "sees-candy",
+    "name_en": "See's Candy Shops Incorporated",
+    "name_zh": "See's 糖果公司",
+    "letters": [
+      "1973-letter",
+      "1974-letter"
+    ],
+    "mention_count": 4
+  },
+  {
+    "slug": "time-inc",
+    "name_en": "Time, Inc.",
+    "name_zh": "Time, Inc.",
+    "letters": [
+      "1985-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "waumbec-dyeing-and-finishing",
+    "name_en": "Waumbec Dyeing and Finishing Co., Inc.",
+    "name_zh": "Waumbec Dyeing and Finishing 公司",
+    "letters": [
+      "1975-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "waumbec-mills-incorporated",
+    "name_en": "Waumbec Mills Incorporated",
+    "name_zh": "Waumbec Mills 公司",
+    "letters": [
+      "1975-letter"
+    ],
+    "mention_count": 1
+  },
+  {
+    "slug": "wesco",
+    "name_en": "Wesco",
+    "name_zh": "Wesco",
+    "letters": [
+      "1988-letter",
+      "1989-letter",
+      "1990-letter"
+    ],
+    "mention_count": 5
+  }
+]

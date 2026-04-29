@@ -85,6 +85,12 @@ function renderList(lines = []) {
   return `<${tag}>${items}</${tag}>`;
 }
 
+function renderCodeBlock(lines = []) {
+  // Remove the opening and closing ``` lines
+  const content = lines.slice(1, -1).join("\n");
+  return `<pre><code>${escapeHtml(content)}</code></pre>`;
+}
+
 function renderParagraph(lines = []) {
   return `<p>${lines.map((line) => renderInline(line)).join("<br />")}</p>`;
 }
@@ -104,6 +110,7 @@ function collectBlocks(markdown = "") {
   const lines = markdown.trim().split("\n");
   const blocks = [];
   let current = [];
+  let inCodeBlock = false;
 
   function flushCurrent() {
     if (current.length > 0) {
@@ -113,6 +120,29 @@ function collectBlocks(markdown = "") {
   }
 
   for (const line of lines) {
+    // Check for code block markers
+    if (line.startsWith("```")) {
+      if (!inCodeBlock) {
+        // Starting a code block
+        flushCurrent();
+        inCodeBlock = true;
+        current.push(line);
+      } else {
+        // Ending a code block
+        current.push(line);
+        blocks.push(current);
+        current = [];
+        inCodeBlock = false;
+      }
+      continue;
+    }
+
+    // If inside code block, just add the line
+    if (inCodeBlock) {
+      current.push(line);
+      continue;
+    }
+
     if (!line.trim()) {
       flushCurrent();
       continue;
@@ -155,6 +185,11 @@ export function renderRichText(markdown = "") {
 
   return collectBlocks(normalized)
     .map((block) => {
+      // Check for code block
+      if (block[0]?.startsWith("```") && block[block.length - 1]?.startsWith("```")) {
+        return renderCodeBlock(block);
+      }
+
       if (block.length === 1 && /^(#{1,6})\s+/.test(block[0])) {
         return renderHeading(block[0]);
       }

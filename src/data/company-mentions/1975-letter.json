@@ -1,0 +1,89 @@
+{
+  "letter_slug": "1975-letter",
+  "companies": [
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway Inc.",
+      "name_zh": "伯克希尔·哈撒韦公司",
+      "blocks": [
+        "p1",
+        "p5",
+        "p6",
+        "p10",
+        "p25"
+      ]
+    },
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹印花公司",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "waumbec-mills-incorporated",
+      "name_en": "Waumbec Mills Incorporated",
+      "name_zh": "Waumbec Mills 公司",
+      "blocks": [
+        "p5"
+      ]
+    },
+    {
+      "slug": "waumbec-dyeing-and-finishing",
+      "name_en": "Waumbec Dyeing and Finishing Co., Inc.",
+      "name_zh": "Waumbec Dyeing and Finishing 公司",
+      "blocks": [
+        "p5"
+      ]
+    },
+    {
+      "slug": "national-indemnity-company",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p12"
+      ]
+    },
+    {
+      "slug": "cornhusker-casualty-company",
+      "name_en": "Cornhusker Casualty Company",
+      "name_zh": "Cornhusker 意外险公司",
+      "blocks": [
+        "p11"
+      ]
+    },
+    {
+      "slug": "texas-united-insurance-company",
+      "name_en": "Texas United Insurance Company",
+      "name_zh": "德克萨斯联合保险公司",
+      "blocks": [
+        "p11"
+      ]
+    },
+    {
+      "slug": "home-and-automobile-insurance-company",
+      "name_en": "Home and Automobile Insurance Company",
+      "name_zh": "家庭与汽车保险公司",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "illinois-national-bank-and-trust",
+      "name_en": "Illinois National Bank and Trust of Rockford, Illinois",
+      "name_zh": "伊利诺伊国民银行及信托公司",
+      "blocks": [
+        "p23"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "The Washington Post Company",
+      "name_zh": "华盛顿邮报公司",
+      "blocks": [
+        "p19"
+      ]
+    }
+  ]
+}

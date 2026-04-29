@@ -1,0 +1,144 @@
+{
+  "letter_slug": "1978-letter",
+  "companies": [
+    {
+      "slug": "safeco",
+      "name_en": "SAFECO Corporation",
+      "name_zh": "SAFECO公司",
+      "blocks": [
+        "p33",
+        "p34",
+        "p35",
+        "p36",
+        "p37"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "The Washington Post Company",
+      "name_zh": "华盛顿邮报公司",
+      "blocks": [
+        "p32"
+      ]
+    },
+    {
+      "slug": "geico",
+      "name_en": "Government Employees Insurance Company",
+      "name_zh": "政府雇员保险公司",
+      "blocks": [
+        "p32"
+      ]
+    },
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹印花公司",
+      "blocks": [
+        "p2",
+        "p3",
+        "p4",
+        "p10",
+        "p11"
+      ]
+    },
+    {
+      "slug": "diversified-retailing",
+      "name_en": "Diversified Retailing Company, Inc.",
+      "name_zh": "多元零售公司",
+      "blocks": [
+        "p2",
+        "p5",
+        "p45"
+      ]
+    },
+    {
+      "slug": "sees-candies",
+      "name_en": "See's Candies",
+      "name_zh": "喜诗糖果",
+      "blocks": [
+        "p10"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p16",
+        "p19",
+        "p20"
+      ]
+    },
+    {
+      "slug": "illinois-national-bank",
+      "name_en": "Illinois National Bank and Trust Company",
+      "name_zh": "伊利诺伊国家银行与信托公司",
+      "blocks": [
+        "p10",
+        "p40",
+        "p41",
+        "p42",
+        "p43"
+      ]
+    },
+    {
+      "slug": "associated-retail-stores",
+      "name_en": "Associated Retail Stores, Inc.",
+      "name_zh": "联合零售商店公司",
+      "blocks": [
+        "p45",
+        "p46",
+        "p47"
+      ]
+    },
+    {
+      "slug": "wesco-financial",
+      "name_en": "Wesco Financial Corporation",
+      "name_zh": "韦斯科金融公司",
+      "blocks": [
+        "p10",
+        "p11"
+      ]
+    },
+    {
+      "slug": "knight-ridder",
+      "name_en": "Knight-Ridder Newspapers, Inc.",
+      "name_zh": "奈特-里德报业",
+      "blocks": [
+        "p32"
+      ]
+    },
+    {
+      "slug": "interpublic-group",
+      "name_en": "Interpublic Group of Companies, Inc.",
+      "name_zh": "互众集团",
+      "blocks": [
+        "p32"
+      ]
+    },
+    {
+      "slug": "kaiser-aluminum",
+      "name_en": "Kaiser Aluminum and Chemical Corporation",
+      "name_zh": "凯撒铝业化工公司",
+      "blocks": [
+        "p32"
+      ]
+    },
+    {
+      "slug": "american-broadcasting",
+      "name_en": "American Broadcasting Companies, Inc.",
+      "name_zh": "美国广播公司",
+      "blocks": [
+        "p32"
+      ]
+    },
+    {
+      "slug": "buffalo-evening-news",
+      "name_en": "Buffalo Evening News",
+      "name_zh": "布法罗晚报",
+      "blocks": [
+        "p10"
+      ]
+    }
+  ]
+}

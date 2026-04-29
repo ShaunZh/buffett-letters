@@ -1,0 +1,45 @@
+{
+  "letter_slug": "1994-letter",
+  "companies": [
+    {
+      "slug": "coca-cola",
+      "name_en": "Coca-Cola",
+      "name_zh": "可口可乐",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "gillette",
+      "name_en": "Gillette",
+      "name_zh": "吉列",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "wells-fargo",
+      "name_en": "Wells Fargo",
+      "name_zh": "富国银行",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "scott-fetzer",
+      "name_en": "Scott Fetzer",
+      "name_zh": "斯科特·费泽",
+      "blocks": [
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32",
+        "p33"
+      ]
+    }
+  ]
+}

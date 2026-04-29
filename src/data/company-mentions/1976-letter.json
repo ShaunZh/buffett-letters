@@ -1,0 +1,75 @@
+{
+  "letter_slug": "1976-letter",
+  "companies": [
+    {
+      "slug": "national-indemnity-company",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "cornhusker-casualty-company",
+      "name_en": "Cornhusker Casualty Company",
+      "name_zh": "康哈斯克意外保险公司",
+      "blocks": [
+        "p12"
+      ]
+    },
+    {
+      "slug": "home-and-automobile-insurance-company",
+      "name_en": "Home and Automobile Insurance Company",
+      "name_zh": "家庭和汽车保险公司",
+      "blocks": [
+        "p13"
+      ]
+    },
+    {
+      "slug": "illinois-national-bank",
+      "name_en": "Illinois National Bank and Trust Company of Rockford",
+      "name_zh": "伊利诺伊国民银行及信托公司",
+      "blocks": [
+        "p24",
+        "p25",
+        "p26",
+        "p27"
+      ]
+    },
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹邮票公司",
+      "blocks": [
+        "p28",
+        "p29"
+      ]
+    },
+    {
+      "slug": "k-and-w-products",
+      "name_en": "K & W Products",
+      "name_zh": "K&W Products",
+      "blocks": [
+        "p31"
+      ]
+    },
+    {
+      "slug": "diversified-retailing-company",
+      "name_en": "Diversified Retailing Company, Inc.",
+      "name_zh": "多元化零售公司",
+      "blocks": [
+        "p33"
+      ]
+    },
+    {
+      "slug": "kaiser-industries",
+      "name_en": "Kaiser Industries, Inc.",
+      "name_zh": "凯撒工业公司",
+      "blocks": [
+        "p20",
+        "p22"
+      ]
+    }
+  ]
+}

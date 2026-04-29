@@ -1,0 +1,93 @@
+{
+  "letter_slug": "1990-letter",
+  "companies": [
+    {
+      "slug": "capital-cities-abc",
+      "name_en": "Capital Cities/ABC",
+      "name_zh": "Capital Cities/ABC",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "coca-cola",
+      "name_en": "Coca-Cola",
+      "name_zh": "可口可乐",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "geico",
+      "name_en": "GEICO",
+      "name_zh": "政府雇员保险公司",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "Washington Post",
+      "name_zh": "华盛顿邮报",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "buffalo-news",
+      "name_en": "Buffalo News",
+      "name_zh": "布法罗新闻报",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "fechheimer",
+      "name_en": "Fechheimer",
+      "name_zh": "Fechheimer",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "kirby",
+      "name_en": "Kirby",
+      "name_zh": "Kirby",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "nebraska-furniture-mart",
+      "name_en": "Nebraska Furniture Mart",
+      "name_zh": "内布拉斯加家具店",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "scott-fetzer",
+      "name_en": "Scott Fetzer Manufacturing Group",
+      "name_zh": "Scott Fetzer 制造集团",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "wesco",
+      "name_en": "Wesco",
+      "name_zh": "韦斯科",
+      "blocks": [
+        "p13"
+      ]
+    },
+    {
+      "slug": "see-s-candies",
+      "name_en": "See's Candies",
+      "name_zh": "时思糖果",
+      "blocks": [
+        "p14"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "letter_slug": "1985-letter",
+  "companies": [
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway",
+      "name_zh": "伯克希尔·哈撒韦",
+      "blocks": [
+        "p1",
+        "p2",
+        "p3",
+        "p4",
+        "p5",
+        "p6",
+        "p7",
+        "p8",
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p16",
+        "p18",
+        "p20",
+        "p21",
+        "p24",
+        "p27",
+        "p31",
+        "p72",
+        "p74",
+        "p95",
+        "p96",
+        "p105",
+        "p108",
+        "p112",
+        "p113",
+        "p116",
+        "p118",
+        "p131",
+        "p132"
+      ]
+    },
+    {
+      "slug": "geico",
+      "name_en": "GEICO Corporation",
+      "name_zh": "GEICO 公司",
+      "blocks": [
+        "p112",
+        "p113",
+        "p124"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "The Washington Post Company",
+      "name_zh": "华盛顿邮报公司",
+      "blocks": [
+        "p22",
+        "p124",
+        "p125",
+        "p126",
+        "p127",
+        "p128",
+        "p129",
+        "p130",
+        "p131",
+        "p132"
+      ]
+    },
+    {
+      "slug": "capital-cities-abc",
+      "name_en": "Capital Cities/ABC",
+      "name_zh": "Capital Cities/ABC",
+      "blocks": [
+        "p2",
+        "p132"
+      ]
+    },
+    {
+      "slug": "general-foods",
+      "name_en": "General Foods",
+      "name_zh": "通用食品",
+      "blocks": [
+        "p2",
+        "p21",
+        "p22"
+      ]
+    },
+    {
+      "slug": "scott-fetzer",
+      "name_en": "Scott & Fetzer",
+      "name_zh": "斯科特·费策",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "firemans-fund",
+      "name_en": "Fireman's Fund",
+      "name_zh": "Fireman's Fund",
+      "blocks": [
+        "p2",
+        "p115",
+        "p116",
+        "p117",
+        "p118",
+        "p119",
+        "p120"
+      ]
+    },
+    {
+      "slug": "sees-candies",
+      "name_en": "See's Candies",
+      "name_zh": "时思糖果",
+      "blocks": [
+        "p19",
+        "p48",
+        "p51",
+        "p72",
+        "p77",
+        "p79"
+      ]
+    },
+    {
+      "slug": "nebraska-furniture-mart",
+      "name_en": "Nebraska Furniture Mart",
+      "name_zh": "内布拉斯加家居城",
+      "blocks": [
+        "p19",
+        "p51",
+        "p76",
+        "p79"
+      ]
+    },
+    {
+      "slug": "buffalo-news",
+      "name_en": "Buffalo News",
+      "name_zh": "布法罗新闻报",
+      "blocks": [
+        "p19",
+        "p51",
+        "p72",
+        "p78",
+        "p79"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民保险公司",
+      "blocks": [
+        "p30",
+        "p106",
+        "p119"
+      ]
+    },
+    {
+      "slug": "wesco-financial",
+      "name_en": "Wesco Financial Corporation",
+      "name_zh": "Wesco 金融公司",
+      "blocks": [
+        "p19",
+        "p119",
+        "p123"
+      ]
+    },
+    {
+      "slug": "beatrice-companies",
+      "name_en": "Beatrice Companies, Inc.",
+      "name_zh": "Beatrice Companies, Inc.",
+      "blocks": [
+        "p124"
+      ]
+    },
+    {
+      "slug": "time-inc",
+      "name_en": "Time, Inc.",
+      "name_zh": "Time, Inc.",
+      "blocks": [
+        "p124"
+      ]
+    },
+    {
+      "slug": "philip-morris",
+      "name_en": "Philip Morris",
+      "name_zh": "菲利普·莫里斯",
+      "blocks": [
+        "p21"
+      ]
+    },
+    {
+      "slug": "burlington-industries",
+      "name_en": "Burlington Industries",
+      "name_zh": "伯灵顿工业",
+      "blocks": [
+        "p39",
+        "p40",
+        "p41"
+      ]
+    }
+  ]
+}

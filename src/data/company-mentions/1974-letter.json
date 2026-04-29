@@ -1,0 +1,59 @@
+{
+  "letter_slug": "1974-letter",
+  "companies": [
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民保险公司",
+      "blocks": [
+        "p13"
+      ]
+    },
+    {
+      "slug": "home-and-automobile",
+      "name_en": "Home and Automobile Insurance Company",
+      "name_zh": "家庭与汽车保险公司",
+      "blocks": [
+        "p16"
+      ]
+    },
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹印花公司",
+      "blocks": [
+        "p2",
+        "p19",
+        "p20",
+        "p21",
+        "p22"
+      ]
+    },
+    {
+      "slug": "sees-candy",
+      "name_en": "See's Candy Shops, Inc.",
+      "name_zh": "喜诗糖果店公司",
+      "blocks": [
+        "p20",
+        "p21"
+      ]
+    },
+    {
+      "slug": "wesco-financial",
+      "name_en": "Wesco Financial Corporation",
+      "name_zh": "韦斯科金融公司",
+      "blocks": [
+        "p21"
+      ]
+    },
+    {
+      "slug": "diversified-retailing",
+      "name_en": "Diversified Retailing Company, Inc.",
+      "name_zh": "多元化零售公司",
+      "blocks": [
+        "p23",
+        "p24"
+      ]
+    }
+  ]
+}

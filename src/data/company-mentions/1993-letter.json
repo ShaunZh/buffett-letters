@@ -1,0 +1,87 @@
+{
+  "letter_slug": "1993-letter",
+  "companies": [
+    {
+      "slug": "coca-cola",
+      "name_en": "Coca-Cola",
+      "name_zh": "可口可乐",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "gillette",
+      "name_en": "Gillette",
+      "name_zh": "吉列",
+      "blocks": [
+        "p8",
+        "p9"
+      ]
+    },
+    {
+      "slug": "hh-brown",
+      "name_en": "H. H. Brown",
+      "name_zh": "H. H. Brown",
+      "blocks": [
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "slug": "lowell-shoe",
+      "name_en": "Lowell Shoe",
+      "name_zh": "Lowell Shoe",
+      "blocks": [
+        "p14"
+      ]
+    },
+    {
+      "slug": "dexter-shoe",
+      "name_en": "Dexter Shoe",
+      "name_zh": "德克斯特鞋业",
+      "blocks": [
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20"
+      ]
+    },
+    {
+      "slug": "fechheimer",
+      "name_en": "Fechheimer",
+      "name_zh": "Fechheimer（费希海默）",
+      "blocks": [
+        "p23"
+      ]
+    },
+    {
+      "slug": "buffalo-news",
+      "name_en": "Buffalo News",
+      "name_zh": "布法罗新闻报",
+      "blocks": [
+        "p23"
+      ]
+    },
+    {
+      "slug": "nordstrom",
+      "name_en": "Nordstrom",
+      "name_zh": "Nordstrom（诺德斯特龙）",
+      "blocks": [
+        "p16"
+      ]
+    },
+    {
+      "slug": "jc-penney",
+      "name_en": "J.C. Penney",
+      "name_zh": "J.C. Penney（杰西潘尼）",
+      "blocks": [
+        "p16"
+      ]
+    }
+  ]
+}

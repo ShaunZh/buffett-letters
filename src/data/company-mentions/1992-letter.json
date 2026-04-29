@@ -1,0 +1,198 @@
+{
+  "letter_slug": "1992-letter",
+  "companies": [
+    {
+      "slug": "capital-cities-abc",
+      "name_en": "Capital Cities/ABC Inc.",
+      "name_zh": "资本城/ABC公司",
+      "blocks": [
+        "p36",
+        "p58"
+      ]
+    },
+    {
+      "slug": "coca-cola",
+      "name_en": "The Coca-Cola Company",
+      "name_zh": "可口可乐公司",
+      "blocks": [
+        "p36",
+        "p58"
+      ]
+    },
+    {
+      "slug": "freddie-mac",
+      "name_en": "Federal Home Loan Mortgage Corp.",
+      "name_zh": "联邦住房贷款抵押公司",
+      "blocks": [
+        "p36",
+        "p58",
+        "p59"
+      ]
+    },
+    {
+      "slug": "geico",
+      "name_en": "GEICO Corp.",
+      "name_zh": "GEICO公司",
+      "blocks": [
+        "p36",
+        "p43",
+        "p55",
+        "p58"
+      ]
+    },
+    {
+      "slug": "general-dynamics",
+      "name_en": "General Dynamics Corp.",
+      "name_zh": "通用动力公司",
+      "blocks": [
+        "p36",
+        "p58",
+        "p59",
+        "p61",
+        "p62",
+        "p63"
+      ]
+    },
+    {
+      "slug": "gillette",
+      "name_en": "The Gillette Company",
+      "name_zh": "吉列公司",
+      "blocks": [
+        "p36",
+        "p58",
+        "p81"
+      ]
+    },
+    {
+      "slug": "guinness",
+      "name_en": "Guinness PLC",
+      "name_zh": "健力士PLC",
+      "blocks": [
+        "p36",
+        "p58",
+        "p59"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "The Washington Post Company",
+      "name_zh": "华盛顿邮报公司",
+      "blocks": [
+        "p36",
+        "p58"
+      ]
+    },
+    {
+      "slug": "wells-fargo",
+      "name_en": "Wells Fargo & Company",
+      "name_zh": "富国银行",
+      "blocks": [
+        "p36",
+        "p58",
+        "p59"
+      ]
+    },
+    {
+      "slug": "salomon-inc",
+      "name_en": "Salomon Inc",
+      "name_zh": "所罗门股份有限公司",
+      "blocks": [
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p78"
+      ]
+    },
+    {
+      "slug": "us-air",
+      "name_en": "USAir",
+      "name_zh": "全美航空",
+      "blocks": [
+        "p78",
+        "p86",
+        "p87",
+        "p88",
+        "p89"
+      ]
+    },
+    {
+      "slug": "h-h-brown",
+      "name_en": "H. H. Brown",
+      "name_zh": "H. H. Brown",
+      "blocks": [
+        "p25",
+        "p29"
+      ]
+    },
+    {
+      "slug": "central-states-indemnity",
+      "name_en": "Central States Indemnity",
+      "name_zh": "中央州赔偿公司",
+      "blocks": [
+        "p23",
+        "p24"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p24",
+        "p54"
+      ]
+    },
+    {
+      "slug": "nebraska-furniture-mart",
+      "name_en": "Nebraska Furniture Mart",
+      "name_zh": "内布拉斯加家具城",
+      "blocks": [
+        "p29",
+        "p112",
+        "p113",
+        "p114",
+        "p115"
+      ]
+    },
+    {
+      "slug": "scott-fetzer",
+      "name_en": "Scott Fetzer",
+      "name_zh": "斯科特·费策尔",
+      "blocks": [
+        "p29",
+        "p116",
+        "p117"
+      ]
+    },
+    {
+      "slug": "sees-candies",
+      "name_en": "See's Candies",
+      "name_zh": "喜诗糖果",
+      "blocks": [
+        "p29",
+        "p140"
+      ]
+    },
+    {
+      "slug": "acf-industries",
+      "name_en": "ACF Industries",
+      "name_zh": "ACF工业",
+      "blocks": [
+        "p78",
+        "p79"
+      ]
+    },
+    {
+      "slug": "wppss",
+      "name_en": "Washington Public Power Systems",
+      "name_zh": "华盛顿公共电力系统",
+      "blocks": [
+        "p78",
+        "p79",
+        "p80"
+      ]
+    }
+  ]
+}

@@ -3,9 +3,12 @@ import assert from "node:assert/strict";
 
 import {
   buildCompanyIndex,
+  formatElapsed,
   filterEntriesByRequestedFile,
   getExtractOptions,
+  getProcessOptions,
   normalizeExtractedText,
+  shouldSkipLetterProcessing,
   parseDeepSeekResponse,
 } from "../src/lib/letterPipeline.js";
 
@@ -176,4 +179,63 @@ test("getExtractOptions preserves layout by default", () => {
       preserveLayout: true,
     },
   );
+});
+
+test("getProcessOptions keeps force disabled by default", () => {
+  assert.deepEqual(
+    getProcessOptions([]),
+    {
+      file: "",
+      force: false,
+      layoutInput: false,
+    },
+  );
+});
+
+test("getProcessOptions reads file, force, and layout-input flags together", () => {
+  assert.deepEqual(
+    getProcessOptions(["--file", "2024.md", "--force", "--layout-input"]),
+    {
+      file: "2024.md",
+      force: true,
+      layoutInput: true,
+    },
+  );
+});
+
+test("shouldSkipLetterProcessing skips when output files already exist and force is false", () => {
+  assert.equal(
+    shouldSkipLetterProcessing({
+      force: false,
+      letterExists: true,
+      mentionsExist: true,
+    }),
+    true,
+  );
+});
+
+test("shouldSkipLetterProcessing keeps processing when force is true or files are missing", () => {
+  assert.equal(
+    shouldSkipLetterProcessing({
+      force: true,
+      letterExists: true,
+      mentionsExist: true,
+    }),
+    false,
+  );
+
+  assert.equal(
+    shouldSkipLetterProcessing({
+      force: false,
+      letterExists: true,
+      mentionsExist: false,
+    }),
+    false,
+  );
+});
+
+test("formatElapsed renders seconds and minutes in a compact log-friendly format", () => {
+  assert.equal(formatElapsed(950), "1s");
+  assert.equal(formatElapsed(12_400), "12s");
+  assert.equal(formatElapsed(65_000), "1m 5s");
 });

@@ -51,7 +51,7 @@ const currentPath = Astro.url.pathname;
             <div class="site-directory__list">
               {navEntries.map((entry) => (
                 <a class:list={["site-directory__item", currentPath === entry.href && "is-active"]} href={entry.href}>
-                  <span class="site-directory__year">{entry.year}</span>
+                  {/* <span class="site-directory__year">{entry.year}</span> */}
                   <span class="site-directory__label">{entry.label}</span>
                 </a>
               ))}

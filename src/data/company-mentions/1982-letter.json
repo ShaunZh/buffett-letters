@@ -1,0 +1,47 @@
+{
+  "letter_slug": "1982-letter",
+  "companies": [
+    {
+      "slug": "geico",
+      "name_en": "GEICO Corporation",
+      "name_zh": "盖可保险",
+      "blocks": [
+        "p6",
+        "p9",
+        "p22"
+      ]
+    },
+    {
+      "slug": "general-foods",
+      "name_en": "General Foods",
+      "name_zh": "通用食品",
+      "blocks": [
+        "p9"
+      ]
+    },
+    {
+      "slug": "washington-post",
+      "name_en": "The Washington Post",
+      "name_zh": "华盛顿邮报",
+      "blocks": [
+        "p9"
+      ]
+    },
+    {
+      "slug": "rj-reynolds",
+      "name_en": "R. J. Reynolds Industries",
+      "name_zh": "R.J.雷诺兹工业",
+      "blocks": [
+        "p9"
+      ]
+    },
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹印花",
+      "blocks": [
+        "p17"
+      ]
+    }
+  ]
+}

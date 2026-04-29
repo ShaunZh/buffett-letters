@@ -1,0 +1,135 @@
+{
+  "letter_slug": "1983-letter",
+  "companies": [
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹邮票公司",
+      "blocks": [
+        "p1",
+        "p44",
+        "p45",
+        "p103"
+      ]
+    },
+    {
+      "slug": "nebraska-furniture-mart",
+      "name_en": "Nebraska Furniture Mart",
+      "name_zh": "内布拉斯加家具城",
+      "blocks": [
+        "p16",
+        "p17",
+        "p21",
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28"
+      ]
+    },
+    {
+      "slug": "sees-candies",
+      "name_en": "See's Candies",
+      "name_zh": "喜诗糖果",
+      "blocks": [
+        "p52",
+        "p70",
+        "p71",
+        "p72",
+        "p73",
+        "p74",
+        "p75",
+        "p76",
+        "p77",
+        "p78",
+        "p79",
+        "p80"
+      ]
+    },
+    {
+      "slug": "buffalo-news",
+      "name_en": "Buffalo Evening News (Buffalo News)",
+      "name_zh": "布法罗晚报（布法罗新闻报）",
+      "blocks": [
+        "p52",
+        "p53",
+        "p54",
+        "p55",
+        "p56",
+        "p57",
+        "p58",
+        "p59",
+        "p60",
+        "p61",
+        "p62",
+        "p63",
+        "p64",
+        "p65",
+        "p66",
+        "p67",
+        "p68",
+        "p69"
+      ]
+    },
+    {
+      "slug": "geico-corporation",
+      "name_en": "GEICO Corporation",
+      "name_zh": "GEICO公司",
+      "blocks": [
+        "p47",
+        "p48",
+        "p49",
+        "p50",
+        "p82",
+        "p86",
+        "p92",
+        "p93",
+        "p94",
+        "p95"
+      ]
+    },
+    {
+      "slug": "wesco-financial",
+      "name_en": "Wesco Financial",
+      "name_zh": "Wesco金融公司",
+      "blocks": [
+        "p44",
+        "p46",
+        "p50"
+      ]
+    },
+    {
+      "slug": "national-indemnity-company",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p87",
+        "p91"
+      ]
+    },
+    {
+      "slug": "general-foods-corporation",
+      "name_en": "General Foods Corporation",
+      "name_zh": "通用食品公司",
+      "blocks": [
+        "p50"
+      ]
+    },
+    {
+      "slug": "rj-reynolds-industries",
+      "name_en": "R. J. Reynolds Industries, Inc.",
+      "name_zh": "雷诺兹烟草工业公司",
+      "blocks": [
+        "p50"
+      ]
+    },
+    {
+      "slug": "washington-post-company",
+      "name_en": "The Washington Post Company",
+      "name_zh": "华盛顿邮报公司",
+      "blocks": [
+        "p50"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "letter_slug": "1972-letter",
+  "companies": [
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway Inc.",
+      "name_zh": "伯克希尔·哈撒韦公司",
+      "blocks": [
+        "p1",
+        "p2",
+        "p3",
+        "p26"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p9"
+      ]
+    },
+    {
+      "slug": "cornhusker-casualty",
+      "name_en": "Cornhusker Casualty Company",
+      "name_zh": "康哈斯卡意外险公司",
+      "blocks": [
+        "p13"
+      ]
+    },
+    {
+      "slug": "home-and-automobile-insurance",
+      "name_en": "Home and Automobile Insurance Company of Chicago",
+      "name_zh": "芝加哥家庭与汽车保险公司",
+      "blocks": [
+        "p16"
+      ]
+    },
+    {
+      "slug": "illinois-bank-and-trust",
+      "name_en": "Illinois Bank and Trust Co. of Rockford",
+      "name_zh": "罗克福德伊利诺伊国民银行及信托公司",
+      "blocks": [
+        "p21"
+      ]
+    }
+  ]
+}

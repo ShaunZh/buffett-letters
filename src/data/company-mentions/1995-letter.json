@@ -1,0 +1,57 @@
+{
+  "letter_slug": "1995-letter",
+  "companies": [
+    {
+      "slug": "helzbergs-diamond-shops",
+      "name_en": "Helzberg's Diamond Shops",
+      "name_zh": "赫兹伯格钻石店",
+      "blocks": [
+        "p4",
+        "p23",
+        "p25",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "rc-willey",
+      "name_en": "R.C. Willey Home Furnishings",
+      "name_zh": "R.C.威利家居",
+      "blocks": [
+        "p4",
+        "p33",
+        "p34",
+        "p35",
+        "p36"
+      ]
+    },
+    {
+      "slug": "geico",
+      "name_en": "GEICO Corporation",
+      "name_zh": "政府雇员保险公司",
+      "blocks": [
+        "p4"
+      ]
+    },
+    {
+      "slug": "borsheims",
+      "name_en": "Borsheim's",
+      "name_zh": "波仙珠宝",
+      "blocks": [
+        "p32"
+      ]
+    },
+    {
+      "slug": "nebraska-furniture-mart",
+      "name_en": "Nebraska Furniture Mart",
+      "name_zh": "内布拉斯加家具城",
+      "blocks": [
+        "p34"
+      ]
+    }
+  ]
+}

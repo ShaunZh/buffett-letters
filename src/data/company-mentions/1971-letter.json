@@ -1,0 +1,58 @@
+{
+  "letter_slug": "1971-letter",
+  "companies": [
+    {
+      "slug": "national-indemnity-company",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p8",
+        "p13"
+      ]
+    },
+    {
+      "slug": "cornhusker-casualty-company",
+      "name_en": "Cornhusker Casualty Company",
+      "name_zh": "Cornhusker 灾害保险公司",
+      "blocks": [
+        "p10"
+      ]
+    },
+    {
+      "slug": "lakeland-fire-and-casualty-company",
+      "name_en": "Lakeland Fire & Casualty Company",
+      "name_zh": "Lakeland 消防与灾害保险公司",
+      "blocks": [
+        "p10"
+      ]
+    },
+    {
+      "slug": "texas-united-insurance",
+      "name_en": "Texas United Insurance",
+      "name_zh": "德克萨斯联合保险公司",
+      "blocks": [
+        "p10"
+      ]
+    },
+    {
+      "slug": "home-and-automobile-insurance-company",
+      "name_en": "Home & Automobile Insurance Company",
+      "name_zh": "家庭与汽车保险公司",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13"
+      ]
+    },
+    {
+      "slug": "illinois-national-bank-and-trust-company",
+      "name_en": "The Illinois National Bank & Trust Company",
+      "name_zh": "伊利诺伊国民银行与信托公司",
+      "blocks": [
+        "p15",
+        "p16",
+        "p17"
+      ]
+    }
+  ]
+}
