@@ -213,6 +213,41 @@ export function getExtractOptions(argv) {
   };
 }
 
+export function getProcessOptions(argv) {
+  const fileFlagIndex = argv.indexOf("--file");
+  const requestedFile = fileFlagIndex === -1 ? "" : argv[fileFlagIndex + 1];
+
+  if (fileFlagIndex !== -1 && !requestedFile) {
+    throw new Error("Missing value for --file.");
+  }
+
+  return {
+    file: requestedFile,
+    force: argv.includes("--force"),
+    layoutInput: argv.includes("--layout-input"),
+  };
+}
+
+export function shouldSkipLetterProcessing({ force, letterExists, mentionsExist }) {
+  if (force) {
+    return false;
+  }
+
+  return letterExists && mentionsExist;
+}
+
+export function formatElapsed(milliseconds) {
+  const totalSeconds = Math.max(1, Math.round(milliseconds / 1000));
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+
+  if (minutes === 0) {
+    return `${totalSeconds}s`;
+  }
+
+  return `${minutes}m ${seconds}s`;
+}
+
 function normalizeCompanyMention(company) {
   if (!company || typeof company !== "object") {
     throw new Error("Company mention must be an object.");
