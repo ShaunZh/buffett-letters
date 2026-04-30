@@ -6,11 +6,11 @@
       "name_en": "SAFECO Corporation",
       "name_zh": "SAFECO公司",
       "blocks": [
-        "p33",
-        "p34",
-        "p35",
-        "p36",
-        "p37"
+        "p37",
+        "p38",
+        "p39",
+        "p40",
+        "p41"
       ]
     },
     {
@@ -18,7 +18,8 @@
       "name_en": "The Washington Post Company",
       "name_zh": "华盛顿邮报公司",
       "blocks": [
-        "p32"
+        "p35",
+        "p36"
       ]
     },
     {
@@ -26,7 +27,8 @@
       "name_en": "Government Employees Insurance Company",
       "name_zh": "政府雇员保险公司",
       "blocks": [
-        "p32"
+        "p35",
+        "p36"
       ]
     },
     {
@@ -38,7 +40,10 @@
         "p3",
         "p4",
         "p10",
-        "p11"
+        "p11",
+        "p12",
+        "p13",
+        "p14"
       ]
     },
     {
@@ -48,7 +53,7 @@
       "blocks": [
         "p2",
         "p5",
-        "p45"
+        "p49"
       ]
     },
     {
@@ -56,7 +61,10 @@
       "name_en": "See's Candies",
       "name_zh": "喜诗糖果",
       "blocks": [
-        "p10"
+        "p10",
+        "p11",
+        "p12",
+        "p13"
       ]
     },
     {
@@ -64,9 +72,9 @@
       "name_en": "National Indemnity Company",
       "name_zh": "国民赔偿公司",
       "blocks": [
-        "p16",
         "p19",
-        "p20"
+        "p22",
+        "p23"
       ]
     },
     {
@@ -75,10 +83,13 @@
       "name_zh": "伊利诺伊国家银行与信托公司",
       "blocks": [
         "p10",
-        "p40",
-        "p41",
-        "p42",
-        "p43"
+        "p11",
+        "p12",
+        "p13",
+        "p44",
+        "p45",
+        "p46",
+        "p47"
       ]
     },
     {
@@ -86,9 +97,9 @@
       "name_en": "Associated Retail Stores, Inc.",
       "name_zh": "联合零售商店公司",
       "blocks": [
-        "p45",
-        "p46",
-        "p47"
+        "p49",
+        "p50",
+        "p51"
       ]
     },
     {
@@ -97,7 +108,10 @@
       "name_zh": "韦斯科金融公司",
       "blocks": [
         "p10",
-        "p11"
+        "p11",
+        "p12",
+        "p13",
+        "p14"
       ]
     },
     {
@@ -105,7 +119,8 @@
       "name_en": "Knight-Ridder Newspapers, Inc.",
       "name_zh": "奈特-里德报业",
       "blocks": [
-        "p32"
+        "p35",
+        "p36"
       ]
     },
     {
@@ -113,7 +128,8 @@
       "name_en": "Interpublic Group of Companies, Inc.",
       "name_zh": "互众集团",
       "blocks": [
-        "p32"
+        "p35",
+        "p36"
       ]
     },
     {
@@ -121,7 +137,8 @@
       "name_en": "Kaiser Aluminum and Chemical Corporation",
       "name_zh": "凯撒铝业化工公司",
       "blocks": [
-        "p32"
+        "p35",
+        "p36"
       ]
     },
     {
@@ -129,7 +146,8 @@
       "name_en": "American Broadcasting Companies, Inc.",
       "name_zh": "美国广播公司",
       "blocks": [
-        "p32"
+        "p35",
+        "p36"
       ]
     },
     {
@@ -137,7 +155,10 @@
       "name_en": "Buffalo Evening News",
       "name_zh": "布法罗晚报",
       "blocks": [
-        "p10"
+        "p10",
+        "p11",
+        "p12",
+        "p13"
       ]
     }
   ]

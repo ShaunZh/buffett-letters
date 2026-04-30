@@ -8,9 +8,12 @@
       "blocks": [
         "p1",
         "p2",
-        "p19",
-        "p30",
-        "p31"
+        "p3",
+        "p22",
+        "p23",
+        "p36",
+        "p37",
+        "p38"
       ]
     },
     {
@@ -18,11 +21,12 @@
       "name_en": "National Indemnity Company",
       "name_zh": "国家赔偿公司",
       "blocks": [
-        "p2",
-        "p8",
-        "p9",
-        "p13",
-        "p17"
+        "p3",
+        "p10",
+        "p11",
+        "p12",
+        "p16",
+        "p20"
       ]
     },
     {
@@ -30,10 +34,11 @@
       "name_en": "Illinois National Bank",
       "name_zh": "伊利诺伊国民银行",
       "blocks": [
-        "p2",
-        "p27",
-        "p28",
-        "p29"
+        "p3",
+        "p32",
+        "p33",
+        "p34",
+        "p35"
       ]
     },
     {
@@ -41,7 +46,7 @@
       "name_en": "See's Candies",
       "name_zh": "喜诗糖果",
       "blocks": [
-        "p31"
+        "p38"
       ]
     },
     {
@@ -49,9 +54,10 @@
       "name_en": "Capital Cities Communications",
       "name_zh": "首都通信公司",
       "blocks": [
-        "p22",
-        "p25",
-        "p26"
+        "p26",
+        "p27",
+        "p30",
+        "p31"
       ]
     },
     {
@@ -59,7 +65,8 @@
       "name_en": "Government Employees Insurance Company",
       "name_zh": "政府雇员保险公司",
       "blocks": [
-        "p22"
+        "p26",
+        "p27"
       ]
     },
     {
@@ -67,7 +74,8 @@
       "name_en": "The Washington Post Company",
       "name_zh": "华盛顿邮报公司",
       "blocks": [
-        "p22"
+        "p26",
+        "p27"
       ]
     }
   ]

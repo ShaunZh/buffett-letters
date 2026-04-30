@@ -10,6 +10,10 @@ import {
   parseDeepSeekResponse,
   shouldSkipLetterProcessing,
 } from "../src/lib/letterPipeline.js";
+import {
+  normalizeCompanyMentionsForSplitBlocks,
+  normalizeLetterContentBlocksWithMap,
+} from "../src/lib/letterBlockTransforms.js";
 
 const rootDir = process.cwd();
 const rawMarkdownDir = path.join(rootDir, "tmp", "raw-markdown");
@@ -95,9 +99,14 @@ for (const [index, entry] of markdownEntries.entries()) {
   });
   console.log(`${label} received DeepSeek response after ${formatElapsed(Date.now() - requestStartedAt)}.`);
   const payload = parseDeepSeekResponse(responseText);
+  const normalizedLetter = normalizeLetterContentBlocksWithMap(payload.letterMarkdown);
+  const normalizedMentions = normalizeCompanyMentionsForSplitBlocks(
+    payload.companyMentions,
+    normalizedLetter.blockIdMap,
+  );
 
-  await writeFile(letterOutputPath, `${payload.letterMarkdown}\n`, "utf8");
-  await writeFile(mentionsOutputPath, `${JSON.stringify(payload.companyMentions, null, 2)}\n`, "utf8");
+  await writeFile(letterOutputPath, normalizedLetter.markdown, "utf8");
+  await writeFile(mentionsOutputPath, `${JSON.stringify(normalizedMentions, null, 2)}\n`, "utf8");
   processedCount += 1;
 
   console.log(

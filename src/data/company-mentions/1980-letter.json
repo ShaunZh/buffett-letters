@@ -6,10 +6,11 @@
       "name_en": "Blue Chip Stamps",
       "name_zh": "蓝筹印花公司",
       "blocks": [
-        "p5",
-        "p32",
+        "p79",
         "p33",
-        "p35"
+        "p34",
+        "p35",
+        "p38"
       ]
     },
     {
@@ -17,10 +18,11 @@
       "name_en": "Wesco Financial Corporation",
       "name_zh": "Wesco 金融公司",
       "blocks": [
-        "p6",
-        "p32",
+        "p80",
         "p33",
-        "p35"
+        "p34",
+        "p35",
+        "p38"
       ]
     },
     {
@@ -28,8 +30,8 @@
       "name_en": "National Indemnity Company",
       "name_zh": "国民赔偿公司",
       "blocks": [
-        "p66",
-        "p70"
+        "p69",
+        "p72"
       ]
     },
     {
@@ -37,7 +39,8 @@
       "name_en": "See's Candies",
       "name_zh": "See's Candies",
       "blocks": [
-        "p32"
+        "p33",
+        "p34"
       ]
     },
     {
@@ -45,7 +48,8 @@
       "name_en": "Buffalo Evening News",
       "name_zh": "布法罗晚报",
       "blocks": [
-        "p32"
+        "p33",
+        "p34"
       ]
     },
     {
@@ -53,7 +57,8 @@
       "name_en": "Associated Retail Stores",
       "name_zh": "联合零售商店",
       "blocks": [
-        "p32"
+        "p33",
+        "p34"
       ]
     },
     {
@@ -61,7 +66,8 @@
       "name_en": "Berkshire-Waumbec Textiles",
       "name_zh": "伯克希尔-瓦姆贝克纺织",
       "blocks": [
-        "p32"
+        "p33",
+        "p34"
       ]
     },
     {
@@ -69,7 +75,8 @@
       "name_en": "Precision Steel",
       "name_zh": "精密钢铁",
       "blocks": [
-        "p32"
+        "p33",
+        "p34"
       ]
     },
     {
@@ -77,7 +84,7 @@
       "name_en": "Home and Auto",
       "name_zh": "家庭与汽车保险公司",
       "blocks": [
-        "p67"
+        "p70"
       ]
     },
     {
@@ -85,7 +92,8 @@
       "name_en": "Illinois National Bank",
       "name_zh": "伊利诺伊国民银行",
       "blocks": [
-        "p32"
+        "p33",
+        "p34"
       ]
     },
     {
@@ -93,8 +101,9 @@
       "name_en": "Mutual Savings and Loan",
       "name_zh": "穆图尔储蓄与贷款",
       "blocks": [
-        "p32",
-        "p33"
+        "p33",
+        "p34",
+        "p35"
       ]
     },
     {
@@ -102,8 +111,8 @@
       "name_en": "Kaiser Aluminum & Chemical Corp.",
       "name_zh": "凯撒铝业化学公司",
       "blocks": [
-        "p35",
-        "p36"
+        "p38",
+        "p39"
       ]
     },
     {
@@ -111,8 +120,8 @@
       "name_en": "Aluminum Company of America",
       "name_zh": "美国铝业公司",
       "blocks": [
-        "p35",
-        "p36"
+        "p38",
+        "p39"
       ]
     },
     {
@@ -120,9 +129,6 @@
       "name_en": "GEICO Corporation",
       "name_zh": "GEICO 公司",
       "blocks": [
-        "p37",
-        "p38",
-        "p39",
         "p40",
         "p41",
         "p42",
@@ -132,7 +138,10 @@
         "p46",
         "p47",
         "p48",
-        "p49"
+        "p49",
+        "p50",
+        "p51",
+        "p52"
       ]
     },
     {
@@ -140,7 +149,7 @@
       "name_en": "Chubb Corp.",
       "name_zh": "Chubb 公司",
       "blocks": [
-        "p51"
+        "p54"
       ]
     },
     {
@@ -148,8 +157,8 @@
       "name_en": "Pinkerton's, Inc.",
       "name_zh": "Pinkerton 公司",
       "blocks": [
-        "p35",
-        "p38"
+        "p38",
+        "p41"
       ]
     },
     {
@@ -157,7 +166,7 @@
       "name_en": "American Express",
       "name_zh": "美国运通",
       "blocks": [
-        "p47"
+        "p50"
       ]
     }
   ]

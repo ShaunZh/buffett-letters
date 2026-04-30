@@ -6,7 +6,7 @@
       "name_en": "Coca-Cola",
       "name_zh": "可口可乐",
       "blocks": [
-        "p14"
+        "p15"
       ]
     },
     {
@@ -14,7 +14,7 @@
       "name_en": "Gillette",
       "name_zh": "吉列",
       "blocks": [
-        "p14"
+        "p15"
       ]
     },
     {
@@ -22,7 +22,7 @@
       "name_en": "Wells Fargo",
       "name_zh": "富国银行",
       "blocks": [
-        "p14"
+        "p15"
       ]
     },
     {
@@ -30,7 +30,6 @@
       "name_en": "Scott Fetzer",
       "name_zh": "斯科特·费泽",
       "blocks": [
-        "p25",
         "p26",
         "p27",
         "p28",
@@ -38,7 +37,8 @@
         "p30",
         "p31",
         "p32",
-        "p33"
+        "p33",
+        "p34"
       ]
     }
   ]

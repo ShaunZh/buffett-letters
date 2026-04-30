@@ -7,9 +7,11 @@
       "name_zh": "蓝筹邮票公司",
       "blocks": [
         "p1",
-        "p44",
-        "p45",
-        "p103"
+        "p2",
+        "p3",
+        "p48",
+        "p49",
+        "p110"
       ]
     },
     {
@@ -17,14 +19,14 @@
       "name_en": "Nebraska Furniture Mart",
       "name_zh": "内布拉斯加家具城",
       "blocks": [
-        "p16",
-        "p17",
-        "p21",
-        "p24",
-        "p25",
+        "p18",
+        "p19",
+        "p23",
         "p26",
         "p27",
-        "p28"
+        "p28",
+        "p29",
+        "p30"
       ]
     },
     {
@@ -32,18 +34,18 @@
       "name_en": "See's Candies",
       "name_zh": "喜诗糖果",
       "blocks": [
-        "p52",
-        "p70",
-        "p71",
-        "p72",
-        "p73",
-        "p74",
-        "p75",
-        "p76",
+        "p56",
         "p77",
         "p78",
         "p79",
-        "p80"
+        "p80",
+        "p81",
+        "p82",
+        "p83",
+        "p84",
+        "p85",
+        "p86",
+        "p87"
       ]
     },
     {
@@ -51,10 +53,6 @@
       "name_en": "Buffalo Evening News (Buffalo News)",
       "name_zh": "布法罗晚报（布法罗新闻报）",
       "blocks": [
-        "p52",
-        "p53",
-        "p54",
-        "p55",
         "p56",
         "p57",
         "p58",
@@ -68,7 +66,14 @@
         "p66",
         "p67",
         "p68",
-        "p69"
+        "p69",
+        "p70",
+        "p71",
+        "p72",
+        "p73",
+        "p74",
+        "p75",
+        "p76"
       ]
     },
     {
@@ -76,16 +81,16 @@
       "name_en": "GEICO Corporation",
       "name_zh": "GEICO公司",
       "blocks": [
-        "p47",
-        "p48",
-        "p49",
-        "p50",
-        "p82",
-        "p86",
-        "p92",
+        "p51",
+        "p52",
+        "p53",
+        "p54",
+        "p89",
         "p93",
-        "p94",
-        "p95"
+        "p99",
+        "p100",
+        "p101",
+        "p102"
       ]
     },
     {
@@ -93,9 +98,9 @@
       "name_en": "Wesco Financial",
       "name_zh": "Wesco金融公司",
       "blocks": [
-        "p44",
-        "p46",
-        "p50"
+        "p48",
+        "p50",
+        "p54"
       ]
     },
     {
@@ -103,8 +108,8 @@
       "name_en": "National Indemnity Company",
       "name_zh": "国民赔偿公司",
       "blocks": [
-        "p87",
-        "p91"
+        "p94",
+        "p98"
       ]
     },
     {
@@ -112,7 +117,7 @@
       "name_en": "General Foods Corporation",
       "name_zh": "通用食品公司",
       "blocks": [
-        "p50"
+        "p54"
       ]
     },
     {
@@ -120,7 +125,7 @@
       "name_en": "R. J. Reynolds Industries, Inc.",
       "name_zh": "雷诺兹烟草工业公司",
       "blocks": [
-        "p50"
+        "p54"
       ]
     },
     {
@@ -128,7 +133,7 @@
       "name_en": "The Washington Post Company",
       "name_zh": "华盛顿邮报公司",
       "blocks": [
-        "p50"
+        "p54"
       ]
     }
   ]

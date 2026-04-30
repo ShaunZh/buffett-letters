@@ -6,7 +6,7 @@
       "name_en": "GEICO Corporation",
       "name_zh": "政府雇员保险公司",
       "blocks": [
-        "p28"
+        "p35"
       ]
     },
     {
@@ -14,7 +14,7 @@
       "name_en": "General Foods Corporation",
       "name_zh": "通用食品公司",
       "blocks": [
-        "p28"
+        "p35"
       ]
     },
     {
@@ -22,7 +22,7 @@
       "name_en": "R. J. Reynolds Industries, Inc.",
       "name_zh": "雷诺烟草公司",
       "blocks": [
-        "p28"
+        "p35"
       ]
     },
     {
@@ -30,7 +30,7 @@
       "name_en": "The Washington Post Company",
       "name_zh": "华盛顿邮报公司",
       "blocks": [
-        "p28"
+        "p35"
       ]
     },
     {
@@ -38,7 +38,7 @@
       "name_en": "Northwest Industries",
       "name_zh": "西北工业公司",
       "blocks": [
-        "p17"
+        "p24"
       ]
     },
     {
@@ -46,7 +46,7 @@
       "name_en": "Teledyne",
       "name_zh": "特励达",
       "blocks": [
-        "p17"
+        "p24"
       ]
     },
     {
@@ -54,7 +54,7 @@
       "name_en": "National Service Industries",
       "name_zh": "国家服务工业公司",
       "blocks": [
-        "p17"
+        "p24"
       ]
     },
     {
@@ -62,7 +62,7 @@
       "name_en": "Capital Cities Communications",
       "name_zh": "首都城市通讯公司",
       "blocks": [
-        "p17"
+        "p24"
       ]
     },
     {
@@ -70,7 +70,7 @@
       "name_en": "Pinkerton's",
       "name_zh": "平克顿",
       "blocks": [
-        "p23"
+        "p30"
       ]
     }
   ]

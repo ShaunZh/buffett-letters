@@ -8,11 +8,11 @@
       "blocks": [
         "p1",
         "p11",
-        "p39",
-        "p40",
-        "p63",
-        "p64",
-        "p65",
+        "p43",
+        "p44",
+        "p67",
+        "p68",
+        "p69",
         "p96"
       ]
     },
@@ -29,7 +29,7 @@
       "name_en": "Apple",
       "name_zh": "苹果",
       "blocks": [
-        "p49"
+        "p53"
       ]
     },
     {
@@ -37,7 +37,7 @@
       "name_en": "American Express",
       "name_zh": "美国运通",
       "blocks": [
-        "p49"
+        "p53"
       ]
     },
     {
@@ -45,7 +45,7 @@
       "name_en": "Coca-Cola",
       "name_zh": "可口可乐",
       "blocks": [
-        "p49"
+        "p53"
       ]
     },
     {
@@ -53,7 +53,7 @@
       "name_en": "Moody's",
       "name_zh": "穆迪",
       "blocks": [
-        "p49"
+        "p53"
       ]
     },
     {
@@ -73,7 +73,7 @@
       "name_en": "BNSF",
       "name_zh": "BNSF",
       "blocks": [
-        "p36"
+        "p40"
       ]
     },
     {
@@ -81,7 +81,7 @@
       "name_en": "Berkshire Hathaway Energy",
       "name_zh": "伯克希尔·哈撒韦能源",
       "blocks": [
-        "p36"
+        "p40"
       ]
     },
     {
@@ -89,7 +89,7 @@
       "name_en": "ITOCHU",
       "name_zh": "伊藤忠商事",
       "blocks": [
-        "p84"
+        "p88"
       ]
     },
     {
@@ -97,7 +97,7 @@
       "name_en": "Marubeni",
       "name_zh": "丸红",
       "blocks": [
-        "p84"
+        "p88"
       ]
     },
     {
@@ -105,7 +105,7 @@
       "name_en": "Mitsubishi",
       "name_zh": "三菱",
       "blocks": [
-        "p84"
+        "p88"
       ]
     },
     {
@@ -113,7 +113,7 @@
       "name_en": "Mitsui",
       "name_zh": "三井",
       "blocks": [
-        "p84"
+        "p88"
       ]
     },
     {
@@ -121,7 +121,7 @@
       "name_en": "Sumitomo",
       "name_zh": "住友",
       "blocks": [
-        "p84"
+        "p88"
       ]
     }
   ]

@@ -7,10 +7,12 @@
       "name_zh": "伯克希尔·哈撒韦公司",
       "blocks": [
         "p1",
-        "p5",
-        "p6",
-        "p10",
-        "p25"
+        "p2",
+        "p7",
+        "p8",
+        "p13",
+        "p29",
+        "p30"
       ]
     },
     {
@@ -18,7 +20,7 @@
       "name_en": "Blue Chip Stamps",
       "name_zh": "蓝筹印花公司",
       "blocks": [
-        "p2"
+        "p3"
       ]
     },
     {
@@ -26,7 +28,7 @@
       "name_en": "Waumbec Mills Incorporated",
       "name_zh": "Waumbec Mills 公司",
       "blocks": [
-        "p5"
+        "p7"
       ]
     },
     {
@@ -34,7 +36,7 @@
       "name_en": "Waumbec Dyeing and Finishing Co., Inc.",
       "name_zh": "Waumbec Dyeing and Finishing 公司",
       "blocks": [
-        "p5"
+        "p7"
       ]
     },
     {
@@ -42,7 +44,7 @@
       "name_en": "National Indemnity Company",
       "name_zh": "国民赔偿公司",
       "blocks": [
-        "p12"
+        "p15"
       ]
     },
     {
@@ -50,7 +52,7 @@
       "name_en": "Cornhusker Casualty Company",
       "name_zh": "Cornhusker 意外险公司",
       "blocks": [
-        "p11"
+        "p14"
       ]
     },
     {
@@ -58,7 +60,7 @@
       "name_en": "Texas United Insurance Company",
       "name_zh": "德克萨斯联合保险公司",
       "blocks": [
-        "p11"
+        "p14"
       ]
     },
     {
@@ -66,7 +68,7 @@
       "name_en": "Home and Automobile Insurance Company",
       "name_zh": "家庭与汽车保险公司",
       "blocks": [
-        "p14"
+        "p17"
       ]
     },
     {
@@ -74,7 +76,8 @@
       "name_en": "Illinois National Bank and Trust of Rockford, Illinois",
       "name_zh": "伊利诺伊国民银行及信托公司",
       "blocks": [
-        "p23"
+        "p26",
+        "p27"
       ]
     },
     {
@@ -82,7 +85,7 @@
       "name_en": "The Washington Post Company",
       "name_zh": "华盛顿邮报公司",
       "blocks": [
-        "p19"
+        "p22"
       ]
     }
   ]

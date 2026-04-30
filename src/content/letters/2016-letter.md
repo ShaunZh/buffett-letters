@@ -28,7 +28,6 @@ Berkshire's Performance vs. the S&P 500 - Annual Percentage Change.
 ## p2
 
 **EN**
-
 | Year | Per-Share Book Value of Berkshire | Per-Share Market Value of Berkshire | S&P 500 with Dividends Included |
 | --- | ---: | ---: | ---: |
 | 1965 | 23.8 | 49.5 | 10.0 |
@@ -87,7 +86,6 @@ Berkshire's Performance vs. the S&P 500 - Annual Percentage Change.
 | Overall Gain - 1964-2016 | 884,319% | 1,972,595% | 12,717% |
 
 **ZH**
-
 | 年份 | 伯克希尔每股账面价值 | 伯克希尔每股市值 | 含股息标普 500 |
 | --- | ---: | ---: | ---: |
 | 1965 | 23.8 | 49.5 | 10.0 |
@@ -260,7 +258,6 @@ After-Tax Earnings (in billions of dollars).
 ## p17
 
 **EN**
-
 | Year | Operations | Capital Gains | Year | Operations | Capital Gains |
 | --- | ---: | ---: | --- | ---: | ---: |
 | 1999 | 0.67 | 0.89 | 2008 | 9.64 | (4.65) |
@@ -274,7 +271,6 @@ After-Tax Earnings (in billions of dollars).
 | 2007 | 9.63 | 3.58 | 2016 | 17.57 | 6.50 |
 
 **ZH**
-
 | 年份 | 经营收益 | 资本利得 | 年份 | 经营收益 | 资本利得 |
 | --- | ---: | ---: | --- | ---: | ---: |
 | 1999 | 0.67 | 0.89 | 2008 | 9.64 | (4.65) |
@@ -418,7 +414,6 @@ P/C insurers receive premiums upfront and pay claims later. This collect-now, pa
 ## p34
 
 **EN**
-
 | Year | Float (in millions) |
 | --- | ---: |
 | 1970 | $39 |
@@ -429,7 +424,6 @@ P/C insurers receive premiums upfront and pay claims later. This collect-now, pa
 | 2016 | 91,577 |
 
 **ZH**
-
 | 年份 | 浮存金（百万美元） |
 | --- | ---: |
 | 1970 | $39 |
@@ -562,7 +556,6 @@ Recap of pre-tax underwriting earnings and float by division.
 ## p50
 
 **EN**
-
 | Insurance Operations | Underwriting Profit 2016 | Underwriting Profit 2015 | Yearend Float 2016 | Yearend Float 2015 |
 | --- | ---: | ---: | ---: | ---: |
 | BH Reinsurance | $822 | $421 | $45,081 | $44,108 |
@@ -572,7 +565,6 @@ Recap of pre-tax underwriting earnings and float by division.
 | Total | $2,131 | $1,837 | $91,577 | $87,722 |
 
 **ZH**
-
 | 保险业务 | 2016 承保利润 | 2015 承保利润 | 2016 年末浮存金 | 2015 年末浮存金 |
 | --- | ---: | ---: | ---: | ---: |
 | BH Reinsurance | $822 | $421 | $45,081 | $44,108 |
@@ -640,7 +632,6 @@ BNSF 和 BHE 的关键财务数据。
 ## p58
 
 **EN**
-
 | BNSF Earnings (in millions) | 2016 | 2015 | 2014 |
 | --- | ---: | ---: | ---: |
 | Revenues | $19,829 | $21,967 | $23,239 |
@@ -651,7 +642,6 @@ BNSF 和 BHE 的关键财务数据。
 | Net earnings | $3,569 | $4,248 | $3,869 |
 
 **ZH**
-
 | BNSF 收益（百万美元） | 2016 | 2015 | 2014 |
 | --- | ---: | ---: | ---: |
 | 收入 | $19,829 | $21,967 | $23,239 |
@@ -664,7 +654,6 @@ BNSF 和 BHE 的关键财务数据。
 ## p59
 
 **EN**
-
 | Berkshire Hathaway Energy Earnings (in millions) | 2016 | 2015 | 2014 |
 | --- | ---: | ---: | ---: |
 | U.K. utilities | $367 | $460 | $527 |
@@ -683,7 +672,6 @@ BNSF 和 BHE 的关键财务数据。
 | Earnings applicable to Berkshire | $2,287 | $2,132 | $1,882 |
 
 **ZH**
-
 | Berkshire Hathaway Energy 收益（百万美元） | 2016 | 2015 | 2014 |
 | --- | ---: | ---: | ---: |
 | 英国公用事业 | $367 | $460 | $527 |
@@ -720,7 +708,6 @@ Manufacturing, Service and Retailing Operations. These operations sell products 
 ## p62
 
 **EN**
-
 | Balance Sheet 12/31/16 (in millions) - Assets | Amount | Liabilities and Equity | Amount |
 | --- | ---: | --- | ---: |
 | Cash and equivalents | $8,073 | Notes payable | $2,054 |
@@ -734,7 +721,6 @@ Manufacturing, Service and Retailing Operations. These operations sell products 
 | Total | $129,593 |  |  |
 
 **ZH**
-
 | 2016/12/31 资产负债表（百万美元）- 资产 | 金额 | 负债和权益 | 金额 |
 | --- | ---: | --- | ---: |
 | 现金及等价物 | $8,073 | 应付票据 | $2,054 |
@@ -750,7 +736,6 @@ Manufacturing, Service and Retailing Operations. These operations sell products 
 ## p63
 
 **EN**
-
 | Earnings Statement (in millions) | 2016 | 2015 | 2014 |
 | --- | ---: | ---: | ---: |
 | Revenues | $120,059 | $107,825 | $97,689 |
@@ -761,7 +746,6 @@ Manufacturing, Service and Retailing Operations. These operations sell products 
 | Net earnings | $5,631 | $4,683 | $4,468 |
 
 **ZH**
-
 | 损益表（百万美元） | 2016 | 2015 | 2014 |
 | --- | ---: | ---: | ---: |
 | 收入 | $120,059 | $107,825 | $97,689 |
@@ -854,7 +838,6 @@ Marmon 的铁路车辆业务在 2016 年明显放缓，这会使 2017 年收益�
 ## p74
 
 **EN**
-
 | Finance-Related Companies Pre-Tax Earnings (in millions) | 2016 | 2015 | 2014 |
 | --- | ---: | ---: | ---: |
 | Berkadia (our 50% share) | $91 | $74 | $122 |
@@ -867,7 +850,6 @@ Marmon 的铁路车辆业务在 2016 年明显放缓，这会使 2017 年收益�
 | Total | $2,130 | $2,086 | $1,839 |
 
 **ZH**
-
 | 金融相关公司税前收益（百万美元） | 2016 | 2015 | 2014 |
 | --- | ---: | ---: | ---: |
 | Berkadia（我们 50% 份额） | $91 | $74 | $122 |
@@ -890,7 +872,6 @@ Investments. Berkshire lists its fifteen common stock investments with the large
 ## p76
 
 **EN**
-
 | Shares | Company | Percentage Owned | Cost | Market |
 | ---: | --- | ---: | ---: | ---: |
 | 151,610,700 | American Express Company | 16.8 | $1,287 | $11,231 |
@@ -912,7 +893,6 @@ Investments. Berkshire lists its fifteen common stock investments with the large
 | - | Total Common Stocks Carried at Market | - | $65,828 | $122,032 |
 
 **ZH**
-
 | 股数 | 公司 | 持股比例 | 成本 | 市值 |
 | ---: | --- | ---: | ---: | ---: |
 | 151,610,700 | American Express Company | 16.8 | $1,287 | $11,231 |
@@ -1024,7 +1004,6 @@ Results for the first nine years of the bet.
 ## p88
 
 **EN**
-
 | Year | Fund of Funds A | Fund of Funds B | Fund of Funds C | Fund of Funds D | Fund of Funds E | S&P Index Fund |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2008 | -16.5% | -22.3% | -21.3% | -29.3% | -30.1% | -37.0% |
@@ -1039,7 +1018,6 @@ Results for the first nine years of the bet.
 | Gain to Date | 8.7% | 28.3% | 62.8% | 2.9% | 7.5% | 85.4% |
 
 **ZH**
-
 | 年份 | 基金中的基金 A | 基金中的基金 B | 基金中的基金 C | 基金中的基金 D | 基金中的基金 E | 标普指数基金 |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | 2008 | -16.5% | -22.3% | -21.3% | -29.3% | -30.1% | -37.0% |

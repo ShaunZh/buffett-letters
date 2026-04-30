@@ -6,8 +6,8 @@
       "name_en": "National Indemnity Company",
       "name_zh": "国民赔偿公司",
       "blocks": [
-        "p9",
-        "p10"
+        "p10",
+        "p11"
       ]
     },
     {
@@ -15,7 +15,7 @@
       "name_en": "Cornhusker Casualty Company",
       "name_zh": "康哈斯克意外保险公司",
       "blocks": [
-        "p12"
+        "p13"
       ]
     },
     {
@@ -23,7 +23,7 @@
       "name_en": "Home and Automobile Insurance Company",
       "name_zh": "家庭和汽车保险公司",
       "blocks": [
-        "p13"
+        "p14"
       ]
     },
     {
@@ -31,10 +31,10 @@
       "name_en": "Illinois National Bank and Trust Company of Rockford",
       "name_zh": "伊利诺伊国民银行及信托公司",
       "blocks": [
-        "p24",
-        "p25",
         "p26",
-        "p27"
+        "p27",
+        "p28",
+        "p29"
       ]
     },
     {
@@ -42,8 +42,8 @@
       "name_en": "Blue Chip Stamps",
       "name_zh": "蓝筹邮票公司",
       "blocks": [
-        "p28",
-        "p29"
+        "p30",
+        "p31"
       ]
     },
     {
@@ -51,7 +51,7 @@
       "name_en": "K & W Products",
       "name_zh": "K&W Products",
       "blocks": [
-        "p31"
+        "p33"
       ]
     },
     {
@@ -59,7 +59,7 @@
       "name_en": "Diversified Retailing Company, Inc.",
       "name_zh": "多元化零售公司",
       "blocks": [
-        "p33"
+        "p35"
       ]
     },
     {
@@ -67,8 +67,9 @@
       "name_en": "Kaiser Industries, Inc.",
       "name_zh": "凯撒工业公司",
       "blocks": [
-        "p20",
-        "p22"
+        "p21",
+        "p22",
+        "p24"
       ]
     }
   ]

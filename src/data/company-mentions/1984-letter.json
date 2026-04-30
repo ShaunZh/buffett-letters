@@ -6,21 +6,21 @@
       "name_en": "GEICO Corporation",
       "name_zh": "GEICO保险公司",
       "blocks": [
-        "p8",
         "p9",
         "p10",
         "p11",
         "p12",
         "p13",
-        "p15",
+        "p14",
         "p16",
         "p17",
-        "p20",
+        "p18",
         "p21",
-        "p67",
+        "p22",
         "p68",
         "p69",
-        "p70"
+        "p70",
+        "p71"
       ]
     },
     {
@@ -28,14 +28,14 @@
       "name_en": "General Foods Corporation",
       "name_zh": "通用食品公司",
       "blocks": [
-        "p11",
         "p12",
         "p13",
         "p14",
         "p15",
         "p16",
-        "p20",
-        "p21"
+        "p17",
+        "p21",
+        "p22"
       ]
     },
     {
@@ -43,8 +43,8 @@
       "name_en": "Exxon Corporation",
       "name_zh": "埃克森公司",
       "blocks": [
-        "p20",
-        "p21"
+        "p21",
+        "p22"
       ]
     },
     {
@@ -52,8 +52,8 @@
       "name_en": "The Washington Post Company",
       "name_zh": "华盛顿邮报公司",
       "blocks": [
-        "p20",
-        "p21"
+        "p21",
+        "p22"
       ]
     },
     {
@@ -61,7 +61,6 @@
       "name_en": "Nebraska Furniture Mart",
       "name_zh": "内布拉斯加家具城",
       "blocks": [
-        "p24",
         "p25",
         "p26",
         "p27",
@@ -71,7 +70,8 @@
         "p31",
         "p32",
         "p33",
-        "p34"
+        "p34",
+        "p35"
       ]
     },
     {
@@ -79,8 +79,7 @@
       "name_en": "See's Candy Shops, Inc.",
       "name_zh": "喜诗糖果公司",
       "blocks": [
-        "p7",
-        "p35",
+        "p8",
         "p36",
         "p37",
         "p38",
@@ -89,7 +88,8 @@
         "p41",
         "p42",
         "p43",
-        "p44"
+        "p44",
+        "p45"
       ]
     },
     {
@@ -97,8 +97,7 @@
       "name_en": "Buffalo Evening News",
       "name_zh": "水牛城晚报",
       "blocks": [
-        "p7",
-        "p45",
+        "p8",
         "p46",
         "p47",
         "p48",
@@ -108,7 +107,8 @@
         "p52",
         "p53",
         "p54",
-        "p55"
+        "p55",
+        "p56"
       ]
     },
     {
@@ -116,9 +116,9 @@
       "name_en": "Wesco Financial",
       "name_zh": "韦斯科金融",
       "blocks": [
-        "p7",
-        "p21",
-        "p23"
+        "p8",
+        "p22",
+        "p24"
       ]
     },
     {
@@ -126,8 +126,8 @@
       "name_en": "Washington Public Power Supply System",
       "name_zh": "华盛顿公共电力供应系统",
       "blocks": [
-        "p88",
-        "p89"
+        "p90",
+        "p91"
       ]
     },
     {
@@ -135,7 +135,7 @@
       "name_en": "Columbia Insurance Company",
       "name_zh": "哥伦比亚保险公司",
       "blocks": [
-        "p66"
+        "p67"
       ]
     },
     {
@@ -143,9 +143,9 @@
       "name_en": "Blue Chip Stamps",
       "name_zh": "蓝筹印花公司",
       "blocks": [
-        "p6",
         "p7",
-        "p35"
+        "p8",
+        "p36"
       ]
     },
     {
@@ -153,8 +153,8 @@
       "name_en": "Levitz Furniture",
       "name_zh": "Levitz家具",
       "blocks": [
-        "p30",
-        "p31"
+        "p31",
+        "p32"
       ]
     }
   ]

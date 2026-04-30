@@ -647,6 +647,12 @@ Our Japanese purchases began on July 4, 2019. Given Berkshire's present size, bu
 **EN**
 Every quarter we issue a press release that reports our summarized operating earnings (or loss) in a manner similar to what is shown below. Here is the full-year compilation:
 
+**ZH**
+每个季度我们都会发布一份新闻稿，以类似于下表的方式报告我们汇总的营业利润（或亏损）。以下是全年汇总表：
+
+## p80
+
+**EN**
 | (in $ millions) | 2023 | 2022 |
 |----------------|------|------|
 | Insurance-underwriting | $5,428 | $(30) |
@@ -657,8 +663,6 @@ Every quarter we issue a press release that reports our summarized operating ear
 | Operating earnings | $37,350 | $30,853 |
 
 **ZH**
-每个季度我们都会发布一份新闻稿，以类似于下表的方式报告我们汇总的营业利润（或亏损）。以下是全年汇总表：
-
 |（单位：百万美元）| 2023 | 2022 |
 |----------------|------|------|
 | 保险承保 | 5,428 | (30) |
@@ -668,15 +672,47 @@ Every quarter we issue a press release that reports our summarized operating ear
 | 其他业务及杂项 | 14,937 | 14,549 |
 | 营业利润 | 37,350 | 30,853 |
 
-## p80
+## p81
 
 **EN**
-At Berkshire's annual gathering on May 6, 2023, I presented the first quarter's results which had been released early that morning. I followed with a short summary of the outlook for the full year: (1) most of our non-insurance businesses faced lower earnings in 2023; (2) that decline would be cushioned by decent results at our two largest non-insurance businesses, BNSF and Berkshire Hathaway Energy ("BHE") which, combined, had accounted for more than 30% of operating earnings in 2022; (3) our investment income was certain to materially grow because the huge U.S. Treasury bill position held by Berkshire had finally begun to pay us far more than the pittance we had been receiving and (4) insurance would likely do well, both because its underwriting earnings are not correlated to earnings elsewhere in the economy and, beyond that, property-casualty insurance prices had strengthened.
+At Berkshire's annual gathering on May 6, 2023, I presented the first quarter's results which had been released early that morning. I followed with a short summary of the outlook for the full year:
 
 **ZH**
-在 2023 年 5 月 6 日的伯克希尔年会上，我公布了当天早上发布的第一季度业绩。随后我对全年展望做了一个简短总结：（1）2023 年我们大多数非保险业务面临盈利下降；（2）这一下降将由我们最大的两个非保险业务 BNSF 和伯克希尔·哈撒韦能源公司（BHE）的良好业绩所缓冲，这两家公司在 2022 年合计占营业利润的 30% 以上；（3）我们的投资收益肯定会大幅增长，因为伯克希尔持有的大量美国国库券终于开始为我们支付远高于我们过去所获得的微薄收益；（4）保险业务可能会表现良好，既因为其承保收益与经济其他部分的收益不相关，除此之外，财产意外险的定价也已经走强。
+在 2023 年 5 月 6 日的伯克希尔年会上，我公布了当天早上发布的第一季度业绩。随后我对全年展望做了一个简短总结：
 
-## p81
+## p82
+
+**EN**
+(1) most of our non-insurance businesses faced lower earnings in 2023;
+
+**ZH**
+（1）2023 年我们大多数非保险业务面临盈利下降；
+
+## p83
+
+**EN**
+(2) that decline would be cushioned by decent results at our two largest non-insurance businesses, BNSF and Berkshire Hathaway Energy ("BHE") which, combined, had accounted for more than 30% of operating earnings in 2022;
+
+**ZH**
+（2）这一下降将由我们最大的两个非保险业务 BNSF 和伯克希尔·哈撒韦能源公司（BHE）的良好业绩所缓冲，这两家公司在 2022 年合计占营业利润的 30% 以上；
+
+## p84
+
+**EN**
+(3) our investment income was certain to materially grow because the huge U.S. Treasury bill position held by Berkshire had finally begun to pay us far more than the pittance we had been receiving and
+
+**ZH**
+（3）我们的投资收益肯定会大幅增长，因为伯克希尔持有的大量美国国库券终于开始为我们支付远高于我们过去所获得的微薄收益；
+
+## p85
+
+**EN**
+(4) insurance would likely do well, both because its underwriting earnings are not correlated to earnings elsewhere in the economy and, beyond that, property-casualty insurance prices had strengthened.
+
+**ZH**
+（4）保险业务可能会表现良好，既因为其承保收益与经济其他部分的收益不相关，除此之外，财产意外险的定价也已经走强。
+
+## p86
 
 **EN**
 Insurance came through as expected. I erred, however, in my expectations for both BNSF and BHE. Let's take a look at each.
@@ -684,7 +720,7 @@ Insurance came through as expected. I erred, however, in my expectations for bot
 **ZH**
 保险业务一如预期。然而，我错误地判断了 BNSF 和 BHE 的预期。让我们分别看一看。
 
-## p82
+## p87
 
 **EN**
 Rail is essential to America's economic future. It is clearly the most efficient way - measured by cost, fuel usage and carbon intensity - of moving heavy materials to distant destinations. Trucking wins for short hauls, but many goods that Americans need must travel to customers many hundreds or even several thousands of miles away. The country can't run without rail, and the industry's capital needs will always be huge. Indeed, compared to most American businesses, railroads eat capital.
@@ -692,7 +728,7 @@ Rail is essential to America's economic future. It is clearly the most efficient
 **ZH**
 铁路对美国的经济未来至关重要。以成本、燃料使用和碳强度来衡量，它是将重型物资运往遥远目的地的最有效方式。卡车运输在短途运输上取胜，但美国人需要的许多商品必须运送到数百甚至数千英里外的客户手中。没有铁路，这个国家就无法运转，并且该行业的资本需求将始终巨大。事实上，与大多数美国企业相比，铁路是吞噬资本的。
 
-## p83
+## p88
 
 **EN**
 BNSF is the largest of six major rail systems that blanket North America. Our railroad carries its 23,759 miles of main track, 99 tunnels, 13,495 bridges, 7,521 locomotives and assorted other fixed assets at $70 billion on its balance sheet. But my guess is that it would cost at least $500 billion to replicate those assets and decades to complete the job.
@@ -700,7 +736,7 @@ BNSF is the largest of six major rail systems that blanket North America. Our ra
 **ZH**
 BNSF 是覆盖北美的六大铁路系统之首。我们铁路的资产负债表上列有 23,759 英里的主干线、99 条隧道、13,495 座桥梁、7,521 台机车以及各类其他固定资产，账面价值 700 亿美元。但我猜，要复制这些资产至少需要 5000 亿美元，并且需要几十年才能完成。
 
-## p84
+## p89
 
 **EN**
 BNSF must annually spend more than its depreciation charge to simply maintain its present level of business. This reality is bad for owners, whatever the industry in which they have invested, but it is particularly disadvantageous in capital-intensive industries.
@@ -708,7 +744,7 @@ BNSF must annually spend more than its depreciation charge to simply maintain it
 **ZH**
 BNSF 每年仅仅为了维持当前的业务水平，就必须花费超过其折旧费用的资金。这一现实对所有者不利，无论他们投资于哪个行业，但在资本密集型行业中尤其不利。
 
-## p85
+## p90
 
 **EN**
 At BNSF, the outlays in excess of GAAP depreciation charges since our purchase 14 years ago have totaled a staggering $22 billion or more than $1.5 billion annually. Ouch! That sort of gap means BNSF dividends paid to Berkshire, its owner, will regularly fall considerably short of BNSF's reported earnings unless we regularly increase the railroad's debt. And that we do not intend to do.
@@ -716,7 +752,7 @@ At BNSF, the outlays in excess of GAAP depreciation charges since our purchase 1
 **ZH**
 在 BNSF，自我们 14 年前购买以来，超出 GAAP 折旧费用的支出总额已达到惊人的 220 亿美元，即每年超过 15 亿美元。哎哟！这种差距意味着 BNSF 向其所有者伯克希尔支付的股息将经常远低于 BNSF 的报告利润，除非我们定期增加铁路的债务。而我们不打算那样做。
 
-## p86
+## p91
 
 **EN**
 Consequently, Berkshire is receiving an acceptable return on its purchase price, though less than it might appear, and also a pittance on the replacement value of the property. That's no surprise to me or Berkshire's board of directors. It explains why we could buy BNSF in 2010 at a small fraction of its replacement value.
@@ -724,7 +760,7 @@ Consequently, Berkshire is receiving an acceptable return on its purchase price,
 **ZH**
 因此，伯克希尔从其购买价格中获得了尚可接受的回报，尽管比看起来的要少，并且从资产的替代价值中获得的回报微乎其微。这对我和伯克希尔的董事会来说并不意外。这解释了为什么我们能在 2010 年以替代价值的一小部分买下 BNSF。
 
-## p87
+## p92
 
 **EN**
 North America's rail system moves huge quantities of coal, grain, autos, imported and exported goods, etc. one-way for long distances and those trips often create a revenue problem for back-hauls. Weather conditions are extreme and frequently hamper or even stymie the utilization of track, bridges and equipment. Flooding can be a nightmare. None of this is a surprise. While I sit in an always-comfortable office, railroading is an outdoor activity with many employees working under trying and sometimes dangerous conditions.
@@ -732,7 +768,7 @@ North America's rail system moves huge quantities of coal, grain, autos, importe
 **ZH**
 北美的铁路系统单向长途运输大量煤炭、谷物、汽车、进出口商品等，而这些运输通常会给回程带来收入问题。天气条件极端，经常阻碍甚至阻止轨道、桥梁和设备的利用。洪水可能是一场噩梦。这些都不令人意外。当我坐在始终舒适的办公室里时，铁路运营是一项户外活动，许多员工在艰苦、有时甚至危险的条件下工作。
 
-## p88
+## p93
 
 **EN**
 An evolving problem is that a growing percentage of Americans are not looking for the difficult, and often lonely, employment conditions inherent in some rail operations. Engineers must deal with the fact that among an American population of 335 million, some forlorn or mentally-disturbed Americans are going to elect suicide by lying in front of a 100-car, extraordinarily heavy train that can't be stopped in less than a mile or more. Would you like to be the helpless engineer? This trauma happens about once a day in North America; it is far more common in Europe and will always be with us.
@@ -740,7 +776,7 @@ An evolving problem is that a growing percentage of Americans are not looking fo
 **ZH**
 一个逐渐显现的问题是，越来越多的美国人不愿意从事某些铁路运营固有的艰苦且常常孤独的工作条件。工程师必须面对这样一个事实：在 3.35 亿美国人口中，会有一些绝望或精神失常的人选择卧轨自杀，躺在由 100 节车厢组成的、异常沉重的、制动距离至少一英里的火车前面。你想成为那个无助的工程师吗？这种创伤在北美每天大约发生一次；在欧洲更为常见，并且将永远伴随着我们。
 
-## p89
+## p94
 
 **EN**
 Wage negotiations in the rail industry can end up in the hands of the President and Congress. Additionally, American railroads are required to carry many dangerous products every day that the industry would much rather avoid. The words “common carrier” define railroad responsibilities.
@@ -748,7 +784,7 @@ Wage negotiations in the rail industry can end up in the hands of the President 
 **ZH**
 铁路行业的工资谈判最终可能落到总统和国会手中。此外，美国的铁路被要求每天运输许多该行业宁愿避免的危险产品。“公共承运人”这个词定义了铁路的责任。
 
-## p90
+## p95
 
 **EN**
 Last year BNSF's earnings declined more than I expected, as revenues fell. Though fuel costs also fell, wage increases, promulgated in Washington, were far beyond the country's inflation goals. This differential may recur in future negotiations.
@@ -756,7 +792,7 @@ Last year BNSF's earnings declined more than I expected, as revenues fell. Thoug
 **ZH**
 去年，由于收入下降，BNSF 的利润下降幅度超过我的预期。尽管燃料成本也下降了，但由华盛顿颁布的工资增长远远超出了国家的通胀目标。这种差异可能会在未来的谈判中再次出现。
 
-## p91
+## p96
 
 **EN**
 Though BNSF carries more freight and spends more on capital expenditures than any of the five other major North American railroads, its profit margins have slipped relative to all five since our purchase. I believe that our vast service territory is second to none and that therefore our margin comparisons can and should improve.
@@ -764,7 +800,7 @@ Though BNSF carries more freight and spends more on capital expenditures than an
 **ZH**
 尽管 BNSF 运输的货物量比北美其他五大铁路公司中的任何一家都多，资本支出也更多，但自我们购买以来，它的利润率相对于所有五家都下降了。我相信我们广阔的服务区域是无与伦比的，因此我们的利润率比较能够而且应该改善。
 
-## p92
+## p97
 
 **EN**
 I am particularly proud of both BNSF's contribution to the country and the people who work in sub-zero outdoor jobs in North Dakota and Montana winters to keep America's commercial arteries open. Railroads don't get much attention when they are working but, were they unavailable, the void would be noticed immediately throughout America.
@@ -772,7 +808,7 @@ I am particularly proud of both BNSF's contribution to the country and the peopl
 **ZH**
 我尤其为 BNSF 对国家的贡献，以及在北达科他州和蒙大拿州冬季在零度以下的户外工作以保持美国商业动脉畅通的人们感到自豪。铁路在运行时不会得到太多关注，但如果它们不可用，整个美国会立即注意到这一空白。
 
-## p93
+## p98
 
 **EN**
 A century from now, BNSF will continue to be a major asset of the country and of Berkshire. You can count on that.
@@ -780,7 +816,7 @@ A century from now, BNSF will continue to be a major asset of the country and of
 **ZH**
 一个世纪后，BNSF 将继续成为国家和伯克希尔的主要资产。你可以对此确信无疑。
 
-## p94
+## p99
 
 **EN**
 Our second and even more severe earnings disappointment last year occurred at BHE. Most of its large electric-utility businesses, as well as its extensive gas pipelines, performed about as expected. But the regulatory climate in a few states has raised the specter of zero profitability or even bankruptcy (an actual outcome at California's largest utility and a current threat in Hawaii). In such jurisdictions, it is difficult to project both earnings and asset values in what was once regarded as among the most stable industries in America.
@@ -788,7 +824,7 @@ Our second and even more severe earnings disappointment last year occurred at BH
 **ZH**
 我们去年的第二个、甚至更严重的盈利失望出现在 BHE。其大部分大型电力公用事业业务以及广泛的天然气管道，表现大致符合预期。但少数几个州的监管环境引发了零盈利甚至破产的幽灵（加州最大公用事业公司的实际结果，以及夏威夷当前的威胁）。在这些司法管辖区，曾经被认为是美国最稳定的行业之一，现在很难预测盈利和资产价值。
 
-## p95
+## p100
 
 **EN**
 For more than a century, electric utilities raised huge sums to finance their growth through a state-by-state promise of a fixed return on equity (sometimes with a small bonus for superior performance). With this approach, massive investments were made for capacity that would likely be required a few years down the road. That forward-looking regulation reflected the reality that utilities build generating and transmission assets that often take many years to construct. BHE's extensive multi-state transmission project in the West was initiated in 2006 and remains some years from completion. Eventually, it will serve 10 states comprising 30% of the acreage in the continental United States.
@@ -796,7 +832,7 @@ For more than a century, electric utilities raised huge sums to finance their gr
 **ZH**
 一个多世纪以来，电力公司通过州政府逐州承诺的固定股权回报率（有时对优异表现给予小额奖励）筹集巨额资金来为其增长提供融资。通过这种方法，针对几年后可能需要的能力进行了大规模投资。这种前瞻性的监管反映了公用事业公司建设发电和输电资产通常需要多年时间的事实。BHE 在西部的广泛多州输电项目于 2006 年启动，距离完工还有几年。最终，它将服务于 10 个州，占美国本土面积的 30%。
 
-## p96
+## p101
 
 **EN**
 With this model employed by both private and public-power systems, the lights stayed on, even if population growth or industrial demand exceeded expectations. The “margin of safety” approach seemed sensible to regulators, investors and the public. Now, the fixed-but-satisfactory-return pact has been broken in a few states, and investors are becoming apprehensive that such ruptures may spread. Climate change adds to their worries. Underground transmission may be required but who, a few decades ago, wanted to pay the staggering costs for such construction?
@@ -804,7 +840,7 @@ With this model employed by both private and public-power systems, the lights st
 **ZH**
 在私人和公共电力系统都采用这种模式的情况下，即使用户增长或工业需求超出预期，灯光也从未熄灭。这种“安全边际”的做法对监管者、投资者和公众来说似乎是明智的。如今，固定但令人满意的回报契约在几个州被打破，投资者开始担心这种破裂可能会蔓延。气候变化加剧了他们的担忧。可能需要地下输电，但几十年前，谁愿意为这种建设支付惊人的费用？
 
-## p97
+## p102
 
 **EN**
 At Berkshire, we have made a best estimate for the amount of losses that have occurred. These costs arose from forest fires, whose frequency and intensity have increased - and will likely continue to increase - if convective storms become more frequent.
@@ -812,7 +848,7 @@ At Berkshire, we have made a best estimate for the amount of losses that have oc
 **ZH**
 在伯克希尔，我们对已发生的损失金额做出了最佳估计。这些成本源于森林火灾，如果对流风暴变得更加频繁，森林火灾的频率和强度已经增加，并且可能还会继续增加。
 
-## p98
+## p103
 
 **EN**
 It will be many years until we know the final tally from BHE's forest-fire losses and can intelligently make decisions about the desirability of future investments in vulnerable western states. It remains to be seen whether the regulatory environment will change elsewhere.
@@ -820,7 +856,7 @@ It will be many years until we know the final tally from BHE's forest-fire losse
 **ZH**
 我们需要很多年才能知道 BHE 森林火灾损失的最终数字，并能够明智地决定未来在脆弱的西部各州进行投资的合意性。其他地方的监管环境是否会改变，还有待观察。
 
-## p99
+## p104
 
 **EN**
 Other electric utilities may face survival problems resembling those of Pacific Gas and Electric and Hawaiian Electric. A confiscatory resolution of our present problems would obviously be a negative for BHE, but both that company and Berkshire itself are structured to survive negative surprises. We regularly get these in our insurance business, where our basic product is risk assumption, and they will occur elsewhere. Berkshire can sustain financial surprises but we will not knowingly throw good money after bad.
@@ -828,7 +864,7 @@ Other electric utilities may face survival problems resembling those of Pacific 
 **ZH**
 其他电力公司可能面临类似于太平洋天然气和电力公司以及夏威夷电力公司的生存问题。对我们当前问题的没收性解决方案显然会对 BHE 不利，但该公司和伯克希尔本身的结构设计都能够承受负面冲击。我们在保险业务中经常遇到这种情况，因为我们的基本产品就是风险承担，并且这种情况也会发生在其他地方。伯克希尔能够承受财务上的意外，但我们不会明知故犯地把好钱扔进坏钱。
 
-## p100
+## p105
 
 **EN**
 Whatever the case at Berkshire, the final result for the utility industry may be ominous: Certain utilities might no longer attract the savings of American citizens and will be forced to adopt the public-power model. Nebraska made this choice in the 1930s and there are many public-power operations throughout the country. Eventually, voters, taxpayers and users will decide which model they prefer.
@@ -836,7 +872,7 @@ Whatever the case at Berkshire, the final result for the utility industry may be
 **ZH**
 无论伯克希尔的情况如何，公用事业行业的最终结果可能是不祥的：某些公用事业公司可能不再吸引美国公民的储蓄，并将被迫采用公共电力模式。内布拉斯加州在 1930 年代做出了这一选择，并且全国各地有许多公共电力运营机构。最终，选民、纳税人和用户将决定他们更喜欢哪种模式。
 
-## p101
+## p106
 
 **EN**
 When the dust settles, America's power needs and the consequent capital expenditure will be staggering. I did not anticipate or even consider the adverse developments in regulatory returns and, along with Berkshire's two partners at BHE, I made a costly mistake in not doing so.
@@ -844,7 +880,7 @@ When the dust settles, America's power needs and the consequent capital expendit
 **ZH**
 当尘埃落定时，美国的电力需求以及随之而来的资本支出将是惊人的。我没有预料到甚至没有考虑到监管回报的不利发展，并且与伯克希尔在 BHE 的两个合作伙伴一起，我因为没有这样做而犯了一个代价高昂的错误。
 
-## p102
+## p107
 
 **EN**
 Enough about problems: Our insurance business performed exceptionally well last year, setting records in sales, float and underwriting profits. Property-casualty insurance ("P/C") provides the core of Berkshire's well-being and growth. We have been in the business for 57 years and despite our nearly 5,000-fold increase in volume - from $17 million to $83 billion - we have much room to grow.
@@ -852,7 +888,7 @@ Enough about problems: Our insurance business performed exceptionally well last 
 **ZH**
 关于问题的部分就到此为止：我们的保险业务去年表现异常出色，在销售额、浮存金和承保利润方面都创下了纪录。财产意外险是伯克希尔福祉和增长的核心。我们已经在这个行业经营了 57 年，尽管我们的业务量增长了近 5000 倍——从 1700 万美元到 830 亿美元——我们仍有很大的增长空间。
 
-## p103
+## p108
 
 **EN**
 Beyond that, we have learned - too often, painfully - a good deal about what types of insurance business and what sort of people to avoid. The most important lesson is that our underwriters can be thin, fat, male, female, young, old, foreign or domestic. But they can't be optimists at the office, however desirable that quality may generally be in life.
@@ -860,7 +896,7 @@ Beyond that, we have learned - too often, painfully - a good deal about what typ
 **ZH**
 除此之外，我们学到了——往往是以痛苦的方式——很多关于应该避免哪些类型的保险业务以及哪些类型的人。最重要的教训是，我们的核保人员可以瘦、胖、男、女、年轻、年长、外国人或本国人。但他们在办公室不能是乐观主义者，无论这种品质在生活中通常是多么可取。
 
-## p104
+## p109
 
 **EN**
 Surprises in the P/C business - which can occur decades after six-month or one-year policies have expired - are almost always negative. The industry's accounting is designed to recognize this reality, but estimation mistakes can be huge. And when charlatans are involved, detection is often both slow and costly. Berkshire will always attempt to be accurate in its estimates of future loss payments but inflation - both monetary and the "legal" variety - is a wild card.
@@ -868,7 +904,7 @@ Surprises in the P/C business - which can occur decades after six-month or one-y
 **ZH**
 财产意外险业务中的意外——可能在六个月或一年期保单到期几十年后发生——几乎总是负面的。该行业的会计制度旨在认识到这一现实，但估计错误可能非常巨大。而当骗子介入时，发现往往既缓慢又代价高昂。伯克希尔将始终努力准确估计未来的赔付金额，但通货膨胀——无论是货币性的还是“法律”性的——都是一张万能牌。
 
-## p105
+## p110
 
 **EN**
 I've told the story of our insurance operations so many times that I will simply direct newcomers to page 18. Here, I will only repeat that our position would not be what it is if Ajit Jain had not joined Berkshire in 1986. Before that lucky day - aside from an almost unbelievably wonderful experience with GEICO that began early in 1951 and will never end - I was largely wandering in the wilderness, as I struggled to build our insurance operation.
@@ -876,7 +912,7 @@ I've told the story of our insurance operations so many times that I will simply
 **ZH**
 我已经讲过很多次我们保险业务的故事了，这里我只是简单地把新读者引导到第 18 页。在这里，我只想重复一点：如果没有 Ajit Jain 在 1986 年加入伯克希尔，我们的境况就不会是今天这样。在那个幸运的日子之前——除了 1951 年初开始的与 GEICO 的几乎难以置信的美好经历，这种经历永远不会结束——我在努力建立我们的保险业务时，基本上是在荒野中徘徊。
 
-## p106
+## p111
 
 **EN**
 Ajit's achievements since joining Berkshire have been supported by a large cast of hugely-talented insurance executives in our various P/C operations. Their names and faces are unknown to most of the press and the public. Berkshire's lineup of managers, however, is to P/C insurance what Cooperstown's honorees are to baseball.
@@ -884,7 +920,7 @@ Ajit's achievements since joining Berkshire have been supported by a large cast 
 **ZH**
 Ajit 加入伯克希尔以来取得的成就，得到了我们各个财产意外险业务部门一大批才华横溢的保险高管的支持。他们的名字和面孔不为大多数媒体和公众所知。然而，伯克希尔的管理者阵容之于财产意外险，就如同库珀stown 的荣誉者之于棒球。
 
-## p107
+## p112
 
 **EN**
 Bertie, you can feel good about the fact that you own a piece of an incredible P/C operation that now operates worldwide with unmatched financial resources, reputation and talent. It carried the day in 2023.
@@ -892,7 +928,7 @@ Bertie, you can feel good about the fact that you own a piece of an incredible P
 **ZH**
 伯蒂，你可以感到高兴的是，你拥有一家不可思议的财产意外险业务的一部分，它现在在全球范围内运营，拥有无与伦比的财务资源、声誉和人才。它在 2023 年取得了胜利。
 
-## p108
+## p113
 
 **EN**
 ## What is it with Omaha?
@@ -900,7 +936,7 @@ Bertie, you can feel good about the fact that you own a piece of an incredible P
 **ZH**
 ## 奥马哈到底有什么特别？
 
-## p109
+## p114
 
 **EN**
 Come to Berkshire's annual gathering on May 4, 2024. On stage you will see the three managers who now bear the prime responsibilities for steering your company. What, you may wonder, do the three have in common? They certainly don't look alike. Let's dig deeper.
@@ -908,7 +944,7 @@ Come to Berkshire's annual gathering on May 4, 2024. On stage you will see the t
 **ZH**
 来参加 2024 年 5 月 4 日的伯克希尔年度股东大会吧。在台上，你会看到现在承担领导公司主要责任的三位管理者。你可能会想，这三位有什么共同点？他们看起来肯定不像。让我们更深入地了解一下。
 
-## p110
+## p115
 
 **EN**
 Greg Abel, who runs all non-insurance operations for Berkshire - and in all respects is ready to be CEO of Berkshire tomorrow - was born and raised in Canada (he still plays hockey). In the 1990s, however, Greg lived for six years in Omaha just a few blocks away from me. During that period, I never met him.
@@ -916,7 +952,7 @@ Greg Abel, who runs all non-insurance operations for Berkshire - and in all resp
 **ZH**
 Greg Abel 负责伯克希尔所有非保险业务的运营——并且在各方面都准备好明天就成为伯克希尔的 CEO——他在加拿大出生并长大（他仍然打曲棍球）。然而，在 1990 年代，Greg 在奥马哈住了六年，离我家只有几个街区。在那段时间里，我从未见过他。
 
-## p111
+## p116
 
 **EN**
 A decade or so earlier, Ajit Jain, who was born, raised and educated in India, lived with his family in Omaha only a mile or so from my home (where I've lived since 1958). Both Ajit and his wife, Tinku, have many Omaha friends, though it's been more than three decades since they moved to New York (in order to be where much of the action in reinsurance takes place).
@@ -924,7 +960,7 @@ A decade or so earlier, Ajit Jain, who was born, raised and educated in India, l
 **ZH**
 大约十年前，Ajit Jain 在印度出生、长大并接受教育，他曾与家人在奥马哈居住，离我家（我自 1958 年以来一直住在那里）只有大约一英里。Ajit 和他的妻子 Tinku 在奥马哈有很多朋友，尽管他们搬到纽约（为了去再保险业务活跃的地方）已经三十多年了。
 
-## p112
+## p117
 
 **EN**
 Missing from the stage this year will be Charlie. He and I were both born in Omaha about two miles from where you will sit at our May get-together. In his first ten years, Charlie lived about a half-mile from where Berkshire has long maintained its office. Both Charlie and I spent our early years in Omaha public schools and were indelibly shaped by our Omaha childhood. We didn't meet, however, until much later. (A footnote that may surprise you: Charlie lived under 15 of America's 45 presidents. People refer to President Biden as #46, but that numbering counts Grover Cleveland as both #22 and #24 because his terms were not consecutive. America is a very young country.)
@@ -932,7 +968,7 @@ Missing from the stage this year will be Charlie. He and I were both born in Oma
 **ZH**
 今年将缺席舞台的是查理。我和他都出生在奥马哈，离我们五月聚会时你们将坐的地方大约两英里。在他生命中的头十年，查理住在离伯克希尔长期设办公室的地方大约半英里的地方。查理和我都在奥马哈的公立学校度过了我们的早年时光，并且被我们的奥马哈童年不可磨灭地塑造了。然而，我们直到很久以后才相遇。（一个可能会让你惊讶的脚注：查理见证了美国 45 位总统中的 15 位执政时期。人们称拜登总统为第 46 任，但这种编号把格罗弗·克利夫兰同时算作第 22 任和第 24 任，因为他的两届任期不是连续的。美国是一个非常年轻的国家。）
 
-## p113
+## p118
 
 **EN**
 Moving to the corporate level, Berkshire itself relocated in 1970 from its 81 years of residence in New England to settle in Omaha, leaving its troubles behind and blossoming in its new home.
@@ -940,7 +976,7 @@ Moving to the corporate level, Berkshire itself relocated in 1970 from its 81 ye
 **ZH**
 再来看公司层面，伯克希尔本身在 1970 年从它居住了 81 年的新英格兰搬迁到奥马哈定居，把麻烦抛在身后，在新家蓬勃发展。
 
-## p114
+## p119
 
 **EN**
 As a final punctuation point to the “Omaha Effect,” Bertie - yes that Bertie - spent her early formative years in a middle-class neighborhood in Omaha and, many decades later, emerged as one of the country's great investors.
@@ -948,7 +984,7 @@ As a final punctuation point to the “Omaha Effect,” Bertie - yes that Bertie
 **ZH**
 作为“奥马哈效应”的最后一个注脚，伯蒂——是的，就是那位伯蒂——在奥马哈的一个中产阶级社区度过了她早期的成长岁月，几十年后，她成为了美国伟大的投资者之一。
 
-## p115
+## p120
 
 **EN**
 You may be thinking that she put all of her money in Berkshire and then simply sat on it. But that's not true. After starting a family in 1956, Bertie was active financially for 20 years: holding bonds, putting 1/3 of her funds in a publicly-held mutual fund and trading stocks with some frequency. Her potential remained unnoticed.
@@ -956,7 +992,7 @@ You may be thinking that she put all of her money in Berkshire and then simply s
 **ZH**
 你可能会认为，她把所有的钱都投进了伯克希尔，然后只是坐着不动。但事实并非如此。1956 年组建家庭后，伯蒂在财务上活跃了 20 年：持有债券，将她资金的 1/3 投入一只公开持有的共同基金，并较为频繁地交易股票。她的潜力一直未被发现。
 
-## p116
+## p121
 
 **EN**
 Then, in 1980, when 46, and independent of any urgings from her brother, Bertie decided to make her move. Retaining only the mutual fund and Berkshire, she made no new trades during the next 43 years. During that period, she became very rich, even after making large philanthropic gifts (think nine figures).
@@ -964,7 +1000,7 @@ Then, in 1980, when 46, and independent of any urgings from her brother, Bertie 
 **ZH**
 然后，在 1980 年，46 岁时，没有受到她哥哥的任何催促，伯蒂决定采取行动。她只保留了共同基金和伯克希尔，在接下来的 43 年里没有进行任何新的交易。在此期间，即使进行了大量的慈善捐赠（想想九位数），她变得非常富有。
 
-## p117
+## p122
 
 **EN**
 Millions of American investors could have followed her reasoning which involved only the common sense she had somehow absorbed as a child in Omaha. And, taking no chances, Bertie returns to Omaha every May to be re-energized.
@@ -972,7 +1008,7 @@ Millions of American investors could have followed her reasoning which involved 
 **ZH**
 数百万美国投资者本来可以遵循她的推理，这种推理仅仅涉及她小时候在奥马哈以某种方式吸收的常识。而且，为了确保万无一失，伯蒂每年五月都会回到奥马哈重新充电。
 
-## p118
+## p123
 
 **EN**
 So what is going on? Is it Omaha's water? Is it Omaha's air? Is it some strange planetary phenomenon akin to that which has produced Jamaica's sprinters, Kenya's marathon runners, or Russia's chess experts? Must we wait until AI someday yields the answer to this puzzle?
@@ -980,7 +1016,7 @@ So what is going on? Is it Omaha's water? Is it Omaha's air? Is it some strange 
 **ZH**
 那么，到底是怎么回事？是奥马哈的水？是奥马哈的空气？还是一种奇怪的行星现象，类似产生牙买加短跑运动员、肯尼亚马拉松运动员或俄罗斯国际象棋专家的那种现象？我们必须等到有一天人工智能给出这个谜题的答案吗？
 
-## p119
+## p124
 
 **EN**
 Keep an open mind. Come to Omaha in May, inhale the air, drink the water and say “hi” to Bertie and her good-looking daughters. Who knows? There is no downside, and, in any event, you will have a good time and meet a huge crowd of friendly people.
@@ -988,7 +1024,7 @@ Keep an open mind. Come to Omaha in May, inhale the air, drink the water and say
 **ZH**
 保持开放的心态。五月来奥马哈，呼吸空气，喝水，向伯蒂和她漂亮的女儿们问好。谁知道呢？这没有坏处，无论如何，你会玩得很开心，并遇到一大群友好的人。
 
-## p120
+## p125
 
 **EN**
 To top things off, we will have available the new 4th edition of Poor Charlie's Almanack. Pick up a copy. Charlie's wisdom will improve your life as it has mine.
@@ -996,11 +1032,17 @@ To top things off, we will have available the new 4th edition of Poor Charlie's 
 **ZH**
 更棒的是，我们将提供新的第四版《穷查理宝典》。拿一本吧。查理的智慧会改善你的生活，就像它改善了我的生活一样。
 
-## p121 
+## p126
 
 **EN**
 ### Berkshire’s Performance vs. the S&P 500
 
+**ZH**
+### 伯克希尔 vs. 标普500 业绩表现
+
+## p127
+
+**EN**
 | Year | Annual Percentage Change in Per-Share Market Value of Berkshire | Annual Percentage Change in S&P 500 with Dividends Included |
 |------|------------------------------------------------------------------|---------------------------------------------------------------|
 | 1965 | 49.5 | 10.0 |
@@ -1065,11 +1107,7 @@ To top things off, we will have available the new 4th edition of Poor Charlie's 
 | **Compounded Annual Gain – 1965-2023** | 19.8%                       | 10.2%  |
 | **Overall Gain – 1964-2023** | 4,384,748%                  | 31,223%                       |
 
-**Note:** Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31.
-
 **ZH**
-### 伯克希尔 vs. 标普500 业绩表现
-
 | 年份 | 伯克希尔每股市场价值年度变化百分比 | 包含股息的标普500年度变化百分比 |
 |------|-------------|--------------|
 | 1965 | 49.5 | 10.0 |
@@ -1134,4 +1172,10 @@ To top things off, we will have available the new 4th edition of Poor Charlie's 
 | **1965-2023 年复合年增长率** | 19.8%  | 10.2%  |
 | **1964-2023 年总收益率** | 4,384,748%                       | 31,223%                          |
 
+## p128
+
+**EN**
+**Note:** Data are for calendar years with these exceptions: 1965 and 1966, year ended 9/30; 1967, 15 months ended 12/31.
+
+**ZH**
 **注：** 数据为日历年度，但以下例外：1965 和 1966 年截至 9 月 30 日；1967 年为截至 12 月 31 日的 15 个月。

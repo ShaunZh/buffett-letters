@@ -6,8 +6,8 @@
       "name_en": "National Indemnity Company",
       "name_zh": "国民赔偿公司",
       "blocks": [
-        "p9",
-        "p10"
+        "p10",
+        "p11"
       ]
     },
     {
@@ -15,7 +15,7 @@
       "name_en": "National Fire and Marine Insurance Company",
       "name_zh": "国民火灾与海运保险公司",
       "blocks": [
-        "p10"
+        "p11"
       ]
     },
     {
@@ -23,9 +23,9 @@
       "name_en": "Home and Automobile Insurance Company",
       "name_zh": "家庭与汽车保险公司",
       "blocks": [
-        "p13",
         "p14",
-        "p15"
+        "p15",
+        "p16"
       ]
     },
     {
@@ -33,9 +33,9 @@
       "name_en": "Illinois National Bank & Trust Co. of Rockford",
       "name_zh": "伊利诺伊国家银行与信托公司",
       "blocks": [
-        "p18",
         "p19",
-        "p20"
+        "p20",
+        "p21"
       ]
     },
     {
@@ -43,10 +43,10 @@
       "name_en": "Diversified Retailing Company, Inc.",
       "name_zh": "多元零售公司",
       "blocks": [
-        "p21",
         "p22",
         "p23",
-        "p25"
+        "p24",
+        "p26"
       ]
     },
     {
@@ -54,14 +54,14 @@
       "name_en": "Blue Chip Stamps",
       "name_zh": "蓝筹印花公司",
       "blocks": [
-        "p23",
         "p24",
         "p25",
         "p26",
         "p27",
         "p28",
         "p29",
-        "p30"
+        "p30",
+        "p31"
       ]
     },
     {
@@ -69,8 +69,8 @@
       "name_en": "See's Candy Shops Incorporated",
       "name_zh": "See's 糖果公司",
       "blocks": [
-        "p29",
-        "p30"
+        "p30",
+        "p31"
       ]
     },
     {
@@ -78,8 +78,8 @@
       "name_en": "Wesco Financial Corporation",
       "name_zh": "韦斯科金融公司",
       "blocks": [
-        "p29",
-        "p30"
+        "p30",
+        "p31"
       ]
     },
     {
@@ -87,11 +87,11 @@
       "name_en": "Sun Newspapers, Inc.",
       "name_zh": "太阳报业公司",
       "blocks": [
-        "p31",
         "p32",
         "p33",
         "p34",
-        "p35"
+        "p35",
+        "p36"
       ]
     }
   ]
