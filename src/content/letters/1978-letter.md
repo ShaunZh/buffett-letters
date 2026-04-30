@@ -2,6 +2,7 @@
 title: "1978 Letter to Shareholders"
 title_zh: "1978 年致股东信"
 slug: "1978-letter"
+sourceUrl: https://www.berkshirehathaway.com/letters/1978.html
 date: "1979-03-26"
 type: "shareholder-letter"
 tags:

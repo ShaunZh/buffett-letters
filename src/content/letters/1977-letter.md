@@ -2,6 +2,7 @@
 title: 1977 Letter to Shareholders
 title_zh: 1977 年致股东信
 slug: 1977-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1977.html
 date: 1978-03-14
 type: shareholder-letter
 tags:

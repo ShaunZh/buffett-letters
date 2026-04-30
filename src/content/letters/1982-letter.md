@@ -2,6 +2,7 @@
 title: 1982 Letter to Shareholders
 title_zh: 1982 年致股东信
 slug: 1982-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1982.html
 date: 1983-03-03
 type: shareholder-letter
 tags:

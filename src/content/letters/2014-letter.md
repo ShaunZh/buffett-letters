@@ -2,6 +2,7 @@
 title: 2014 Letter to Shareholders
 title_zh: 2014 年致股东信
 slug: 2014-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2014ltr.pdf
 date: 2015-02-27
 type: shareholder-letter
 tags:

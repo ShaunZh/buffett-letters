@@ -2,6 +2,7 @@
 title: 2005 Letter to Shareholders
 title_zh: 2005 年致股东信
 slug: 2005-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2005ltr.pdf
 date: 2006-02-28
 type: shareholder-letter
 tags:

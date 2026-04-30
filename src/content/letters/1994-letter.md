@@ -2,6 +2,7 @@
 title: 1994 Letter to Shareholders
 title_zh: 1994 年致股东信
 slug: 1994-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1994.html
 date: 1995-03-07
 type: shareholder-letter
 tags:

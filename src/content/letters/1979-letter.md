@@ -2,6 +2,7 @@
 title: 1979 Letter to Shareholders
 title_zh: 1979年致股东信
 slug: 1979-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1979.html
 date: 1980-03-03
 type: shareholder-letter
 tags:

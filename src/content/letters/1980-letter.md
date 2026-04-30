@@ -2,6 +2,7 @@
 title: 1980 Letter to Shareholders
 title_zh: 1980 年致股东信
 slug: 1980-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1980.html
 date: 1981-03-01
 type: shareholder-letter
 tags:

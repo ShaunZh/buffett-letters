@@ -2,6 +2,7 @@
 title: 1990 Letter to Shareholders
 title_zh: 1990 年致股东信
 slug: 1990-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1990.html
 date: 1991-03-01
 type: shareholder-letter
 tags:

@@ -2,6 +2,7 @@
 title: 2002 Letter to Shareholders
 title_zh: 2002 年致股东信
 slug: 2002-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2002.html
 date: 2003-02-21
 type: shareholder-letter
 tags:

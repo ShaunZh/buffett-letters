@@ -2,6 +2,7 @@
 title: 2018 Letter to Shareholders
 title_zh: 2018 年致股东信
 slug: 2018-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2018ltr.pdf
 date: 2019-02-23
 type: shareholder-letter
 tags:

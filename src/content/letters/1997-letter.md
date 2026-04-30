@@ -2,6 +2,7 @@
 title: 1997 Letter to Shareholders
 title_zh: 1997 年致股东信
 slug: 1997-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1997.html
 date: 1998-03-01
 type: shareholder-letter
 tags:

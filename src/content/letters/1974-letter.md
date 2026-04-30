@@ -2,6 +2,7 @@
 title: 1974 Letter to Shareholders
 title_zh: 1974 年致股东信
 slug: 1974-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1974.html
 date: 1975-03-31
 type: shareholder-letter
 tags:

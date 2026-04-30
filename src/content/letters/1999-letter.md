@@ -2,6 +2,7 @@
 title: 1999 Letter to Shareholders
 title_zh: 1999 年致股东信
 slug: 1999-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1999.html
 date: 2000-03-01
 type: shareholder-letter
 tags:

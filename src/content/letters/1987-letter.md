@@ -2,6 +2,7 @@
 title: "1987 Letter to Shareholders"
 title_zh: "1987年致股东信"
 slug: "1987-letter"
+sourceUrl: https://www.berkshirehathaway.com/letters/1987.html
 date: 1988-02-29
 type: shareholder-letter
 tags:

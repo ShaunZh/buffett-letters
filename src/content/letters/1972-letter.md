@@ -2,6 +2,7 @@
 title: 1972 Letter to Shareholders
 title_zh: 1972 年致股东信
 slug: 1972-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1972.html
 date: 1973-03-16
 type: shareholder-letter
 tags:

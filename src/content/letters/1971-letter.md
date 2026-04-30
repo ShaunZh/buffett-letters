@@ -2,6 +2,7 @@
 title: 1971 Letter to Shareholders
 title_zh: 1971 年致股东信
 slug: 1971-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1971.html
 date: 1972-03-13
 type: shareholder-letter
 tags:

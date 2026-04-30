@@ -2,6 +2,7 @@
 title: 2004 Letter to Shareholders
 title_zh: 2004 年致股东信
 slug: 2004-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2004ltr.pdf
 date: 2005-02-28
 type: shareholder-letter
 tags:

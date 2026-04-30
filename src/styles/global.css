@@ -1036,7 +1036,6 @@ a {
   border-bottom: 1px solid rgba(36, 31, 26, 0.1);
   text-align: left;
   vertical-align: top;
-  white-space: nowrap;
 }
 
 .rich-table th {
@@ -1044,11 +1043,23 @@ a {
   font-size: 0.83rem;
   letter-spacing: 0.04em;
   color: var(--muted);
+  white-space: normal;
+  text-wrap: balance;
+  line-height: 1.35;
+}
+
+.rich-table td {
+  white-space: nowrap;
 }
 
 .rich-table th:not(:first-child),
 .rich-table td:not(:first-child) {
   text-align: right;
+}
+
+.rich-table th:first-child,
+.rich-table td:first-child {
+  white-space: normal;
 }
 
 .rich-table tbody tr:last-child td {

@@ -2,6 +2,7 @@
 title: 2011 Letter to Shareholders
 title_zh: 2011 年致股东信
 slug: 2011-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2011ltr.pdf
 date: 2012-02-25
 type: shareholder-letter
 tags:

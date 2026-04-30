@@ -2,6 +2,7 @@
 title: 2021 Letter to Shareholders
 title_zh: 2021 年致股东信
 slug: 2021-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2021ltr.pdf
 date: 2022-02-26
 type: shareholder-letter
 tags:

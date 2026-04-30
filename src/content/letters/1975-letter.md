@@ -2,6 +2,7 @@
 title: "1975 Letter to Shareholders"
 title_zh: "1975 年致股东信"
 slug: "1975-letter"
+sourceUrl: https://www.berkshirehathaway.com/letters/1975.html
 date: "1976-02-28"
 type: "shareholder-letter"
 tags:

@@ -2,6 +2,7 @@
 title: 2008 Letter to Shareholders
 title_zh: 2008 年致股东信
 slug: 2008-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2008ltr.pdf
 date: 2009-02-27
 type: shareholder-letter
 tags:

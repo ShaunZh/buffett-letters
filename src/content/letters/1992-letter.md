@@ -2,6 +2,7 @@
 title: 1992 Letter to Shareholders
 title_zh: 1992年致股东信
 slug: 1992-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1992.html
 date: 1993-03-01
 type: shareholder-letter
 tags:

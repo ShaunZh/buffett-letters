@@ -2,6 +2,7 @@
 title: 2003 Letter to Shareholders
 title_zh: 2003 年致股东信
 slug: 2003-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/2003ltr.pdf
 date: 2004-02-27
 type: shareholder-letter
 tags:

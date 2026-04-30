@@ -2,6 +2,7 @@
 title: 1988 Letter to Shareholders
 title_zh: 1988 年致股东信
 slug: 1988-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1988.html
 date: 1989-02-28
 type: shareholder-letter
 tags:

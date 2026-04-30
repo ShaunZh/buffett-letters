@@ -2,6 +2,7 @@
 title: 1989 Letter to Shareholders
 title_zh: 1989 年致股东信
 slug: 1989-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1989.html
 date: 1990-03-02
 type: shareholder-letter
 tags:

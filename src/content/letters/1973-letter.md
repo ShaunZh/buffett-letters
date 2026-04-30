@@ -2,6 +2,7 @@
 title: 1973 Letter to Shareholders
 title_zh: 1973 年致股东信
 slug: 1973-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1973.html
 date: 1974-03-29
 type: shareholder-letter
 tags:

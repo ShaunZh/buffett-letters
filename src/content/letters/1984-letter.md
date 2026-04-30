@@ -2,6 +2,7 @@
 title: 1984 Letter to Shareholders
 title_zh: 1984 年致股东信
 slug: 1984-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1984.html
 date: 1985-02-25
 type: shareholder-letter
 tags:

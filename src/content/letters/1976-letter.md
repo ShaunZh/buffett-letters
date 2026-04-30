@@ -2,6 +2,7 @@
 title: 1976 Letter to Shareholders
 title_zh: 1976 年致股东信
 slug: 1976-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1976.html
 date: 1977-03-21
 type: shareholder-letter
 tags:

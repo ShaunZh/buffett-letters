@@ -2,6 +2,7 @@
 title: "2022 Letter to Shareholders"
 title_zh: "2022 年致股东信"
 slug: "2022-letter"
+sourceUrl: https://www.berkshirehathaway.com/letters/2022ltr.pdf
 date: "2023-02-25"
 type: "shareholder-letter"
 tags:

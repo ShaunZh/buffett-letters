@@ -2,6 +2,7 @@
 title: 1981 Letter to Shareholders
 title_zh: 1981 年致股东信
 slug: 1981-letter
+sourceUrl: https://www.berkshirehathaway.com/letters/1981.html
 date: 1982-02-26
 type: shareholder-letter
 tags:
