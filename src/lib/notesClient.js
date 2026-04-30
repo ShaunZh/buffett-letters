@@ -28,6 +28,26 @@ const COLOR_LABELS = {
   rose: "Rose",
 };
 
+export function findNoteById(notes = [], noteId = "") {
+  return notes.find((note) => note.id === noteId) ?? null;
+}
+
+export function getNoteMenuMode({ hasSelectionContext, activeNoteId, editingNoteId }) {
+  if (editingNoteId) {
+    return "editor";
+  }
+
+  if (activeNoteId) {
+    return "viewer";
+  }
+
+  if (hasSelectionContext) {
+    return "trigger";
+  }
+
+  return "hidden";
+}
+
 function loadAllNotes() {
   return parseStoredNotes(window.localStorage.getItem(STORAGE_KEY));
 }
@@ -128,13 +148,15 @@ function buildHighlightMap(notes) {
   return map;
 }
 
-function sliceTextNode(node, start, end, color) {
+function sliceTextNode(node, start, end, note) {
   const range = document.createRange();
   range.setStart(node, start);
   range.setEnd(node, end);
 
   const mark = document.createElement("mark");
-  mark.className = `note-highlight note-highlight--${color}`;
+  mark.className = `note-highlight note-highlight--${note.color}`;
+  mark.dataset.noteId = note.id;
+  mark.tabIndex = 0;
   range.surroundContents(mark);
 }
 
@@ -161,7 +183,7 @@ function applyHighlightToContent(content, highlights) {
     if (note.startOffset < nodeEnd && note.endOffset > nodeStart) {
       const start = Math.max(0, note.startOffset - nodeStart);
       const end = Math.min(nodeLength, note.endOffset - nodeStart);
-      sliceTextNode(currentNode, start, end, note.color);
+      sliceTextNode(currentNode, start, end, note);
     }
 
     total = nodeEnd;
@@ -229,7 +251,7 @@ function renderNotesPanel(letterSlug) {
 
     const body = document.createElement("p");
     body.className = "notes-item__body";
-    body.textContent = note.note || "仅高亮，未添加笔记。";
+    body.textContent = note.note || "";
 
     const actions = document.createElement("div");
     actions.className = "notes-item__actions";
@@ -302,6 +324,16 @@ function createSelectionMenu() {
           placeholder="记一点自己的想法"
         />
         <button type="button" class="selection-editor__save" data-selection-save>保存</button>
+      </div>
+    </div>
+    <div class="selection-viewer" data-selection-viewer hidden>
+      <div class="selection-viewer__meta" data-selection-viewer-meta></div>
+      <blockquote class="selection-viewer__quote" data-selection-viewer-quote></blockquote>
+      <p class="selection-viewer__body" data-selection-viewer-body></p>
+      <div class="selection-viewer__actions">
+        <button type="button" class="selection-menu__button selection-menu__button--danger" data-selection-viewer-delete>删除</button>
+        <button type="button" class="selection-menu__button" data-selection-viewer-edit>编辑</button>
+        <button type="button" class="selection-menu__button" data-selection-viewer-close>关闭</button>
       </div>
     </div>
   `;
@@ -460,16 +492,20 @@ function setActiveColor(menu, color) {
 function setMenuMode(menu, mode) {
   const actions = menu.querySelector("[data-selection-actions]");
   const editor = menu.querySelector("[data-selection-editor]");
+  const viewer = menu.querySelector("[data-selection-viewer]");
 
   menu.dataset.mode = mode;
   actions.hidden = mode !== "trigger";
   editor.hidden = mode !== "editor";
+  viewer.hidden = mode !== "viewer";
 }
 
 function hideSelectionMenu(menu, state) {
   menu.hidden = true;
   setMenuMode(menu, "trigger");
   state.selectionContext = null;
+  state.activeNote = null;
+  state.editingNote = null;
   state.noteInput.value = "";
   state.noteColor = "amber";
   setActiveColor(menu, state.noteColor);
@@ -486,29 +522,86 @@ function showSelectionTrigger(menu, state, selectionContext) {
 }
 
 function showSelectionEditor(menu, state) {
-  if (!state.selectionContext) {
+  if (!state.selectionContext && !state.editingNote) {
     return;
   }
 
   menu.hidden = false;
   setMenuMode(menu, "editor");
-  positionMenu(menu, state.selectionContext.range);
+  if (state.selectionContext?.range) {
+    positionMenu(menu, state.selectionContext.range);
+    return;
+  }
+
+  const noteMark = state.editingNote
+    ? document.querySelector(`.note-highlight[data-note-id="${state.editingNote.id}"]`)
+    : null;
+
+  if (noteMark) {
+    positionMenuByElement(menu, noteMark);
+  }
+}
+
+function positionMenuByElement(menu, element) {
+  const rect = element.getBoundingClientRect();
+  const menuRect = menu.getBoundingClientRect();
+  const left = clampHorizontal(window.scrollX + rect.left, menuRect.width || 220);
+  const top = window.scrollY + rect.top - menuRect.height - 12;
+
+  menu.style.left = `${left}px`;
+  menu.style.top = `${Math.max(window.scrollY + 12, top)}px`;
+}
+
+function fillEditorFromNote(state, note) {
+  state.noteInput.value = note?.note ?? "";
+  state.noteColor = note?.color ?? "amber";
+}
+
+function showNoteViewer(menu, state, note) {
+  if (!note) {
+    hideSelectionMenu(menu, state);
+    return;
+  }
+
+  state.selectionContext = null;
+  state.activeNote = note;
+  state.editingNote = null;
+  fillEditorFromNote(state, note);
+  setActiveColor(menu, state.noteColor);
+  menu.querySelector("[data-selection-viewer-meta]").textContent = formatLabel(note);
+  menu.querySelector("[data-selection-viewer-quote]").textContent = note.selectedText;
+  menu.querySelector("[data-selection-viewer-body]").textContent = note.note || "";
+  menu.hidden = false;
+  setMenuMode(menu, "viewer");
+
+  const noteMark = document.querySelector(`.note-highlight[data-note-id="${note.id}"]`);
+  if (noteMark) {
+    positionMenuByElement(menu, noteMark);
+  }
 }
 
 function createDraft(page, state) {
-  if (!state.selectionContext || !page.dataset.letterSlug) {
+  if (!page.dataset.letterSlug) {
+    return null;
+  }
+
+  const anchor = state.selectionContext ?? state.editingNote;
+
+  if (!anchor) {
     return null;
   }
 
   return createNoteRecord({
     letterSlug: page.dataset.letterSlug,
-    blockId: state.selectionContext.blockId,
-    language: state.selectionContext.language,
-    selectedText: state.selectionContext.selectedText,
+    blockId: anchor.blockId,
+    language: anchor.language,
+    selectedText: anchor.selectedText,
     note: state.noteInput.value,
     color: state.noteColor,
-    startOffset: state.selectionContext.startOffset,
-    endOffset: state.selectionContext.endOffset,
+    startOffset: anchor.startOffset,
+    endOffset: anchor.endOffset,
+    id: state.editingNote?.id,
+    createdAt: state.editingNote?.createdAt,
   });
 }
 
@@ -592,7 +685,7 @@ function renderWordResult(result) {
 }
 
 export function shouldRefreshSelectionTrigger({ menu, mode, target }) {
-  if (mode === "editor") {
+  if (mode === "editor" || mode === "viewer") {
     return false;
   }
 
@@ -630,6 +723,8 @@ export function setupLetterNotes() {
   let activeWordAudio = null;
   const state = {
     selectionContext: null,
+    activeNote: null,
+    editingNote: null,
     noteColor: "amber",
     noteInput: menu.querySelector("[data-selection-note]"),
     pendingAiText: "",
@@ -682,7 +777,7 @@ export function setupLetterNotes() {
   drawerScrim?.addEventListener("click", () => toggleNotesDrawer(false));
 
   document.addEventListener("selectionchange", () => {
-    if (menu.dataset.mode === "editor") {
+    if (menu.dataset.mode === "editor" || menu.dataset.mode === "viewer") {
       return;
     }
 
@@ -786,7 +881,40 @@ export function setupLetterNotes() {
     }
 
     if (event.target.closest("[data-selection-edit]")) {
+      state.activeNote = null;
+      state.editingNote = null;
       showSelectionEditor(menu, state);
+      return;
+    }
+
+    if (event.target.closest("[data-selection-viewer-edit]")) {
+      if (!state.activeNote) {
+        hideSelectionMenu(menu, state);
+        return;
+      }
+
+      state.editingNote = state.activeNote;
+      fillEditorFromNote(state, state.activeNote);
+      setActiveColor(menu, state.noteColor);
+      showSelectionEditor(menu, state);
+      return;
+    }
+
+    if (event.target.closest("[data-selection-viewer-close]")) {
+      hideSelectionMenu(menu, state);
+      return;
+    }
+
+    if (event.target.closest("[data-selection-viewer-delete]")) {
+      if (!state.activeNote) {
+        hideSelectionMenu(menu, state);
+        return;
+      }
+
+      saveAllNotes(removeNote(loadAllNotes(), state.activeNote.id));
+      hideSelectionMenu(menu, state);
+      renderHighlights(letterSlug);
+      renderNotesPanel(letterSlug);
       return;
     }
 
@@ -834,6 +962,13 @@ export function setupLetterNotes() {
   });
 
   document.addEventListener("click", async (event) => {
+    const highlight = event.target.closest(".note-highlight[data-note-id]");
+    if (highlight) {
+      const note = findNoteById(loadAllNotes(), highlight.dataset.noteId);
+      showNoteViewer(menu, state, note);
+      return;
+    }
+
     if (event.target.closest("[data-ai-close]")) {
       closeAiModal(
         event.target.closest("[data-ai-settings-modal], [data-ai-explain-modal], [data-word-translate-modal]"),
@@ -944,6 +1079,9 @@ export function setupLetterNotes() {
 
   document.addEventListener("pointerdown", (event) => {
     if (!menu.hidden && !menu.contains(event.target)) {
+      if (event.target.closest(".note-highlight[data-note-id]")) {
+        return;
+      }
       hideSelectionMenu(menu, state);
     }
   });
@@ -958,12 +1096,28 @@ export function setupLetterNotes() {
   window.addEventListener("scroll", () => {
     if (!menu.hidden && state.selectionContext) {
       positionMenu(menu, state.selectionContext.range);
+      return;
+    }
+
+    if (!menu.hidden && state.activeNote) {
+      const noteMark = document.querySelector(`.note-highlight[data-note-id="${state.activeNote.id}"]`);
+      if (noteMark) {
+        positionMenuByElement(menu, noteMark);
+      }
     }
   });
 
   window.addEventListener("resize", () => {
     if (!menu.hidden && state.selectionContext) {
       positionMenu(menu, state.selectionContext.range);
+      return;
+    }
+
+    if (!menu.hidden && state.activeNote) {
+      const noteMark = document.querySelector(`.note-highlight[data-note-id="${state.activeNote.id}"]`);
+      if (noteMark) {
+        positionMenuByElement(menu, noteMark);
+      }
     }
   });
 }

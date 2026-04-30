@@ -9,4 +9,5 @@ test("selection menu hidden children stay hidden despite component display rules
 
   assert.match(css, /\.selection-editor\[hidden\]/);
   assert.match(css, /\.selection-menu__actions\[hidden\]/);
+  assert.match(css, /\.selection-viewer\[hidden\]/);
 });
