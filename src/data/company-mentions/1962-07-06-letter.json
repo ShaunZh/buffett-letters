@@ -1,0 +1,95 @@
+{
+  "letter_slug": "1962-07-06-letter",
+  "companies": [
+    {
+      "slug": "dempster-mill-manufacturing",
+      "name_en": "Dempster Mill Manufacturing Company",
+      "name_zh": "丹普斯特磨坊制造公司",
+      "blocks": [
+        "p16"
+      ]
+    },
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p20",
+        "p34",
+        "p35",
+        "p36",
+        "p37",
+        "p38",
+        "p39",
+        "p40"
+      ]
+    },
+    {
+      "slug": "investors-stock-fund",
+      "name_en": "Investors Stock Fund",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p20",
+        "p34",
+        "p35",
+        "p36",
+        "p37",
+        "p38",
+        "p39",
+        "p40"
+      ]
+    },
+    {
+      "slug": "fidelity-capital-fund",
+      "name_en": "Fidelity Capital Fund",
+      "name_zh": "富达资本基金",
+      "blocks": [
+        "p21"
+      ]
+    },
+    {
+      "slug": "putnam-growth-fund",
+      "name_en": "Putnam Growth Fund",
+      "name_zh": "普特南成长基金",
+      "blocks": [
+        "p21"
+      ]
+    },
+    {
+      "slug": "wellington-equity-fund",
+      "name_en": "Wellington Equity Fund",
+      "name_zh": "惠灵顿股票基金",
+      "blocks": [
+        "p21"
+      ]
+    },
+    {
+      "slug": "lehman-corporation",
+      "name_en": "Lehman Corporation",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p34",
+        "p35",
+        "p36",
+        "p37",
+        "p38",
+        "p39",
+        "p40"
+      ]
+    },
+    {
+      "slug": "tri-continental-corporation",
+      "name_en": "Tri-Continental Corporation",
+      "name_zh": "三洲公司",
+      "blocks": [
+        "p34",
+        "p35",
+        "p36",
+        "p37",
+        "p38",
+        "p39",
+        "p40"
+      ]
+    }
+  ]
+}
