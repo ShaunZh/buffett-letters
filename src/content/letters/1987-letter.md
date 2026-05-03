@@ -16,6 +16,13 @@ summary: "巴菲特1987年致股东信，回顾年度业绩，讨论保险业务
 draft: false
 ---
 
+## p0
+**EN**
+To the Shareholders of Berkshire Hathaway Inc.:
+
+**ZH**
+致伯克希尔·哈撒韦公司的股东：
+
 ## p1
 
 **EN**
