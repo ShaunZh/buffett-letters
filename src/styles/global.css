@@ -1024,7 +1024,8 @@ a {
 }
 
 .rich-table table {
-  width: 100%;
+  width: max-content;
+  min-width: 100%;
   border-collapse: collapse;
   font-size: 0.98rem;
   line-height: 1.55;
@@ -1043,8 +1044,7 @@ a {
   font-size: 0.83rem;
   letter-spacing: 0.04em;
   color: var(--muted);
-  white-space: normal;
-  text-wrap: balance;
+  white-space: nowrap;
   line-height: 1.35;
 }
 
@@ -1059,7 +1059,7 @@ a {
 
 .rich-table th:first-child,
 .rich-table td:first-child {
-  white-space: normal;
+  white-space: nowrap;
 }
 
 .rich-table tbody tr:last-child td {
