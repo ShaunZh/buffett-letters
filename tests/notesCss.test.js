@@ -21,3 +21,12 @@ test("rich tables use content width and horizontal scrolling instead of wrapping
   assert.match(css, /\.rich-table th\s*\{[\s\S]*white-space:\s*nowrap;/);
   assert.match(css, /\.rich-table th:first-child,\s*\n\.rich-table td:first-child\s*\{[\s\S]*white-space:\s*nowrap;/);
 });
+
+test("sidebar directories stay grouped instead of pushing later sections to the bottom", () => {
+  const css = readFileSync(cssPath, "utf8");
+
+  assert.match(css, /\.site-sidebar__inner\s*\{[\s\S]*grid-template-rows:\s*auto auto minmax\(0,\s*1fr\);/);
+  assert.match(css, /\.site-directories\s*\{[\s\S]*min-height:\s*0;/);
+  assert.match(css, /\.site-directories\s*\{[\s\S]*align-content:\s*start;/);
+  assert.match(css, /\.site-directory__list\s*\{[\s\S]*max-height:\s*min\(32rem,\s*42vh\);/);
+});

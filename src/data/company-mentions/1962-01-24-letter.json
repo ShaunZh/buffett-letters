@@ -1,0 +1,103 @@
+{
+  "letter_slug": "1962-01-24-letter",
+  "companies": [
+    {
+      "slug": "dempster-mill-manufacturing-company",
+      "name_en": "Dempster Mill Manufacturing Company",
+      "name_zh": "邓普斯特风车制造公司",
+      "blocks": [
+        "p41",
+        "p42",
+        "p43",
+        "p44",
+        "p45",
+        "p46"
+      ]
+    },
+    {
+      "slug": "general-motors",
+      "name_en": "General Motors",
+      "name_zh": "通用汽车",
+      "blocks": [
+        "p46",
+        "p56"
+      ]
+    },
+    {
+      "slug": "us-steel",
+      "name_en": "U.S. Steel",
+      "name_zh": "美国钢铁",
+      "blocks": [
+        "p46"
+      ]
+    },
+    {
+      "slug": "sanborn-map-company",
+      "name_en": "Sanborn Map Company",
+      "name_zh": "桑伯恩地图公司",
+      "blocks": [
+        "p58"
+      ]
+    },
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资信托",
+      "blocks": [
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29"
+      ]
+    },
+    {
+      "slug": "investors-stock-fund",
+      "name_en": "Investors Stock Fund",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29"
+      ]
+    },
+    {
+      "slug": "lehman-corporation",
+      "name_en": "Lehman Corporation",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29"
+      ]
+    },
+    {
+      "slug": "tri-continental-corporation",
+      "name_en": "Tri-Continental Corporation",
+      "name_zh": "Tri-Cont.公司",
+      "blocks": [
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29"
+      ]
+    },
+    {
+      "slug": "peat-marwick-mitchell-and-company",
+      "name_en": "Peat, Marwick, Mitchell & Company",
+      "name_zh": "毕马威会计师事务所",
+      "blocks": [
+        "p73"
+      ]
+    }
+  ]
+}

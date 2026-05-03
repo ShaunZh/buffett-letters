@@ -1,0 +1,28 @@
+{
+  "letter_slug": "1958-letter",
+  "companies": [
+    {
+      "slug": "commonwealth-trust-co-union-city-new-jersey",
+      "name_en": "Commonwealth Trust Co. of Union City, New Jersey",
+      "name_zh": "新泽西州联合城联邦信托公司",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p17",
+        "p18"
+      ]
+    },
+    {
+      "slug": "first-national-bank-of-omaha",
+      "name_en": "First National Bank of Omaha",
+      "name_zh": "奥马哈第一国民银行",
+      "blocks": [
+        "p12"
+      ]
+    }
+  ]
+}

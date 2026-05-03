@@ -1,0 +1,33 @@
+{
+  "letter_slug": "1960-letter",
+  "companies": [
+    {
+      "slug": "sanborn-map-co",
+      "name_en": "Sanborn Map Co.",
+      "name_zh": "桑伯恩地图公司",
+      "blocks": [
+        "p22",
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32",
+        "p33",
+        "p35",
+        "p36"
+      ]
+    },
+    {
+      "slug": "booz-allen-hamilton",
+      "name_en": "Booz, Allen & Hamilton",
+      "name_zh": "博思艾伦咨询公司",
+      "blocks": [
+        "p36"
+      ]
+    }
+  ]
+}

@@ -16,9 +16,13 @@ export function getAllTags(entries) {
   return [...new Set(filterPublishedLetters(entries).flatMap((entry) => entry.data.tags))].sort();
 }
 
-export function getLetterNavItems(entries) {
-  return sortLettersByDateDesc(filterPublishedLetters(entries)).map((entry) => ({
-    href: `/letters/${entry.slug}/`,
+export function getLetterNavItems(entries, options = {}) {
+  const type = typeof options === "string" ? options : options.type;
+  const hrefBase = typeof options === "object" && options.hrefBase ? options.hrefBase.replace(/\/$/, "") : "/letters";
+  const filteredEntries = filterPublishedLetters(entries).filter((entry) => !type || entry.data.type === type);
+
+  return sortLettersByDateDesc(filteredEntries).map((entry) => ({
+    href: `${hrefBase}/${entry.slug}/`,
     year: Number.parseInt(entry.slug.match(/^(\d{4})/)?.[1] ?? String(entry.data.date.getFullYear()), 10),
     label: entry.data.title_zh,
     slug: entry.slug,

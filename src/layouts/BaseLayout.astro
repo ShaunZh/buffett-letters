@@ -9,8 +9,13 @@ const {
   description = "A bilingual long-form reading site for shareholder letters.",
 } = Astro.props;
 
-const navEntries = getLetterNavItems(await getCollection("letters"));
+const letterEntries = await getCollection("letters");
+const partnerLetterEntries = await getCollection("partner-letters");
+const shareholderNavEntries = getLetterNavItems(letterEntries);
+const limitedPartnerNavEntries = getLetterNavItems(partnerLetterEntries, { hrefBase: "/partner-letters" });
 const currentPath = Astro.url.pathname;
+const isShareholderNavActive = shareholderNavEntries.some((entry) => entry.href === currentPath);
+const isLimitedPartnerNavActive = limitedPartnerNavEntries.some((entry) => entry.href === currentPath);
 ---
 
 <!doctype html>
@@ -24,39 +29,58 @@ const currentPath = Astro.url.pathname;
   <body>
     <div class="site-shell">
       <aside class="site-sidebar">
-        <div class="site-sidebar__inner">
-          <a class="site-brand" href="/">
+         <a class="site-brand" href="/">
             <span class="site-brand__mark">◎</span>
             <span class="site-brand__text">
               <strong>巴菲特知识库</strong>
               <small>Buffett Letters</small>
             </span>
           </a>
-
+        <div class="site-sidebar__inner">
           <nav class="site-nav" aria-label="Primary">
             <a class:list={["site-nav__home", currentPath === "/" && "is-active"]} href="/">
               首页
             </a>
           </nav>
 
-          <details class="site-directory" open>
-            <summary class="site-directory__heading">
-              <span class="site-directory__heading-main">
-                <span class="site-directory__caret" aria-hidden="true">▾</span>
-                <span class="site-directory__title">伯克希尔股东信</span>
-              </span>
-              <span>{navEntries.length}</span>
-            </summary>
+          <div class="site-directories">
+            <details class="site-directory" open={isShareholderNavActive || !isLimitedPartnerNavActive}>
+              <summary class="site-directory__heading">
+                <span class="site-directory__heading-main">
+                  <span class="site-directory__caret" aria-hidden="true">▾</span>
+                  <span class="site-directory__title">伯克希尔股东信</span>
+                </span>
+                <span>{shareholderNavEntries.length}</span>
+              </summary>
 
-            <div class="site-directory__list">
-              {navEntries.map((entry) => (
-                <a class:list={["site-directory__item", currentPath === entry.href && "is-active"]} href={entry.href}>
-                  {/* <span class="site-directory__year">{entry.year}</span> */}
-                  <span class="site-directory__label">{entry.label}</span>
-                </a>
-              ))}
-            </div>
-          </details>
+              <div class="site-directory__list">
+                {shareholderNavEntries.map((entry) => (
+                  <a class:list={["site-directory__item", currentPath === entry.href && "is-active"]} href={entry.href}>
+                    {/* <span class="site-directory__year">{entry.year}</span> */}
+                    <span class="site-directory__label">{entry.label}</span>
+                  </a>
+                ))}
+              </div>
+            </details>
+
+            <details class="site-directory" open={isLimitedPartnerNavActive}>
+              <summary class="site-directory__heading">
+                <span class="site-directory__heading-main">
+                  <span class="site-directory__caret" aria-hidden="true">▾</span>
+                  <span class="site-directory__title">致合伙人的信</span>
+                </span>
+                <span>{limitedPartnerNavEntries.length}</span>
+              </summary>
+
+              <div class="site-directory__list">
+                {limitedPartnerNavEntries.map((entry) => (
+                  <a class:list={["site-directory__item", currentPath === entry.href && "is-active"]} href={entry.href}>
+                    <span class="site-directory__label">{entry.label}</span>
+                  </a>
+                ))}
+              </div>
+            </details>
+          </div>
         </div>
       </aside>
 

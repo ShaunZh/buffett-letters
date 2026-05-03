@@ -9,7 +9,7 @@ import { filterPublishedLetters, sortLettersByDateDesc } from "../../lib/letterU
 import { parseLetterBlocks } from "../../lib/parseLetterBlocks.js";
 
 export async function getStaticPaths() {
-  const entries = sortLettersByDateDesc(filterPublishedLetters(await getCollection("letters")));
+  const entries = sortLettersByDateDesc(filterPublishedLetters(await getCollection("partner-letters")));
 
   return entries.map((entry, index) => {
     const previousEntry = entries[index - 1];
@@ -28,11 +28,10 @@ const sourceDocumentUrl = entry.data.pdfPath ?? entry.data.sourceUrl;
 ---
 
 <BaseLayout title={`${entry.data.title_zh} | Learn Letters`}>
-  <article class="letter-detail" data-letter-page data-letter-slug={entry.slug}>
+  <article class="letter-detail" data-letter-page data-letter-slug={`partner-${entry.slug}`}>
     <a class="back-link" href="/">← 返回首页</a>
 
     <header class="letter-detail__header">
-      <!-- <p class="letter-detail__eyebrow">{entry.data.type}</p> -->
       <div class="letter-detail__title-row">
         <h1 class="letter-detail__title">{entry.data.title_zh}</h1>
         {sourceDocumentUrl && (
@@ -64,35 +63,26 @@ const sourceDocumentUrl = entry.data.pdfPath ?? entry.data.sourceUrl;
         )}
       </div>
 
-      <!-- <div class="letter-detail__meta">
-        <time datetime={entry.data.date.toISOString()}>{entry.data.date.toLocaleDateString("zh-CN")}</time>
-        <div class="tag-list">
-          {entry.data.tags.map((tag) => (
-            <a class="tag-chip tag-chip--interactive" href={`/tags/${tag}/`}>{tag}</a>
-          ))}
-        </div>
-      </div> -->
-
       {entry.data.summary && <p class="letter-detail__summary">{entry.data.summary}</p>}
     </header>
 
     <ViewModeToggle />
 
-    <section class="letter-blocks" aria-label="Letter content blocks">
+    <section class="letter-blocks" aria-label="Partner letter content blocks">
       {blocks.map((block) => (
         <LetterBlock block={block} />
       ))}
     </section>
 
-    <nav class="letter-page-nav" aria-label="Letter pagination">
+    <nav class="letter-page-nav" aria-label="Partner letter pagination">
       {previousEntry ? (
-        <a class="letter-page-nav__button" href={`/letters/${previousEntry.slug}/`} rel="prev">上一篇</a>
+        <a class="letter-page-nav__button" href={`/partner-letters/${previousEntry.slug}/`} rel="prev">上一篇</a>
       ) : (
         <span class="letter-page-nav__button" aria-disabled="true">上一篇</span>
       )}
 
       {nextEntry ? (
-        <a class="letter-page-nav__button" href={`/letters/${nextEntry.slug}/`} rel="next">下一篇</a>
+        <a class="letter-page-nav__button" href={`/partner-letters/${nextEntry.slug}/`} rel="next">下一篇</a>
       ) : (
         <span class="letter-page-nav__button" aria-disabled="true">下一篇</span>
       )}
