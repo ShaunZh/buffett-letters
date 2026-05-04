@@ -7,7 +7,11 @@
       "Bash(grep -l \"sourceUrl.*date\" /Users/zhangjie/MyWorkspace/buffett-letters/src/content/letters/*.md)",
       "Bash(grep -l \"ltr.pdfdate\" /Users/zhangjie/MyWorkspace/buffett-letters/src/content/letters/*.md)",
       "Bash(python -c \":*)",
-      "Bash(grep -c \"sourceUrl.*date\" /Users/zhangjie/MyWorkspace/buffett-letters/src/content/letters/*.md)"
+      "Bash(grep -c \"sourceUrl.*date\" /Users/zhangjie/MyWorkspace/buffett-letters/src/content/letters/*.md)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//Users/zhangjie/MyWorkspace/buffett-letters/**)",
+      "Bash(done)"
     ]
   }
 }

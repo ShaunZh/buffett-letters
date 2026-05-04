@@ -1,0 +1,98 @@
+---
+import { getCollection } from "astro:content";
+
+import LetterBlock from "../../components/LetterBlock.astro";
+import LetterNotes from "../../components/LetterNotes.astro";
+import ViewModeToggle from "../../components/ViewModeToggle.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { filterPublishedLetters, sortLettersByDateDesc } from "../../lib/letterUtils.js";
+import { parseLetterBlocks } from "../../lib/parseLetterBlocks.js";
+
+export async function getStaticPaths() {
+  const entries = sortLettersByDateDesc(filterPublishedLetters(await getCollection("special-letters")));
+
+  return entries.map((entry, index) => {
+    const previousEntry = entries[index - 1];
+    const nextEntry = entries[index + 1];
+
+    return {
+      params: { slug: entry.slug },
+      props: { entry, previousEntry, nextEntry },
+    };
+  });
+}
+
+const { entry, previousEntry, nextEntry } = Astro.props;
+const blocks = parseLetterBlocks(entry.body);
+const sourceDocumentUrl = entry.data.pdfPath ?? entry.data.sourceUrl;
+---
+
+<BaseLayout title={`${entry.data.title_zh} | Learn Letters`}>
+  <article class="letter-detail" data-letter-page data-letter-slug={`special-${entry.slug}`}>
+    <a class="back-link" href="/">← 返回首页</a>
+
+    <header class="letter-detail__header">
+      <div class="letter-detail__title-row">
+        <h1 class="letter-detail__title">{entry.data.title_zh}</h1>
+        {sourceDocumentUrl && (
+          <a
+            class="source-link source-link--inline"
+            href={sourceDocumentUrl}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="查看原件"
+            title="查看原件"
+          >
+            <svg
+              class="source-link__icon"
+              viewBox="0 0 24 24"
+              width="22"
+              height="22"
+              aria-hidden="true"
+            >
+              <path
+                d="M14 5h5v5m0-5-8 8M10 7H8a3 3 0 0 0-3 3v6a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3v-2"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.8"
+              />
+            </svg>
+          </a>
+        )}
+      </div>
+
+      {entry.data.summary && <p class="letter-detail__summary">{entry.data.summary}</p>}
+    </header>
+
+    <ViewModeToggle />
+
+    <section class="letter-blocks" aria-label="Special letter content blocks">
+      {blocks.map((block) => (
+        <LetterBlock block={block} />
+      ))}
+    </section>
+
+    <nav class="letter-page-nav" aria-label="Special letter pagination">
+      {previousEntry ? (
+        <a class="letter-page-nav__button" href={`/special-letters/${previousEntry.slug}/`} rel="prev">上一篇</a>
+      ) : (
+        <span class="letter-page-nav__button" aria-disabled="true">上一篇</span>
+      )}
+
+      {nextEntry ? (
+        <a class="letter-page-nav__button" href={`/special-letters/${nextEntry.slug}/`} rel="next">下一篇</a>
+      ) : (
+        <span class="letter-page-nav__button" aria-disabled="true">下一篇</span>
+      )}
+    </nav>
+  </article>
+
+  <LetterNotes />
+
+  <script>
+    import { setupReadingPosition } from "../../lib/readingPosition.js";
+    setupReadingPosition();
+  </script>
+</BaseLayout>
