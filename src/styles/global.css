@@ -87,7 +87,7 @@ a {
 .site-shell {
   min-height: 100vh;
   display: grid;
-  grid-template-columns: 272px minmax(0, 1fr);
+  grid-template-columns: 240px minmax(0, 1fr);
 }
 
 .site-brand {
@@ -290,14 +290,14 @@ a {
 .site-directory__label {
   color: var(--nav-text);
   line-height: 1.45;
-  font-size: 0.92rem;
+  font-size: 0.82rem;
   color: rgba(245, 243, 238, 0.9);
   flex: 1;
 }
 
 .site-directory__item {
   min-height: 2.4rem;
-  padding: 0.55rem 0.8rem;
+  padding: 0.55rem 0.6rem;
   border-radius: 0.8rem;
 }
 
