@@ -1,6 +1,6 @@
 ---
 title: "July 1961 Letter to Partners"
-title_zh: "1961年7月致合伙人的信"
+title_zh: "1961年7月致合伙人信"
 slug: "1961-letter"
 date: "1961-07-22"
 type: "limited-partner-letter"

@@ -21,12 +21,10 @@ function defineLetterCollection() {
 
 const letters = defineLetterCollection();
 const partnerLetters = defineLetterCollection();
-const partnerLettersCompatibility = defineLetterCollection();
 const specialLetters = defineLetterCollection();
 
 export const collections = {
   letters,
   "partner-letters": partnerLetters,
-  partnerLetters: partnerLettersCompatibility,
   "special-letters": specialLetters,
 };

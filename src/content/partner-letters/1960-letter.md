@@ -1,6 +1,6 @@
 ---
 title: "1960 Letter"
-title_zh: "1960年信"
+title_zh: "1960年致合伙人信"
 slug: "1960-letter"
 date: "1961-01-30"
 type: "limited-partner-letter"
