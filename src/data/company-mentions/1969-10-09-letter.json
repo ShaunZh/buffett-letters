@@ -1,0 +1,93 @@
+{
+  "letter_slug": "1969-10-09-letter",
+  "companies": [
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway Inc.",
+      "name_zh": "伯克希尔·哈撒韦公司",
+      "blocks": [
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "diversified-retailing-company",
+      "name_en": "Diversified Retailing Company",
+      "name_zh": "多元化零售公司",
+      "blocks": [
+        "p7",
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "illinois-national-bank",
+      "name_en": "Illinois National Bank and Trust Company",
+      "name_zh": "伊利诺伊国民银行与信托公司",
+      "blocks": [
+        "p7"
+      ]
+    },
+    {
+      "slug": "national-indemnity-company",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p7"
+      ]
+    },
+    {
+      "slug": "national-fire-marine-insurance",
+      "name_en": "National Fire and Marine Insurance Company",
+      "name_zh": "国民火灾与海事保险公司",
+      "blocks": [
+        "p7"
+      ]
+    },
+    {
+      "slug": "sun-newspapers",
+      "name_en": "Sun Newspapers",
+      "name_zh": "太阳报业",
+      "blocks": [
+        "p7"
+      ]
+    },
+    {
+      "slug": "hochschild-kohn",
+      "name_en": "Hochschild, Kohn & Co.",
+      "name_zh": "霍克希尔德·科恩公司",
+      "blocks": [
+        "p7"
+      ]
+    },
+    {
+      "slug": "associated-cotton-shops",
+      "name_en": "Associated Cotton Shops",
+      "name_zh": "联合棉布商店",
+      "blocks": [
+        "p7"
+      ]
+    },
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹印花公司",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "ruane-cunniff-stires",
+      "name_en": "Ruane, Cunniff & Stires, Inc.",
+      "name_zh": "鲁安·坎尼夫·斯特莱斯公司",
+      "blocks": [
+        "p15"
+      ]
+    }
+  ]
+}

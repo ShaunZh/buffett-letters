@@ -1,0 +1,124 @@
+{
+  "letter_slug": "1969-12-26-letter",
+  "companies": [
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹邮票",
+      "blocks": [
+        "p6",
+        "p7",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31"
+      ]
+    },
+    {
+      "slug": "sperry-hutchinson",
+      "name_en": "Sperry & Hutchinson",
+      "name_zh": "斯佩里与哈钦森",
+      "blocks": [
+        "p6"
+      ]
+    },
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway Inc.",
+      "name_zh": "伯克希尔·哈撒韦",
+      "blocks": [
+        "p9",
+        "p10",
+        "p11",
+        "p12",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p34",
+        "p35"
+      ]
+    },
+    {
+      "slug": "sun-newspapers",
+      "name_en": "Sun Newspapers",
+      "name_zh": "太阳报业",
+      "blocks": [
+        "p11",
+        "p12"
+      ]
+    },
+    {
+      "slug": "blacker-printing",
+      "name_en": "Blacker Printing",
+      "name_zh": "布莱克印刷",
+      "blocks": [
+        "p11",
+        "p12"
+      ]
+    },
+    {
+      "slug": "gateway-underwriters",
+      "name_en": "Gateway Underwriters",
+      "name_zh": "盖特威保险代理",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14"
+      ]
+    },
+    {
+      "slug": "national-indemnity-company",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p13",
+        "p14"
+      ]
+    },
+    {
+      "slug": "diversified-retailing-company",
+      "name_en": "Diversified Retailing Company",
+      "name_zh": "多元化零售公司",
+      "blocks": [
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25",
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32",
+        "p33",
+        "p34",
+        "p35",
+        "p36",
+        "p37"
+      ]
+    },
+    {
+      "slug": "hochschild-kohn-company",
+      "name_en": "Hochschild, Kohn & Company",
+      "name_zh": "霍克希尔德·科恩",
+      "blocks": [
+        "p19",
+        "p20"
+      ]
+    }
+  ]
+}

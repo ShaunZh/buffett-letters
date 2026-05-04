@@ -1,0 +1,98 @@
+{
+  "letter_slug": "1966-01-20-letter",
+  "companies": [
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p12",
+        "p14",
+        "p15",
+        "p16",
+        "p17"
+      ]
+    },
+    {
+      "slug": "investors-stock-fund",
+      "name_en": "Investors Stock Fund",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p12",
+        "p14",
+        "p15",
+        "p16",
+        "p17"
+      ]
+    },
+    {
+      "slug": "tri-continental-corp",
+      "name_en": "Tri-Continental Corp.",
+      "name_zh": "三大陆公司",
+      "blocks": [
+        "p12",
+        "p14",
+        "p15",
+        "p16",
+        "p17"
+      ]
+    },
+    {
+      "slug": "lehman-corp",
+      "name_en": "Lehman Corp.",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p12",
+        "p14",
+        "p15",
+        "p16",
+        "p17"
+      ]
+    },
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway",
+      "name_zh": "伯克希尔·哈撒韦",
+      "blocks": [
+        "p37",
+        "p38",
+        "p39",
+        "p40",
+        "p41",
+        "p42"
+      ]
+    },
+    {
+      "slug": "mid-continent-tab-card",
+      "name_en": "Mid-Continent Tab Card",
+      "name_zh": "中大陆穿孔卡片公司",
+      "blocks": [
+        "p67"
+      ]
+    },
+    {
+      "slug": "xerox",
+      "name_en": "Xerox",
+      "name_zh": "施乐",
+      "blocks": [
+        "p41"
+      ]
+    },
+    {
+      "slug": "fairchild-camera",
+      "name_en": "Fairchild Camera",
+      "name_zh": "仙童相机",
+      "blocks": [
+        "p41"
+      ]
+    },
+    {
+      "slug": "national-video",
+      "name_en": "National Video",
+      "name_zh": "国家视频公司",
+      "blocks": [
+        "p41"
+      ]
+    }
+  ]
+}

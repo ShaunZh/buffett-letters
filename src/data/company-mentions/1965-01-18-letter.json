@@ -1,0 +1,184 @@
+{
+  "letter_slug": "1965-01-18-letter",
+  "companies": [
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p23",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "investors-stock-fund",
+      "name_en": "Investors Stock Fund",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "tri-continental-corporation",
+      "name_en": "Tri-Continental Corporation",
+      "name_zh": "Tri-Continental公司",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "lehman-corporation",
+      "name_en": "Lehman Corporation",
+      "name_zh": "莱曼公司",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15",
+        "p16",
+        "p23",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "dempster-mill-manufacturing",
+      "name_en": "Dempster Mill Manufacturing",
+      "name_zh": "Dempster Mill制造公司",
+      "blocks": [
+        "p62",
+        "p63",
+        "p64"
+      ]
+    },
+    {
+      "slug": "mid-continent-tab-card-co",
+      "name_en": "Mid-Continent Tab Card Co.",
+      "name_zh": "中部大陆制表卡公司",
+      "blocks": [
+        "p93"
+      ]
+    },
+    {
+      "slug": "ford-motor-co",
+      "name_en": "Ford Motor Co.",
+      "name_zh": "福特汽车公司",
+      "blocks": [
+        "p90",
+        "p91"
+      ]
+    },
+    {
+      "slug": "at-and-t",
+      "name_en": "A.T. & T.",
+      "name_zh": "美国电话电报公司",
+      "blocks": [
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "general-electric",
+      "name_en": "General Electric",
+      "name_zh": "通用电气",
+      "blocks": [
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "ibm",
+      "name_en": "IBM",
+      "name_zh": "IBM",
+      "blocks": [
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "general-motors",
+      "name_en": "General Motors",
+      "name_zh": "通用汽车",
+      "blocks": [
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "federal-street-fund",
+      "name_en": "Federal Street Fund",
+      "name_zh": "联邦街基金",
+      "blocks": [
+        "p85",
+        "p86",
+        "p87",
+        "p88",
+        "p89"
+      ]
+    },
+    {
+      "slug": "westminster-fund",
+      "name_en": "Westminster Fund",
+      "name_zh": "威斯敏斯特基金",
+      "blocks": [
+        "p85",
+        "p86",
+        "p87",
+        "p88",
+        "p89"
+      ]
+    },
+    {
+      "slug": "diversification-fund",
+      "name_en": "Diversification Fund",
+      "name_zh": "多元化基金",
+      "blocks": [
+        "p85",
+        "p86",
+        "p87",
+        "p88",
+        "p89"
+      ]
+    },
+    {
+      "slug": "peat-marwick-mitchell",
+      "name_en": "Peat, Marwick, Mitchell & Co.",
+      "name_zh": "Peat, Marwick, Mitchell会计师事务所",
+      "blocks": [
+        "p95",
+        "p98",
+        "p99"
+      ]
+    }
+  ]
+}

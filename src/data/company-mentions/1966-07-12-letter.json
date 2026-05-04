@@ -1,0 +1,142 @@
+{
+  "letter_slug": "1966-07-12-letter",
+  "companies": [
+    {
+      "slug": "general-motors",
+      "name_en": "General Motors",
+      "name_zh": "通用汽车",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "standard-of-new-jersey",
+      "name_en": "Standard of New Jersey",
+      "name_zh": "新泽西标准石油",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "sears-roebuck",
+      "name_en": "Sears Roebuck",
+      "name_zh": "西尔斯罗巴克",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10",
+        "p26"
+      ]
+    },
+    {
+      "slug": "dupont",
+      "name_en": "Dupont",
+      "name_zh": "杜邦",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "us-steel",
+      "name_en": "U.S. Steel",
+      "name_zh": "美国钢铁",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "aetna",
+      "name_en": "Aetna",
+      "name_zh": "安泰保险",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "american-telephone-telegraph",
+      "name_en": "American Telephone & Telegraph",
+      "name_zh": "美国电话电报",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "bank-of-america",
+      "name_en": "Bank of America",
+      "name_zh": "美国银行",
+      "blocks": [
+        "p8",
+        "p9",
+        "p10"
+      ]
+    },
+    {
+      "slug": "hochschild-kohn",
+      "name_en": "Hochschild, Kohn & Co.",
+      "name_zh": "霍赫希尔德-科恩公司",
+      "blocks": [
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22"
+      ]
+    },
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p13",
+        "p14"
+      ]
+    },
+    {
+      "slug": "investors-stock-fund",
+      "name_en": "Investors Stock Fund",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p13",
+        "p14"
+      ]
+    },
+    {
+      "slug": "lehman-corporation",
+      "name_en": "Lehman",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p13",
+        "p14"
+      ]
+    },
+    {
+      "slug": "tri-continental",
+      "name_en": "Tri-Cont",
+      "name_zh": "三方大陆公司",
+      "blocks": [
+        "p13",
+        "p14"
+      ]
+    },
+    {
+      "slug": "jc-penney",
+      "name_en": "J.C. Penney",
+      "name_zh": "杰西潘尼",
+      "blocks": [
+        "p20"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "letter_slug": "1963-07-10-letter",
+  "companies": [
+    {
+      "slug": "dempster-mill-manufacturing-company",
+      "name_en": "Dempster Mill Manufacturing Company",
+      "name_zh": "德普斯特磨坊制造公司",
+      "blocks": [
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23",
+        "p24",
+        "p25",
+        "p26",
+        "p27"
+      ]
+    }
+  ]
+}

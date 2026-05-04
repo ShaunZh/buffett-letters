@@ -1,0 +1,94 @@
+{
+  "letter_slug": "1963-01-18-letter",
+  "companies": [
+    {
+      "slug": "dempster-mill",
+      "name_en": "Dempster Mill Manufacturing Company",
+      "name_zh": "邓普斯特磨坊制造公司",
+      "blocks": [
+        "p41",
+        "p50",
+        "p51",
+        "p52",
+        "p53",
+        "p54",
+        "p55",
+        "p56",
+        "p57",
+        "p58",
+        "p59",
+        "p60",
+        "p61",
+        "p62",
+        "p63",
+        "p64",
+        "p65",
+        "p66"
+      ]
+    },
+    {
+      "slug": "sanborn-map",
+      "name_en": "Sanborn Map Company",
+      "name_zh": "桑伯恩地图公司",
+      "blocks": [
+        "p41"
+      ]
+    },
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "investors-stock-fund",
+      "name_en": "Investors Stock Fund",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "tri-continental-corp",
+      "name_en": "Tri-Continental Corp.",
+      "name_zh": "三大陆公司",
+      "blocks": [
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    },
+    {
+      "slug": "lehman-corp",
+      "name_en": "Lehman Corp.",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p26",
+        "p27",
+        "p28",
+        "p29",
+        "p30",
+        "p31",
+        "p32"
+      ]
+    }
+  ]
+}

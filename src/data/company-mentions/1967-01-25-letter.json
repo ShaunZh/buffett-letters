@@ -1,0 +1,93 @@
+{
+  "letter_slug": "1967-01-25-letter",
+  "companies": [
+    {
+      "slug": "dupont",
+      "name_en": "DuPont",
+      "name_zh": "杜邦",
+      "blocks": [
+        "p5"
+      ]
+    },
+    {
+      "slug": "general-motors",
+      "name_en": "General Motors",
+      "name_zh": "通用汽车",
+      "blocks": [
+        "p5"
+      ]
+    },
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23"
+      ]
+    },
+    {
+      "slug": "investors-stock",
+      "name_en": "Investors Stock",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23"
+      ]
+    },
+    {
+      "slug": "lehman",
+      "name_en": "Lehman",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23"
+      ]
+    },
+    {
+      "slug": "tri-continental",
+      "name_en": "Tri-Continental",
+      "name_zh": "三洲公司",
+      "blocks": [
+        "p15",
+        "p16",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21",
+        "p22",
+        "p23"
+      ]
+    },
+    {
+      "slug": "peat-marwick-mitchell-co",
+      "name_en": "Peat, Marwick, Mitchell & Co.",
+      "name_zh": "毕马威会计师事务所",
+      "blocks": [
+        "p68"
+      ]
+    }
+  ]
+}

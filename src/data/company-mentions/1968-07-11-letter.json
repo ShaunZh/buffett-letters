@@ -1,0 +1,83 @@
+{
+  "letter_slug": "1968-07-11-letter",
+  "companies": [
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway",
+      "name_zh": "伯克希尔·哈撒韦",
+      "blocks": [
+        "p6"
+      ]
+    },
+    {
+      "slug": "hochschild-kohn",
+      "name_en": "Hochschild Kohn",
+      "name_zh": "霍克希尔德·科恩",
+      "blocks": [
+        "p6",
+        "p7"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity",
+      "name_zh": "国民保险公司",
+      "blocks": [
+        "p6"
+      ]
+    },
+    {
+      "slug": "associated-cotton-shops",
+      "name_en": "Associated Cotton Shops",
+      "name_zh": "联合棉花商店",
+      "blocks": [
+        "p6",
+        "p7"
+      ]
+    },
+    {
+      "slug": "diversified-retailing-company",
+      "name_en": "Diversified Retailing Company",
+      "name_zh": "多元化零售公司",
+      "blocks": [
+        "p7"
+      ]
+    },
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p11",
+        "p12"
+      ]
+    },
+    {
+      "slug": "investors-stock",
+      "name_en": "Investors Stock",
+      "name_zh": "投资者股票",
+      "blocks": [
+        "p11",
+        "p12"
+      ]
+    },
+    {
+      "slug": "lehman",
+      "name_en": "Lehman",
+      "name_zh": "雷曼",
+      "blocks": [
+        "p11",
+        "p12"
+      ]
+    },
+    {
+      "slug": "tri-continental",
+      "name_en": "Tri-Continental",
+      "name_zh": "三洲公司",
+      "blocks": [
+        "p11",
+        "p12"
+      ]
+    }
+  ]
+}

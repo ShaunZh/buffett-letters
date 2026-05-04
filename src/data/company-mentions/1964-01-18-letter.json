@@ -1,0 +1,123 @@
+{
+  "letter_slug": "1964-01-18-letter",
+  "companies": [
+    {
+      "slug": "texas-national-petroleum",
+      "name_en": "Texas National Petroleum",
+      "name_zh": "德克萨斯国家石油公司",
+      "blocks": [
+        "p59",
+        "p60",
+        "p61",
+        "p62",
+        "p63",
+        "p64",
+        "p65",
+        "p66",
+        "p67",
+        "p68",
+        "p69",
+        "p70",
+        "p71",
+        "p72",
+        "p73",
+        "p74",
+        "p75"
+      ]
+    },
+    {
+      "slug": "union-oil-of-california",
+      "name_en": "Union Oil of California",
+      "name_zh": "加州联合石油公司",
+      "blocks": [
+        "p62",
+        "p66",
+        "p69",
+        "p70"
+      ]
+    },
+    {
+      "slug": "dempster-mill-mfg",
+      "name_en": "Dempster Mill Mfg.",
+      "name_zh": "登普斯特磨坊制造公司",
+      "blocks": [
+        "p76",
+        "p77",
+        "p78",
+        "p79",
+        "p80",
+        "p81",
+        "p82",
+        "p83",
+        "p84",
+        "p85",
+        "p86",
+        "p87",
+        "p88",
+        "p89",
+        "p90",
+        "p91"
+      ]
+    },
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p15",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21"
+      ]
+    },
+    {
+      "slug": "investors-stock-fund",
+      "name_en": "Investors Stock Fund",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p15",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21"
+      ]
+    },
+    {
+      "slug": "tri-continental-corp",
+      "name_en": "Tri-Continental Corp.",
+      "name_zh": "三大陆公司",
+      "blocks": [
+        "p15",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21"
+      ]
+    },
+    {
+      "slug": "lehman-corp",
+      "name_en": "Lehman Corp.",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p15",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21"
+      ]
+    },
+    {
+      "slug": "first-beatrice-corp",
+      "name_en": "First Beatrice Corp.",
+      "name_zh": "第一比阿特丽斯公司",
+      "blocks": [
+        "p87"
+      ]
+    }
+  ]
+}

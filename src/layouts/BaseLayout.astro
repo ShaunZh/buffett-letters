@@ -27,6 +27,14 @@ const isLimitedPartnerNavActive = limitedPartnerNavEntries.some((entry) => entry
     <title>{title}</title>
   </head>
   <body>
+    <button class="sidebar-toggle" aria-label="打开导航菜单">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <line x1="3" y1="6" x2="21" y2="6"/>
+        <line x1="3" y1="12" x2="21" y2="12"/>
+        <line x1="3" y1="18" x2="21" y2="18"/>
+      </svg>
+    </button>
+    <div class="sidebar-overlay"></div>
     <div class="site-shell">
       <aside class="site-sidebar">
          <a class="site-brand" href="/">
@@ -91,4 +99,30 @@ const isLimitedPartnerNavActive = limitedPartnerNavEntries.some((entry) => entry
       </main>
     </div>
   </body>
+
+  <script>
+    const toggle = document.querySelector('.sidebar-toggle');
+    const sidebar = document.querySelector('.site-sidebar');
+    const overlay = document.querySelector('.sidebar-overlay');
+
+    function openSidebar() {
+      sidebar.classList.add('is-open');
+      overlay.classList.add('is-visible');
+    }
+
+    function closeSidebar() {
+      sidebar.classList.remove('is-open');
+      overlay.classList.remove('is-visible');
+    }
+
+    toggle.addEventListener('click', openSidebar);
+    overlay.addEventListener('click', closeSidebar);
+
+    // Close sidebar when a nav link is clicked on mobile
+    sidebar.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 720) closeSidebar();
+      });
+    });
+  </script>
 </html>

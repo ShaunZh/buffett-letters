@@ -1,0 +1,161 @@
+{
+  "letter_slug": "1969-01-22-letter",
+  "companies": [
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway Inc.",
+      "name_zh": "伯克希尔·哈撒韦公司",
+      "blocks": [
+        "p32",
+        "p33",
+        "p35",
+        "p36"
+      ]
+    },
+    {
+      "slug": "diversified-retailing",
+      "name_en": "Diversified Retailing Company Inc.",
+      "name_zh": "多元零售公司",
+      "blocks": [
+        "p32",
+        "p33"
+      ]
+    },
+    {
+      "slug": "associated-cotton-shops",
+      "name_en": "Associated Cotton Shops",
+      "name_zh": "联合棉布商店",
+      "blocks": [
+        "p33"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p33"
+      ]
+    },
+    {
+      "slug": "general-motors",
+      "name_en": "General Motors",
+      "name_zh": "通用汽车",
+      "blocks": [
+        "p34"
+      ]
+    },
+    {
+      "slug": "ibm",
+      "name_en": "IBM",
+      "name_zh": "国际商业机器公司（IBM）",
+      "blocks": [
+        "p34"
+      ]
+    },
+    {
+      "slug": "general-electric",
+      "name_en": "General Electric",
+      "name_zh": "通用电气",
+      "blocks": [
+        "p34"
+      ]
+    },
+    {
+      "slug": "procter-gamble",
+      "name_en": "Procter & Gamble",
+      "name_zh": "宝洁公司",
+      "blocks": [
+        "p34"
+      ]
+    },
+    {
+      "slug": "dupont",
+      "name_en": "DuPont",
+      "name_zh": "杜邦公司",
+      "blocks": [
+        "p34"
+      ]
+    },
+    {
+      "slug": "control-data",
+      "name_en": "Control Data",
+      "name_zh": "控制数据公司",
+      "blocks": [
+        "p34"
+      ]
+    },
+    {
+      "slug": "hewlett-packard",
+      "name_en": "Hewlett-Packard",
+      "name_zh": "惠普公司",
+      "blocks": [
+        "p34"
+      ]
+    },
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Mass. Inv. Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "slug": "investors-stock",
+      "name_en": "Investors Stock",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "slug": "lehman-corporation",
+      "name_en": "Lehman (Corporation)",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "slug": "tri-continental",
+      "name_en": "Tri-Cont (Continental Corporation)",
+      "name_zh": "三洲公司",
+      "blocks": [
+        "p11",
+        "p12",
+        "p13",
+        "p14",
+        "p15"
+      ]
+    },
+    {
+      "slug": "manhattan-fund",
+      "name_en": "Manhattan Fund",
+      "name_zh": "曼哈顿基金",
+      "blocks": [
+        "p16"
+      ]
+    },
+    {
+      "slug": "texas-instruments",
+      "name_en": "Texas Instruments",
+      "name_zh": "德州仪器",
+      "blocks": [
+        "p51"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "letter_slug": "1969-12-05-letter",
+  "companies": [
+    {
+      "slug": "diversified-retailing-company",
+      "name_en": "Diversified Retailing Company",
+      "name_zh": "多元零售公司",
+      "blocks": [
+        "p2",
+        "p4",
+        "p5",
+        "p10",
+        "p12",
+        "p13",
+        "p14",
+        "p17",
+        "p18",
+        "p19",
+        "p20"
+      ]
+    },
+    {
+      "slug": "associated-retail-stores",
+      "name_en": "Associated Retail Stores",
+      "name_zh": "联合零售商店",
+      "blocks": [
+        "p2",
+        "p3",
+        "p21"
+      ]
+    },
+    {
+      "slug": "hochschild-kohn-company",
+      "name_en": "Hochschild, Kohn & Company",
+      "name_zh": "霍希尔德·科恩公司",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "supermarkets-general-corp",
+      "name_en": "Supermarkets General Corp.",
+      "name_zh": "超市通用公司",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway Inc.",
+      "name_zh": "伯克希尔·哈撒韦公司",
+      "blocks": [
+        "p6",
+        "p10",
+        "p12",
+        "p13",
+        "p14",
+        "p17",
+        "p18",
+        "p19",
+        "p20",
+        "p21"
+      ]
+    },
+    {
+      "slug": "national-indemnity-company",
+      "name_en": "National Indemnity Company",
+      "name_zh": "国民赔偿公司",
+      "blocks": [
+        "p6",
+        "p21"
+      ]
+    },
+    {
+      "slug": "national-fire-marine-insurance-company",
+      "name_en": "National Fire & Marine Insurance Company",
+      "name_zh": "国民火灾与海事保险公司",
+      "blocks": [
+        "p6",
+        "p21"
+      ]
+    },
+    {
+      "slug": "illinois-national-bank-and-trust-company",
+      "name_en": "Illinois National Bank and Trust Company",
+      "name_zh": "伊利诺伊国民银行与信托公司",
+      "blocks": [
+        "p6",
+        "p21"
+      ]
+    },
+    {
+      "slug": "sun-newspapers-inc",
+      "name_en": "Sun Newspapers Inc.",
+      "name_zh": "太阳报业公司",
+      "blocks": [
+        "p6"
+      ]
+    },
+    {
+      "slug": "blacker-printing-company",
+      "name_en": "Blacker Printing Company",
+      "name_zh": "布莱克印刷公司",
+      "blocks": [
+        "p6"
+      ]
+    },
+    {
+      "slug": "gateway-underwriters",
+      "name_en": "Gateway Underwriters",
+      "name_zh": "盖特威保险公司",
+      "blocks": [
+        "p6"
+      ]
+    },
+    {
+      "slug": "first-manhattan-company",
+      "name_en": "First Manhattan Company",
+      "name_zh": "第一曼哈顿公司",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "wheeler-munger-company",
+      "name_en": "Wheeler, Munger & Company",
+      "name_zh": "惠勒·芒格公司",
+      "blocks": [
+        "p2"
+      ]
+    },
+    {
+      "slug": "blue-chip-stamps",
+      "name_en": "Blue Chip Stamps",
+      "name_zh": "蓝筹印花公司",
+      "blocks": [
+        "p15",
+        "p19"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "letter_slug": "1967-07-12-letter",
+  "companies": [
+    {
+      "slug": "diversified-retailing-company",
+      "name_en": "Diversified Retailing Company",
+      "name_zh": "多元零售公司",
+      "blocks": [
+        "p6",
+        "p7"
+      ]
+    },
+    {
+      "slug": "berkshire-hathaway-inc",
+      "name_en": "Berkshire Hathaway Inc.",
+      "name_zh": "伯克希尔·哈撒韦公司",
+      "blocks": [
+        "p6",
+        "p7"
+      ]
+    },
+    {
+      "slug": "hochschild-kohn",
+      "name_en": "Hochschild Kohn",
+      "name_zh": "霍克希尔德·科恩",
+      "blocks": [
+        "p7"
+      ]
+    },
+    {
+      "slug": "associated-cotton-shops",
+      "name_en": "Associated Cotton Shops",
+      "name_zh": "联合棉纺商店",
+      "blocks": [
+        "p7"
+      ]
+    }
+  ]
+}

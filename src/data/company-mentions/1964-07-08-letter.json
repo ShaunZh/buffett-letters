@@ -1,0 +1,41 @@
+{
+  "letter_slug": "1964-07-08-letter",
+  "companies": [
+    {
+      "slug": "massachusetts-investors-trust",
+      "name_en": "Massachusetts Investors Trust",
+      "name_zh": "马萨诸塞投资者信托",
+      "blocks": [
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "slug": "investors-stock-fund",
+      "name_en": "Investors Stock Fund",
+      "name_zh": "投资者股票基金",
+      "blocks": [
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "slug": "tri-continental-corp",
+      "name_en": "Tri-Continental Corp.",
+      "name_zh": "三洲公司",
+      "blocks": [
+        "p15",
+        "p16"
+      ]
+    },
+    {
+      "slug": "lehman-corp",
+      "name_en": "Lehman Corp.",
+      "name_zh": "雷曼公司",
+      "blocks": [
+        "p15",
+        "p16"
+      ]
+    }
+  ]
+}

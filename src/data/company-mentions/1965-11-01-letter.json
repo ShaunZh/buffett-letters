@@ -1,0 +1,13 @@
+{
+  "letter_slug": "1965-11-01-letter",
+  "companies": [
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway Inc.",
+      "name_zh": "伯克希尔哈撒韦公司",
+      "blocks": [
+        "p8"
+      ]
+    }
+  ]
+}

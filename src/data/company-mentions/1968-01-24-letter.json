@@ -1,0 +1,45 @@
+{
+  "letter_slug": "1968-01-24-letter",
+  "companies": [
+    {
+      "slug": "diversified-retailing",
+      "name_en": "Diversified Retailing",
+      "name_zh": "多元化零售公司",
+      "blocks": [
+        "p24"
+      ]
+    },
+    {
+      "slug": "berkshire-hathaway",
+      "name_en": "Berkshire Hathaway",
+      "name_zh": "伯克希尔·哈撒韦",
+      "blocks": [
+        "p24"
+      ]
+    },
+    {
+      "slug": "associated-cotton-shops",
+      "name_en": "Associated Cotton Shops",
+      "name_zh": "联合棉布商店",
+      "blocks": [
+        "p24"
+      ]
+    },
+    {
+      "slug": "national-indemnity",
+      "name_en": "National Indemnity",
+      "name_zh": "国家赔偿公司",
+      "blocks": [
+        "p24"
+      ]
+    },
+    {
+      "slug": "national-fire-marine",
+      "name_en": "National Fire & Marine",
+      "name_zh": "国家火险与海事保险公司",
+      "blocks": [
+        "p24"
+      ]
+    }
+  ]
+}

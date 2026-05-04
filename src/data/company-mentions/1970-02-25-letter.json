@@ -1,0 +1,17 @@
+{
+  "letter_slug": "1970-02-25-letter",
+  "companies": [
+    {
+      "slug": "us-steel-corp",
+      "name_en": "U.S. Steel Corp.",
+      "name_zh": "美国钢铁公司",
+      "blocks": [
+        "p20",
+        "p21",
+        "p22",
+        "p23",
+        "p24"
+      ]
+    }
+  ]
+}
