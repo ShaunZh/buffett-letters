@@ -4,7 +4,7 @@ import { renderRichText } from "../lib/renderRichText.js";
 const { block } = Astro.props;
 ---
 
-<article class="letter-block">
+<article class="letter-block" id={block.id}>
   <div class="letter-block__body">
     <section
       class="letter-block__section"
