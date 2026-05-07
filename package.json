@@ -14,6 +14,7 @@
     "letters:process-partners": "node --env-file=.env scripts/process-limited-partners-with-deepseek.js",
     "letters:split-blocks": "node scripts/split-letter-blocks.js",
     "letters:companies": "node scripts/build-company-index.js",
+    "letters:generate-companies": "node scripts/generate-company-files.js",
     "letters:all": "npm run letters:extract && npm run letters:process && npm run letters:companies"
   },
   "dependencies": {
