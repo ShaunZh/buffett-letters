@@ -309,7 +309,7 @@ a {
 .page-shell__inner {
   width: min(100%, 1320px);
   margin: 0 auto;
-  padding: 1rem 1rem 2.5rem;
+  padding: 1rem 1rem 0rem;
 }
 
 .page-intro,
@@ -1262,7 +1262,7 @@ html[data-view-mode="zh"] .letter-block__section + .letter-block__section {
   }
 
   .page-shell__inner {
-    padding: 0.9rem 1rem 5.5rem;
+    padding: 0.9rem 1rem 0rem;
   }
 
   .letter-card__link,
