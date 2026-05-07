@@ -72,36 +72,11 @@
     "mention_count": 19
   },
   {
-    "slug": "buffalo-news",
-    "name_en": "Buffalo Evening News (Buffalo News)",
-    "name_zh": "布法罗晚报（布法罗新闻报）",
-    "letters": [
-      "1983-letter",
-      "1985-letter",
-      "1986-letter",
-      "1987-letter",
-      "1988-letter",
-      "1989-letter",
-      "1990-letter",
-      "1993-letter"
-    ],
-    "mention_count": 63
-  },
-  {
     "slug": "texas-united-insurance",
     "name_en": "Texas United Insurance",
     "name_zh": "德克萨斯联合保险公司",
     "letters": [
       "1971-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "texas-united-insurance-company",
-    "name_en": "Texas United Insurance Company",
-    "name_zh": "德克萨斯联合保险公司",
-    "letters": [
-      "1975-letter"
     ],
     "mention_count": 1
   },
@@ -122,15 +97,6 @@
       "1987-letter"
     ],
     "mention_count": 2
-  },
-  {
-    "slug": "diversified-retailing-company",
-    "name_en": "Diversified Retailing Company, Inc.",
-    "name_zh": "多元化零售公司",
-    "letters": [
-      "1976-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "diversified-retailing",
@@ -164,15 +130,6 @@
       "1993-letter"
     ],
     "mention_count": 16
-  },
-  {
-    "slug": "fechheimer-bros",
-    "name_en": "Fechheimer Bros. Co.",
-    "name_zh": "费希海默兄弟公司",
-    "letters": [
-      "1986-letter"
-    ],
-    "mention_count": 14
   },
   {
     "slug": "wells-fargo",
@@ -211,18 +168,6 @@
       "1973-letter"
     ],
     "mention_count": 1
-  },
-  {
-    "slug": "national-indemnity-company",
-    "name_en": "National Indemnity Company",
-    "name_zh": "国民赔偿公司",
-    "letters": [
-      "1971-letter",
-      "1975-letter",
-      "1976-letter",
-      "1983-letter"
-    ],
-    "mention_count": 7
   },
   {
     "slug": "national-indemnity",
@@ -293,16 +238,6 @@
     "mention_count": 42
   },
   {
-    "slug": "washington-post-company",
-    "name_en": "The Washington Post Company",
-    "name_zh": "华盛顿邮报公司",
-    "letters": [
-      "1983-letter",
-      "1988-letter"
-    ],
-    "mention_count": 6
-  },
-  {
     "slug": "hp-inc",
     "name_en": "HP Inc.",
     "name_zh": "惠普公司",
@@ -333,33 +268,6 @@
       "1976-letter"
     ],
     "mention_count": 5
-  },
-  {
-    "slug": "home-automobile-insurance",
-    "name_en": "Home and Automobile Insurance Company",
-    "name_zh": "家庭与汽车保险公司",
-    "letters": [
-      "1973-letter"
-    ],
-    "mention_count": 3
-  },
-  {
-    "slug": "home-and-automobile",
-    "name_en": "Home and Automobile Insurance Company",
-    "name_zh": "家庭与汽车保险公司",
-    "letters": [
-      "1974-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "home-and-auto",
-    "name_en": "Home and Auto",
-    "name_zh": "家庭与汽车保险公司",
-    "letters": [
-      "1980-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "guinness",
@@ -400,15 +308,6 @@
     "mention_count": 4
   },
   {
-    "slug": "cornhusker-casualty",
-    "name_en": "Cornhusker Casualty Company",
-    "name_zh": "康哈斯卡意外险公司",
-    "letters": [
-      "1972-letter"
-    ],
-    "mention_count": 1
-  },
-  {
     "slug": "kirby",
     "name_en": "Kirby",
     "name_zh": "柯比",
@@ -436,15 +335,6 @@
       "2024-letter"
     ],
     "mention_count": 26
-  },
-  {
-    "slug": "coca-cola-company",
-    "name_en": "The Coca-Cola Company",
-    "name_zh": "可口可乐公司",
-    "letters": [
-      "1988-letter"
-    ],
-    "mention_count": 4
   },
   {
     "slug": "blue-chip-stamps",
@@ -504,15 +394,6 @@
     "mention_count": 10
   },
   {
-    "slug": "federal-home-loan-mortgage-corporation",
-    "name_en": "Federal Home Loan Mortgage Corporation",
-    "name_zh": "联邦住宅贷款抵押公司",
-    "letters": [
-      "1988-letter"
-    ],
-    "mention_count": 3
-  },
-  {
     "slug": "associated-retail-stores",
     "name_en": "Associated Retail Stores, Inc.",
     "name_zh": "联合零售商店公司",
@@ -522,15 +403,6 @@
       "1980-letter"
     ],
     "mention_count": 7
-  },
-  {
-    "slug": "illinois-bank-and-trust",
-    "name_en": "Illinois Bank and Trust Co. of Rockford",
-    "name_zh": "罗克福德伊利诺伊国民银行及信托公司",
-    "letters": [
-      "1972-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "american-broadcasting",
@@ -580,15 +452,6 @@
       "2024-letter"
     ],
     "mention_count": 2
-  },
-  {
-    "slug": "mutual-savings-and-loan",
-    "name_en": "Mutual Savings and Loan",
-    "name_zh": "穆图尔储蓄与贷款",
-    "letters": [
-      "1980-letter"
-    ],
-    "mention_count": 3
   },
   {
     "slug": "knight-ridder",
@@ -646,15 +509,6 @@
     "mention_count": 6
   },
   {
-    "slug": "us-air",
-    "name_en": "USAir",
-    "name_zh": "全美航空",
-    "letters": [
-      "1992-letter"
-    ],
-    "mention_count": 6
-  },
-  {
     "slug": "mitsui",
     "name_en": "Mitsui",
     "name_zh": "三井",
@@ -680,15 +534,6 @@
       "2024-letter"
     ],
     "mention_count": 5
-  },
-  {
-    "slug": "see-s-candies",
-    "name_en": "See's Candies",
-    "name_zh": "时思糖果",
-    "letters": [
-      "1990-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "world-book",
@@ -739,16 +584,6 @@
     "mention_count": 16
   },
   {
-    "slug": "salomon-inc",
-    "name_en": "Salomon Inc",
-    "name_zh": "所罗门公司",
-    "letters": [
-      "1988-letter",
-      "1992-letter"
-    ],
-    "mention_count": 13
-  },
-  {
     "slug": "sun-newspapers",
     "name_en": "Sun Newspapers, Inc.",
     "name_zh": "太阳报业公司",
@@ -786,15 +621,6 @@
       "1985-letter"
     ],
     "mention_count": 13
-  },
-  {
-    "slug": "general-foods-corporation",
-    "name_en": "General Foods Corporation",
-    "name_zh": "通用食品公司",
-    "letters": [
-      "1983-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "marubeni",
@@ -885,24 +711,6 @@
     "mention_count": 28
   },
   {
-    "slug": "illinois-national-bank-and-trust",
-    "name_en": "Illinois National Bank and Trust of Rockford, Illinois",
-    "name_zh": "伊利诺伊国民银行及信托公司",
-    "letters": [
-      "1975-letter"
-    ],
-    "mention_count": 2
-  },
-  {
-    "slug": "illinois-national-bank-and-trust-company",
-    "name_en": "The Illinois National Bank & Trust Company",
-    "name_zh": "伊利诺伊国民银行与信托公司",
-    "letters": [
-      "1971-letter"
-    ],
-    "mention_count": 3
-  },
-  {
     "slug": "itochu",
     "name_en": "ITOCHU",
     "name_zh": "伊藤忠商事",
@@ -933,26 +741,6 @@
       "2024-letter"
     ],
     "mention_count": 75
-  },
-  {
-    "slug": "geico-corporation",
-    "name_en": "GEICO Corporation",
-    "name_zh": "政府雇员保险公司",
-    "letters": [
-      "1981-letter",
-      "1983-letter",
-      "1988-letter"
-    ],
-    "mention_count": 17
-  },
-  {
-    "slug": "home-and-automobile-insurance",
-    "name_en": "Home and Automobile Insurance Company of Chicago",
-    "name_zh": "芝加哥家庭与汽车保险公司",
-    "letters": [
-      "1972-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "central-states-indemnity",
@@ -1063,15 +851,6 @@
     "mention_count": 7
   },
   {
-    "slug": "hh-brown",
-    "name_en": "H. H. Brown",
-    "name_zh": "H. H. Brown",
-    "letters": [
-      "1993-letter"
-    ],
-    "mention_count": 2
-  },
-  {
     "slug": "h-h-brown",
     "name_en": "H. H. Brown Company",
     "name_zh": "H. H. Brown 公司",
@@ -1087,15 +866,6 @@
     "name_zh": "J.C. Penney（杰西潘尼）",
     "letters": [
       "1993-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "kw-products",
-    "name_en": "K & W Products",
-    "name_zh": "K & W Products",
-    "letters": [
-      "1987-letter"
     ],
     "mention_count": 1
   },
@@ -1183,16 +953,6 @@
     "mention_count": 7
   },
   {
-    "slug": "sees-candy",
-    "name_en": "See's Candy Shops Incorporated",
-    "name_zh": "See's 糖果公司",
-    "letters": [
-      "1973-letter",
-      "1974-letter"
-    ],
-    "mention_count": 4
-  },
-  {
     "slug": "time-inc",
     "name_en": "Time, Inc.",
     "name_zh": "Time, Inc.",
@@ -1200,34 +960,5 @@
       "1985-letter"
     ],
     "mention_count": 1
-  },
-  {
-    "slug": "waumbec-dyeing-and-finishing",
-    "name_en": "Waumbec Dyeing and Finishing Co., Inc.",
-    "name_zh": "Waumbec Dyeing and Finishing 公司",
-    "letters": [
-      "1975-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "waumbec-mills-incorporated",
-    "name_en": "Waumbec Mills Incorporated",
-    "name_zh": "Waumbec Mills 公司",
-    "letters": [
-      "1975-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "wesco",
-    "name_en": "Wesco",
-    "name_zh": "Wesco",
-    "letters": [
-      "1988-letter",
-      "1989-letter",
-      "1990-letter"
-    ],
-    "mention_count": 7
   }
 ]
