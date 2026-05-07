@@ -1,0 +1,37 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("companies", ({ data }) => !data.draft);
+  return entries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<BaseLayout title={`${entry.data.name_zh} | Learn Letters`}>
+  <article class="company-detail">
+    <a class="back-link" href="/">← 返回首页</a>
+
+    <header class="company-detail__header">
+      <h1 class="company-detail__title">{entry.data.name_zh}</h1>
+      <p class="company-detail__subtitle">{entry.data.name_en}</p>
+      {(entry.data.industry || entry.data.founded || entry.data.headquarters) && (
+        <div class="company-detail__meta">
+          {entry.data.industry && <span class="company-detail__meta-item">行业：{entry.data.industry}</span>}
+          {entry.data.founded && <span class="company-detail__meta-item">成立：{entry.data.founded}</span>}
+          {entry.data.headquarters && <span class="company-detail__meta-item">总部：{entry.data.headquarters}</span>}
+        </div>
+      )}
+    </header>
+
+    <section class="company-detail__body">
+      <Content />
+    </section>
+  </article>
+</BaseLayout>

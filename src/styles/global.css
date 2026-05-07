@@ -2605,3 +2605,77 @@ body.ai-modal-open {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/* ── Company detail page ── */
+
+.company-detail__header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.company-detail__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--text);
+}
+
+.company-detail__subtitle {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin: 0.3rem 0 0;
+}
+
+.company-detail__meta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.8rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.company-detail__meta-item {
+  background: var(--accent-soft);
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.3rem;
+}
+
+.company-detail__body {
+  line-height: 1.8;
+}
+
+.company-detail__body h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  color: var(--text);
+}
+
+.company-detail__body h3 {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.company-detail__body p {
+  margin-bottom: 1rem;
+}
+
+.company-detail__body table {
+  width: 100%;
+  border-collapse: collapsed;
+  margin: 1rem 0;
+}
+
+.company-detail__body th,
+.company-detail__body td {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.company-detail__body th {
+  background: var(--accent-soft);
+  font-weight: 600;
+}
