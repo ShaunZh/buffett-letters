@@ -29,28 +29,6 @@
     "mention_count": 2
   },
   {
-    "slug": "berkshire-hathaway",
-    "name_en": "Berkshire Hathaway Inc.",
-    "name_zh": "伯克希尔·哈撒韦公司",
-    "letters": [
-      "1972-letter",
-      "1975-letter",
-      "1985-letter",
-      "2024-letter"
-    ],
-    "mention_count": 50
-  },
-  {
-    "slug": "berkshire-hathaway-energy",
-    "name_en": "Berkshire Hathaway Energy",
-    "name_zh": "伯克希尔·哈撒韦能源",
-    "letters": [
-      "2022-letter",
-      "2024-letter"
-    ],
-    "mention_count": 2
-  },
-  {
     "slug": "burlington-industries",
     "name_en": "Burlington Industries",
     "name_zh": "伯灵顿工业",
@@ -72,15 +50,6 @@
     "mention_count": 19
   },
   {
-    "slug": "texas-united-insurance",
-    "name_en": "Texas United Insurance",
-    "name_zh": "德克萨斯联合保险公司",
-    "letters": [
-      "1971-letter"
-    ],
-    "mention_count": 1
-  },
-  {
     "slug": "dexter-shoe",
     "name_en": "Dexter Shoe",
     "name_zh": "德克斯特鞋业",
@@ -88,26 +57,6 @@
       "1993-letter"
     ],
     "mention_count": 7
-  },
-  {
-    "slug": "texaco",
-    "name_en": "Texaco, Inc.",
-    "name_zh": "德士古公司",
-    "letters": [
-      "1987-letter"
-    ],
-    "mention_count": 2
-  },
-  {
-    "slug": "diversified-retailing",
-    "name_en": "Diversified Retailing Company, Inc.",
-    "name_zh": "多元零售公司",
-    "letters": [
-      "1973-letter",
-      "1974-letter",
-      "1978-letter"
-    ],
-    "mention_count": 9
   },
   {
     "slug": "philip-morris",
@@ -143,33 +92,6 @@
     "mention_count": 11
   },
   {
-    "slug": "columbia-insurance",
-    "name_en": "Columbia Insurance Company",
-    "name_zh": "哥伦比亚保险公司",
-    "letters": [
-      "1984-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "national-service-industries",
-    "name_en": "National Service Industries",
-    "name_zh": "国家服务工业公司",
-    "letters": [
-      "1981-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "national-fire-marine",
-    "name_en": "National Fire and Marine Insurance Company",
-    "name_zh": "国民火灾与海运保险公司",
-    "letters": [
-      "1973-letter"
-    ],
-    "mention_count": 1
-  },
-  {
     "slug": "national-indemnity",
     "name_en": "National Indemnity Company",
     "name_zh": "国民赔偿公司",
@@ -197,26 +119,6 @@
     "mention_count": 9
   },
   {
-    "slug": "interpublic-group",
-    "name_en": "Interpublic Group of Companies, Inc.",
-    "name_zh": "互众集团",
-    "letters": [
-      "1978-letter"
-    ],
-    "mention_count": 2
-  },
-  {
-    "slug": "wppss",
-    "name_en": "Washington Public Power Supply System",
-    "name_zh": "华盛顿公共电力供应系统",
-    "letters": [
-      "1984-letter",
-      "1987-letter",
-      "1992-letter"
-    ],
-    "mention_count": 7
-  },
-  {
     "slug": "washington-post",
     "name_en": "The Washington Post Company",
     "name_zh": "华盛顿邮报公司",
@@ -238,15 +140,6 @@
     "mention_count": 42
   },
   {
-    "slug": "hp-inc",
-    "name_en": "HP Inc.",
-    "name_zh": "惠普公司",
-    "letters": [
-      "2022-letter"
-    ],
-    "mention_count": 1
-  },
-  {
     "slug": "gillette",
     "name_en": "The Gillette Company",
     "name_zh": "吉列公司",
@@ -259,17 +152,6 @@
     "mention_count": 19
   },
   {
-    "slug": "home-and-automobile-insurance-company",
-    "name_en": "Home & Automobile Insurance Company",
-    "name_zh": "家庭与汽车保险公司",
-    "letters": [
-      "1971-letter",
-      "1975-letter",
-      "1976-letter"
-    ],
-    "mention_count": 5
-  },
-  {
     "slug": "guinness",
     "name_en": "Guinness PLC",
     "name_zh": "健力士公司",
@@ -278,15 +160,6 @@
       "1992-letter"
     ],
     "mention_count": 9
-  },
-  {
-    "slug": "precision-steel",
-    "name_en": "Precision Steel",
-    "name_zh": "精密钢铁",
-    "letters": [
-      "1980-letter"
-    ],
-    "mention_count": 2
   },
   {
     "slug": "kaiser-industries",
@@ -306,19 +179,6 @@
       "1980-letter"
     ],
     "mention_count": 4
-  },
-  {
-    "slug": "kirby",
-    "name_en": "Kirby",
-    "name_zh": "柯比",
-    "letters": [
-      "1986-letter",
-      "1987-letter",
-      "1988-letter",
-      "1989-letter",
-      "1990-letter"
-    ],
-    "mention_count": 21
   },
   {
     "slug": "coca-cola",
@@ -356,25 +216,6 @@
     "mention_count": 52
   },
   {
-    "slug": "rj-reynolds",
-    "name_en": "R. J. Reynolds Industries, Inc.",
-    "name_zh": "雷诺烟草公司",
-    "letters": [
-      "1981-letter",
-      "1982-letter"
-    ],
-    "mention_count": 2
-  },
-  {
-    "slug": "rj-reynolds-industries",
-    "name_en": "R. J. Reynolds Industries, Inc.",
-    "name_zh": "雷诺兹烟草工业公司",
-    "letters": [
-      "1983-letter"
-    ],
-    "mention_count": 1
-  },
-  {
     "slug": "fannie-mae",
     "name_en": "Federal National Mortgage Association (Fannie Mae)",
     "name_zh": "联邦国民抵押贷款协会（房利美）",
@@ -392,35 +233,6 @@
       "1992-letter"
     ],
     "mention_count": 10
-  },
-  {
-    "slug": "associated-retail-stores",
-    "name_en": "Associated Retail Stores, Inc.",
-    "name_zh": "联合零售商店公司",
-    "letters": [
-      "1978-letter",
-      "1979-letter",
-      "1980-letter"
-    ],
-    "mention_count": 7
-  },
-  {
-    "slug": "american-broadcasting",
-    "name_en": "American Broadcasting Companies, Inc.",
-    "name_zh": "美国广播公司",
-    "letters": [
-      "1978-letter"
-    ],
-    "mention_count": 2
-  },
-  {
-    "slug": "aluminum-company-of-america",
-    "name_en": "Aluminum Company of America",
-    "name_zh": "美国铝业公司",
-    "letters": [
-      "1980-letter"
-    ],
-    "mention_count": 2
   },
   {
     "slug": "bank-of-america",
@@ -450,15 +262,6 @@
     "letters": [
       "2022-letter",
       "2024-letter"
-    ],
-    "mention_count": 2
-  },
-  {
-    "slug": "knight-ridder",
-    "name_en": "Knight-Ridder Newspapers, Inc.",
-    "name_zh": "奈特-里德报业",
-    "letters": [
-      "1978-letter"
     ],
     "mention_count": 2
   },
@@ -536,28 +339,6 @@
     "mention_count": 5
   },
   {
-    "slug": "world-book",
-    "name_en": "World Book",
-    "name_zh": "世界图书",
-    "letters": [
-      "1986-letter",
-      "1987-letter",
-      "1988-letter",
-      "1989-letter"
-    ],
-    "mention_count": 23
-  },
-  {
-    "slug": "capital-cities-communications",
-    "name_en": "Capital Cities Communications",
-    "name_zh": "首都通信公司",
-    "letters": [
-      "1977-letter",
-      "1981-letter"
-    ],
-    "mention_count": 5
-  },
-  {
     "slug": "scott-fetzer",
     "name_en": "Scott & Fetzer",
     "name_zh": "斯科特·费策",
@@ -591,15 +372,6 @@
       "1973-letter"
     ],
     "mention_count": 5
-  },
-  {
-    "slug": "teledyne",
-    "name_en": "Teledyne",
-    "name_zh": "特励达",
-    "letters": [
-      "1981-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "general-dynamics",
@@ -646,15 +418,6 @@
       "1985-letter"
     ],
     "mention_count": 27
-  },
-  {
-    "slug": "northwest-industries",
-    "name_en": "Northwest Industries",
-    "name_zh": "西北工业公司",
-    "letters": [
-      "1981-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "occidental-petroleum",
@@ -743,15 +506,6 @@
     "mention_count": 75
   },
   {
-    "slug": "central-states-indemnity",
-    "name_en": "Central States Indemnity",
-    "name_zh": "中央州赔偿公司",
-    "letters": [
-      "1992-letter"
-    ],
-    "mention_count": 2
-  },
-  {
     "slug": "sumitomo",
     "name_en": "Sumitomo",
     "name_zh": "住友",
@@ -768,43 +522,6 @@
       "1992-letter"
     ],
     "mention_count": 3
-  },
-  {
-    "slug": "alleghany",
-    "name_en": "Alleghany Corporation",
-    "name_zh": "Alleghany Corporation",
-    "letters": [
-      "2022-letter"
-    ],
-    "mention_count": 2
-  },
-  {
-    "slug": "allegis",
-    "name_en": "Allegis",
-    "name_zh": "Allegis",
-    "letters": [
-      "1987-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "beatrice-companies",
-    "name_en": "Beatrice Companies, Inc.",
-    "name_zh": "Beatrice Companies, Inc.",
-    "letters": [
-      "1985-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "bnsf",
-    "name_en": "BNSF Railway",
-    "name_zh": "BNSF铁路",
-    "letters": [
-      "2022-letter",
-      "2024-letter"
-    ],
-    "mention_count": 2
   },
   {
     "slug": "capital-cities-abc",
@@ -831,17 +548,6 @@
     "mention_count": 1
   },
   {
-    "slug": "cornhusker-casualty-company",
-    "name_en": "Cornhusker Casualty Company",
-    "name_zh": "Cornhusker 灾害保险公司",
-    "letters": [
-      "1971-letter",
-      "1975-letter",
-      "1976-letter"
-    ],
-    "mention_count": 3
-  },
-  {
     "slug": "firemans-fund",
     "name_en": "Fireman's Fund",
     "name_zh": "Fireman's Fund",
@@ -859,69 +565,6 @@
       "1992-letter"
     ],
     "mention_count": 15
-  },
-  {
-    "slug": "jc-penney",
-    "name_en": "J.C. Penney",
-    "name_zh": "J.C. Penney（杰西潘尼）",
-    "letters": [
-      "1993-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "k-and-w-products",
-    "name_en": "K & W Products",
-    "name_zh": "K&W Products",
-    "letters": [
-      "1976-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "lakeland-fire-and-casualty-company",
-    "name_en": "Lakeland Fire & Casualty Company",
-    "name_zh": "Lakeland 消防与灾害保险公司",
-    "letters": [
-      "1971-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "levitz-furniture",
-    "name_en": "Levitz Furniture",
-    "name_zh": "Levitz家具",
-    "letters": [
-      "1984-letter"
-    ],
-    "mention_count": 2
-  },
-  {
-    "slug": "lowell-shoe",
-    "name_en": "Lowell Shoe",
-    "name_zh": "Lowell Shoe",
-    "letters": [
-      "1993-letter"
-    ],
-    "mention_count": 1
-  },
-  {
-    "slug": "nhp-inc",
-    "name_en": "NHP, Inc.",
-    "name_zh": "NHP公司",
-    "letters": [
-      "1986-letter"
-    ],
-    "mention_count": 8
-  },
-  {
-    "slug": "nordstrom",
-    "name_en": "Nordstrom",
-    "name_zh": "Nordstrom（诺德斯特龙）",
-    "letters": [
-      "1993-letter"
-    ],
-    "mention_count": 1
   },
   {
     "slug": "pinkertons",
@@ -951,14 +594,5 @@
       "1979-letter"
     ],
     "mention_count": 7
-  },
-  {
-    "slug": "time-inc",
-    "name_en": "Time, Inc.",
-    "name_zh": "Time, Inc.",
-    "letters": [
-      "1985-letter"
-    ],
-    "mention_count": 1
   }
 ]
