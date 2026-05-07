@@ -141,7 +141,7 @@ Unfortunately we did run into some competition on buying, which raised the price
 Late in the year we were successful in finding a special situation where we could become the largest holder at an attractive price, so we sold our block of Commonwealth obtaining $80 per share although the quoted market was about 20% lower at the time.
 
 **ZH**
-年底，我们成功找到了一个特殊情况，可以以有吸引力的价格成为最大股东，因此我们卖出了联邦信托的股份，获得每股80美元，尽管当时市场报价大约低20%。
+年底，我们成功找到了一种特殊情况，可以以优惠的价格成为最大的股东，因此我们出售了我们持有的联邦股份，每股获得 80 美元，尽管当时的市场报价比现在低了约 20%。
 
 ## p17
 

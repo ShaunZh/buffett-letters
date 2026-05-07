@@ -47,7 +47,7 @@ Most investment trusts had a difficult time in comparison with the Industrial Av
 "But, even though we like the portfolio, the market performance of Tri-Continental's holdings in 1959 was disappointing to us. Markets in which investor sentiment and enthusiasm play so large a part as those of 1959, are difficult for investment managers trained in values and tuned to investing for the long-term. Perhaps we haven't had our space boots adjusted properly. However, we believe that there is a limit to risks that an investing institution such as Tri-Continental should take with its stockholders' money, and we believe that the portfolio is in shape for the year ahead."
 
 **ZH**
-“但是，尽管我们喜欢这个投资组合，Tri-Continental在1959年的持仓市场表现却令我们失望。对于像1959年这样、投资者情绪和热情发挥如此巨大作用的市场，对于那些以价值为导向、着眼长期投资的投资经理来说，是难以应对的。也许我们还没有把‘太空靴’调整好。然而，我们相信像Tri-Continental这样的投资机构，在运用股东资金时所承担的风险是有限度的，并且我们认为我们的投资组合已经为来年做好准备。”
+“但是，尽管我们看好该投资组合，但1959年Tri-Continental所持资产的市场表现令我们失望。在1959年那样投资者情绪和热情影响巨大的市场中，对于那些接受过价值投资训练、习惯于长期投资的投资经理来说，无疑是一个挑战。或许我们当时的策略还不够成熟。然而，我们认为像Tri-Continental这样的投资机构在使用股东资金时，风险承受能力是有限的，而且我们相信该投资组合能够应对未来一年的市场挑战。”
 
 ## p6
 
@@ -127,7 +127,7 @@ Last year, I mentioned a new commitment which involved about 25% of assets of th
 We are the company’s largest stockholder by a considerable margin, and the two other large holders agree with our ideas. The probability is extremely high that the performance of this investment will be superior to that of the general market until its disposition, and I am hopeful that this will take place this year.
 
 **ZH**
-我们是该公司遥遥领先的最大股东，另两大股东也认同我们的想法。在当前投资处置之前，这项投资的表现极大概率会优于大市，我希望能在今年实现。
+我们是该公司最大的股东，持股比例远超其他股东，另外两大股东也认同我们的观点。这项投资在出售前极有可能表现优于整体市场，我希望今年就能完成出售
 
 ## p16
 
