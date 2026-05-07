@@ -1,25 +1,73 @@
 ---
-import { getCollection } from "astro:content";
-
-import LetterCard from "../components/LetterCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { filterPublishedLetters, sortLettersByDateDesc } from "../lib/letterUtils.js";
-
-const entries = sortLettersByDateDesc(filterPublishedLetters(await getCollection("letters")));
 ---
 
-<BaseLayout title="Learn Letters">
-  <section class="page-intro">
-    <p class="page-intro__eyebrow">Letters Archive</p>
-    <h1 class="page-intro__title">中英对照长文阅读</h1>
-    <p class="page-intro__description">
-      用更适合长期阅读的方式浏览巴菲特致股东信，支持中英对照和标签索引。
-    </p>
+<BaseLayout title="Learn Letters — 巴菲特致股东信中英对照阅读">
+  <section class="landing-hero">
+    <div class="landing-hero__inner">
+      <h1 class="landing-hero__title">
+        巴菲特半个世纪的<span class="landing-hero__title--muted">投资智慧</span><br />
+      </h1>
+
+      <p class="landing-hero__description">
+        精心整理巴菲特致股东信、致合伙人信全集。提供优雅的中英对照阅读体验，结合 AI 深度问答，助你吃透每一处理念与财务概念。
+      </p>
+
+      <div class="landing-hero__cta">
+        <a class="landing-hero__cta-button" href="/letters/2024-letter/">
+          开始阅读
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        </a>
+      </div>
+    </div>
   </section>
 
-  <section class="letter-list" aria-label="Letters list">
-    {entries.map((entry) => (
-      <LetterCard entry={entry} />
-    ))}
+  <section class="landing-features">
+    <div class="landing-features__grid">
+      <!-- Feature 1: AI 伴读 (2-col) -->
+      <article class="landing-feature landing-feature--ai">
+        <div class="landing-feature__icon landing-feature__icon--emerald">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 0-1.275 1.275L3 12l5.813 1.912a2 2 0 0 0 1.275 1.275L12 21l1.912-5.813a2 2 0 0 0 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 0-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+        </div>
+        <h3 class="landing-feature__title">AI 原生伴读</h3>
+        <p class="landing-feature__desc">
+          遇到难懂的财务术语或投资逻辑？选中文字，直接向 AI 提问。专属的投资助教随时为你解析上下文。
+        </p>
+      </article>
+
+      <!-- Feature 2: 中英对照 -->
+      <article class="landing-feature landing-feature--lang">
+        <div class="landing-feature__icon landing-feature__icon--blue">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="m2 5h12"/><path d="m7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg>
+        </div>
+        <h3 class="landing-feature__title">中英对照双语</h3>
+        <p class="landing-feature__desc">
+          精心排版的中英双语对照阅读，保留原汁原味的同时，消除语言障碍。支持段落级精准对齐。
+        </p>
+      </article>
+
+      <!-- Feature 3: 高亮与笔记 (dark) -->
+      <article class="landing-feature landing-feature--dark">
+        <div class="landing-feature__icon landing-feature__icon--dark">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17h1.5v1.5H12zm0-4h3v1.5H13.5V15H12zm2-4h1.5v1.5H14zM9 17h1.5v1.5H9zm0-4h3v1.5H10.5V15H9zm2-4h1.5v1.5H11zM7 17h1.5v1.5H7zm0-4h3v1.5H8.5V15H7zm2-4h1.5v1.5H9z"/><path d="M21 11.5V7l-4-3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4.5"/></svg>
+        </div>
+        <h3 class="landing-feature__title landing-feature__title--dark">高亮与笔记</h3>
+        <p class="landing-feature__desc landing-feature__desc--dark">
+          读到精彩处，随手高亮并附上心得。你的所有阅读沉淀都将在本地妥善保存。
+        </p>
+      </article>
+
+      <!-- Feature 4: 本地化隐私 (2-col) -->
+      <article class="landing-feature landing-feature--privacy">
+        <div class="landing-feature__privacy-label">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+          本地化隐私
+        </div>
+        <h3 class="landing-feature__title">API Key 本地存储</h3>
+        <p class="landing-feature__desc">
+          API Key 仅保存在浏览器本地，所有 AI 对话直接与模型服务商交互，彻底杜绝数据泄露风险。
+        </p>
+      </article>
+    </div>
   </section>
 </BaseLayout>
