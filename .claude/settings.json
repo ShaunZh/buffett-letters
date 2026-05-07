@@ -11,7 +11,12 @@
       "Bash(for f:*)",
       "Bash(do echo:*)",
       "Read(//Users/zhangjie/MyWorkspace/buffett-letters/**)",
-      "Bash(done)"
+      "Bash(done)",
+      "Read(//Users/zhangjie/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/skills/brainstorming/**)",
+      "Bash(/Users/zhangjie/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/skills/brainstorming/scripts/start-server.sh --project-dir /Users/zhangjie/MyWorkspace/buffett-letters)",
+      "Bash(cat /Users/zhangjie/MyWorkspace/buffett-letters/.superpowers/brainstorm/*/state/server-info)",
+      "Read(//Users/zhangjie/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/skills/subagent-driven-development/**)",
+      "Bash(node scripts/generate-company-files.js)"
     ]
   }
 }
