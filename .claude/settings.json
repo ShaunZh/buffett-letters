@@ -16,7 +16,24 @@
       "Bash(/Users/zhangjie/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/skills/brainstorming/scripts/start-server.sh --project-dir /Users/zhangjie/MyWorkspace/buffett-letters)",
       "Bash(cat /Users/zhangjie/MyWorkspace/buffett-letters/.superpowers/brainstorm/*/state/server-info)",
       "Read(//Users/zhangjie/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0/skills/subagent-driven-development/**)",
-      "Bash(node scripts/generate-company-files.js)"
+      "Bash(node scripts/generate-company-files.js)",
+      "WebSearch",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.berkshirehathaway.com)",
+      "WebFetch(domain:www.ivey.uwo.ca)",
+      "Bash(curl -sL \"https://en.wikipedia.org/wiki/National_Indemnity_Company\")",
+      "Bash(curl -sL \"https://www.berkshirehathaway.com/letters/1967.html\")",
+      "Bash(curl -sL -o /tmp/national_indemnity.html \"https://en.wikipedia.org/wiki/National_Indemnity_Company\")",
+      "Read(//tmp/**)",
+      "Bash(curl -sL \"https://www.berkshirehathaway.com/letters/1966.html\")",
+      "Bash(curl -sL \"https://www.berkshirehathaway.com/subs/insure.html\")",
+      "Bash(curl -sL -m 10 \"https://nelsoncheng.me/notes/national-indemnity-company/\")",
+      "Bash(python3 -c \":*)",
+      "Bash(curl -sL -m 10 \"https://www.wallstreetoasis.com/resources/schools-of-corporate-finance/warren-buffett-national-indemnity-company\")",
+      "Bash(curl -sL -m 10 \"https://www.insurancebusinessmag.com/us/guides/life/ten-interesting-facts-about-berkshire-hathaways-national-indemnity-company-301424.aspx\")",
+      "Bash(curl -sL -m 10 \"https://en.wikipedia.org/w/api.php?action=query&titles=National_Indemnity_Company&prop=extracts&explaintext=1&format=json\")",
+      "Bash(curl -sL -m 10 -H \"User-Agent: Mozilla/5.0\" \"https://en.wikipedia.org/w/api.php?action=parse&page=National_Indemnity_Company&prop=text&format=json\")",
+      "Bash(curl -v -sL -m 10 \"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=National+Indemnity+Company&format=json\")"
     ]
   }
 }
