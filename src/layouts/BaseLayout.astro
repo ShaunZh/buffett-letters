@@ -15,10 +15,19 @@ const specialLetterEntries = await getCollection("special-letters");
 const shareholderNavEntries = getLetterNavItems(letterEntries);
 const limitedPartnerNavEntries = getLetterNavItems(partnerLetterEntries, { hrefBase: "/partner-letters" });
 const specialNavEntries = getLetterNavItems(specialLetterEntries, { hrefBase: "/special-letters" });
+const companyEntries = await getCollection("companies", ({ data }) => !data.draft);
+const companyNavEntries = companyEntries
+  .sort((a, b) => a.data.name_zh.localeCompare(b.data.name_zh, "zh-CN"))
+  .map((entry) => ({
+    href: `/companies/${entry.slug}/`,
+    label: entry.data.name_zh,
+    slug: entry.slug,
+  }));
 const currentPath = Astro.url.pathname;
 const isShareholderNavActive = shareholderNavEntries.some((entry) => entry.href === currentPath);
 const isLimitedPartnerNavActive = limitedPartnerNavEntries.some((entry) => entry.href === currentPath);
 const isSpecialNavActive = specialNavEntries.some((entry) => entry.href === currentPath);
+const isCompanyNavActive = companyNavEntries.some((entry) => entry.href === currentPath);
 ---
 
 <!doctype html>
@@ -104,6 +113,24 @@ const isSpecialNavActive = specialNavEntries.some((entry) => entry.href === curr
 
               <div class="site-directory__list">
                 {specialNavEntries.map((entry) => (
+                  <a class:list={["site-directory__item", currentPath === entry.href && "is-active"]} href={entry.href}>
+                    <span class="site-directory__label">{entry.label}</span>
+                  </a>
+                ))}
+              </div>
+            </details>
+
+            <details class="site-directory" open={isCompanyNavActive}>
+              <summary class="site-directory__heading">
+                <span class="site-directory__heading-main">
+                  <span class="site-directory__caret" aria-hidden="true">▾</span>
+                  <span class="site-directory__title">公司</span>
+                </span>
+                <span>{companyNavEntries.length}</span>
+              </summary>
+
+              <div class="site-directory__list">
+                {companyNavEntries.map((entry) => (
                   <a class:list={["site-directory__item", currentPath === entry.href && "is-active"]} href={entry.href}>
                     <span class="site-directory__label">{entry.label}</span>
                   </a>
