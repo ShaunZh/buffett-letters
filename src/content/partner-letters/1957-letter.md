@@ -55,15 +55,15 @@ All of the above is not intended to imply that market analysis is foremost in my
 The past year witnessed a moderate decline in stock prices. I stress the word "moderate" since casual reading of the press or conversing with those who have had only recent experience with stocks would tend to create an impression of a much greater decline. Actually, it appears to me that the decline in stock prices has been considerably less than the decline in corporate earning power under present business conditions. This means that the public is still very bullish on blue chip stocks and the general economic picture. I make no attempt to forecast either business or the stock market; the above is simply intended to dispel any notions that stocks have suffered any drastic decline or that the general market, is at a low level. I still consider the general market to be priced on the high side based on long term investment value.
 
 **ZH**
-过去一年，股市出现了温和下跌。我强调“温和”这个词，因为随便翻阅报纸或与那些仅有近期股票经验的人交谈，容易给人一种跌幅更大的印象。实际上，在我看来，股价的跌幅远小于当前商业环境下企业盈利能力的下降。这意味着公众对蓝筹股和整体经济形势仍然非常乐观。我不试图预测商业或股市；以上只是要打消任何认为股票遭受了剧烈下跌或整体市场处于低位的想法。基于长期投资价值，我仍然认为整体市场定价偏高。
+过去一年，股市出现了温和下跌。我强调“温和”这个词，因为随便翻阅报纸或与那些近期才接触股票的人交谈，容易给人一种跌幅更大的错觉。实际上，在我看来，股价的跌幅远小于当前商业环境下企业盈利能力的下降。这意味着公众对蓝筹股和整体经济形势仍然非常乐观。我不试图预测商业或股市；以上只是要打消任何认为股票遭受了剧烈下跌或整体市场处于低位的想法。基于长期投资价值，我仍然认为整体市场定价偏高。
 
 ## p7
 
 **EN**
-Our Activities in 1957
+### Our Activities in 1957
 
 **ZH**
-我们1957年的投资活动
+### 我们1957年的投资活动
 
 ## p8
 
@@ -71,7 +71,7 @@ Our Activities in 1957
 The market decline has created greater opportunity among undervalued situations so that, generally, our portfolio is heavier in undervalued situations relative to work-outs than it was last year. Perhaps an explanation of the term "work-out" is in order. A work-out is an investment which is dependent on a specific corporate action for its profit rather than a general advance in the price of the stock as in the case of undervalued situations. Work-outs come about through: sales, mergers, liquidations, tenders, etc. In each case, the risk is that something will upset the applecart and cause the abandonment of the planned action, not that the economic picture will deteriorate and stocks decline generally. At the end of 1956, we had a ratio of about 70-30 between general issues and work-outs. Now it is about 85-15.
 
 **ZH**
-市场下跌为低估类投资带来了更大的机会，因此总体而言，我们的投资组合中低估类相对于套利类的比重比去年更高。或许有必要解释一下“套利”这个词。套利投资依赖于特定的公司行动来获取利润，而不是像低估类投资那样依赖于股价的普遍上涨。套利机会出现于：出售、合并、清算、要约收购等。在每种情况下，风险在于某些事情会打乱计划，导致行动被放弃，而不是经济形势恶化、股市全面下跌。1956年底，我们的普通股和套利类比例大约为70比30。现在大约是85比15。
+市场下跌在低估类投资中创造了更大的机会，因此总体而言，我们的投资组合中低估类投资的比重相比套利类投资比去年更高了。或许有必要解释一下“套利类投资”这个术语。套利类投资是指其利润依赖于特定公司行为（如出售、合并、清算、要约收购等），而非像低估类投资那样依赖股票整体价格上涨。在每种套利情形中，风险在于某些意外事件打乱计划、导致预定行动被放弃，而不是经济形势恶化或股市普遍下跌。1956年底，我们投资组合中低估类与套利类的比例大约是70比30，现在大约是85比15。
 
 ## p9
 
@@ -79,15 +79,15 @@ The market decline has created greater opportunity among undervalued situations 
 During the past year we have taken positions in two situations which have reached a size where we may expect to take some part in corporate decisions. One of these positions accounts for between 10% and 20% of the portfolio of the various partnerships and the other accounts for about 5%. Both of these will probably take in the neighborhood of three to five years of work but they presently appear to have potential for a high average annual rate of return with a minimum of risk. While not in the classification of work-outs, they have very little dependence on the general action of the stock market. Should the general market have a substantial rise, of course, I would expect this section of our portfolio to lag behind the action of the market.
 
 **ZH**
-在过去一年中，我们投资了两个已具规模的项目，我们有望在这些公司决策中发挥一定作用。其中一个仓位占各个合伙企业投资组合的10%至20%，另一个约占5%。这两笔投资可能需要三年到五年的时间，但目前看来它们具有潜在的高年均回报率且风险极小。虽然不属于套利类，但它们几乎不依赖于股市的整体走势。当然，如果市场大幅上涨，我预计这部分投资组合的表现将落后于市场。
+在过去一年中，我们投资了两个已具规模的项目，我们有望在这些公司决策中发挥一定作用。其中一个仓位占各合伙企业投资组合的10%至20%，另一个约占5%。这两笔投资可能需要三年到五年的时间，但目前看来它们具有潜在的高年均回报率且风险极小。虽然不属于套利类，但它们几乎不依赖于股市的整体走势。当然，如果市场大幅上涨，我预计这部分投资组合的表现将落后于市场。
 
 ## p10
 
 **EN**
-Results for 1957
+### Results for 1957
 
 **ZH**
-1957年业绩
+### 1957年业绩
 
 ## p11
 
@@ -111,7 +111,7 @@ All three of the 1956 partnerships showed a gain during the year amounting to ab
 Basically, all partnerships are invested in the same securities and in approximately the same percentages. However, particularly during the initial stages, money becomes available at varying times and varying levels of the market so there is more variation in results than is likely to be the case in later years. Over the years, I will be quite satisfied with a performance that is 10% per year better than the Averages, so in respect to these three partnerships, 1957 was a successful and probably better than average, year.
 
 **ZH**
-基本而言，所有合伙企业都投资于相同的证券，比例也大致相同。然而，特别是在初始阶段，资金在不同的时间和市场水平到位，因此业绩差异比以后年份可能更大。多年来看，只要相对道指年均领先10个百分点，我就会相当满意。因此就这三家合伙企业而言，1957年是成功的一年，或许好于平均水平。
+基本而言，所有合伙企业都投资于相同的证券，比例也大致相同。然而，尤其是在初期阶段，资金的到位时间和市场行情都存在差异，因此结果的波动性可能比后期更大。多年来看，只要相对道指年均领先10个百分点，我就会相当满意。因此就这三家合伙企业而言，1957年是成功的一年，或许好于平均水平。
 
 ## p14
 
@@ -119,15 +119,15 @@ Basically, all partnerships are invested in the same securities and in approxima
 Two partnerships were started during the middle of 1957 and their results for the balance of the year were roughly the same as the performance of the Averages which were down about 12% for the period since inception of the 1957 partnerships. Their portfolios are now starting to approximate those of the 1956 partnerships and performance of the entire group should be much more comparable in the future.
 
 **ZH**
-两家合伙企业于1957年年中成立，其当年剩余时间的表现与道指大致相当，道指自1957年合伙企业成立以来下跌了约12%。它们的投资组合现在开始接近1956年合伙企业，未来整个群体的表现应该会更加可比。
+两家合伙企业于1957年年中成立，其当年剩余时间的表现与道指大致相当，道指自1957年合伙企业成立以来下跌了约12%。它们的投资组合现在开始接近1956年合伙企业，未来整个集团的业绩应该会更加接近。
 
 ## p15
 
 **EN**
-Interpretation of results
+### Interpretation of results
 
 **ZH**
-业绩解读
+### 业绩解读
 
 ## p16
 
@@ -135,7 +135,7 @@ Interpretation of results
 To some extent our better than average performance in 1957 was due to the fact that it was a generally poor year for most stocks. Our performance, relatively, is likely to be better in a bear market than in a bull market so that deductions made from the above results should be tempered by the fact that it was the type of year when we should have done relatively well. In a year when the general market had a substantial advance I would be well satisfied to match the advance of the Averages.
 
 **ZH**
-在某种程度上，我们在1957年取得的优于平均水平的业绩，是因为对大多数股票而言，这是一个普遍低迷的年份。相对于牛市，我们在熊市中的表现可能更好，因此从上述结果中得出的推论应考虑到这一年是我们本应表现相对较好的年份。在整体市场大幅上涨的年份，我若能跟上道指的涨幅便会非常满意。
+在某种程度上，我们在1957年取得了优于平均水平的业绩，是因为对大多数股票而言，这是一个普遍低迷的年份。相对于牛市，我们在熊市中的表现可能更好，因此从上述结果中得出的推论应考虑到这一年是我们本应表现相对较好的年份。在整体市场大幅上涨的年份，我若能跟上道指的涨幅便会非常满意。
 
 ## p17
 
