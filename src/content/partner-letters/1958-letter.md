@@ -31,7 +31,7 @@ A friend who runs a medium-sized investment trust recently wrote: "The mercurial
 I think this summarizes the change in psychology dominating the stock market in 1958 at both the amateur and professional levels. During the past year almost any reason has been seized upon to justify “Investing” in the market. There are undoubtedly more mercurially-tempered people in the stock market now than for a good many years and the duration of their stay will be limited to how long they think profits can be made quickly and effortlessly. While it is impossible to determine how long they will continue to add numbers to their ranks and thereby stimulate rising prices, I believe it is valid to say that the longer their visit, the greater the reaction from it.
 
 **ZH**
-我认为这句话概括了1958年主宰股票市场的心态变化，无论是在业余还是专业层面。在过去一年里，几乎任何理由都被拿来为“投资”市场辩护。毫无疑问，现在股票市场上性情反复无常的人比多年来都多，而他们停留的时间长短取决于他们认为能够多快、多轻松地获利。虽然无法确定他们还会继续涌入多久，从而推高价格，但我认为可以说，他们停留的时间越长，随之而来的反作用力就越大。
+我认为这概括了1958年主导股市的心理变化，无论是业余投资者还是专业人士。过去一年里，几乎任何理由都被拿来证明“投资”股市是合理的。毫无疑问，现在股市里情绪波动的人比过去很多年都多，他们停留的时间将取决于他们认为自己能多快、多轻松地赚到利润。虽然无法确定这些人还会持续增加多久，从而进一步推高股价，但我认为可以合理地说：他们停留得越久，随后的反作用就越大。
 
 ## p4
 
