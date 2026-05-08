@@ -5,3 +5,5 @@ tmp
 .env
 .gstack/
 .superpowers
+.vercel
+.env*.local
