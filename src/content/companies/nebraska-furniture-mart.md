@@ -5,7 +5,7 @@ industry: "零售（家具）"
 draft: false
 ---
 
-# 内布拉斯加家具城（Nebraska Furniture Mart）：巴菲特投资案例研究
+# 内布拉斯加家具城（Nebraska Furniture Mart）
 
 ## 1. 公司概况
 

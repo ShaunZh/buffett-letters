@@ -5,7 +5,7 @@ industry: "住房金融/政府赞助企业(GSE)"
 draft: false
 ---
 
-# 房利美（Fannie Mae）：巴菲特投资案例研究
+# 房利美（Fannie Mae）
 
 ## 1. 公司概况
 

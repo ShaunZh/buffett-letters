@@ -5,7 +5,7 @@ industry: "饮料/酒类"
 draft: false
 ---
 
-# 健力士（Guinness PLC）：巴菲特投资案例研究
+# 健力士（Guinness PLC）
 
 ## 1. 公司概况
 

@@ -5,7 +5,7 @@ industry: "交易印花"
 draft: false
 ---
 
-# 蓝筹印花公司（Blue Chip Stamps）：巴菲特投资案例研究
+# 蓝筹印花公司（Blue Chip Stamps）
 
 ## 1. 公司概况
 

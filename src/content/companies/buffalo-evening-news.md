@@ -5,7 +5,7 @@ industry: "报业出版"
 draft: false
 ---
 
-# 布法罗晚报（Buffalo Evening News）：巴菲特投资案例研究
+# 布法罗晚报（Buffalo Evening News）
 
 ## 1. 公司概况
 

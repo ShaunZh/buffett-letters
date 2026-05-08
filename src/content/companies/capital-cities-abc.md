@@ -5,7 +5,7 @@ industry: "媒体"
 draft: false
 ---
 
-# Capital Cities/ABC：巴菲特投资案例研究
+# Capital Cities/ABC
 
 ## 1. 公司概况
 

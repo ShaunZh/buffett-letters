@@ -5,7 +5,7 @@ industry: 金融/储蓄贷款/保险
 draft: false
 ---
 
-# 韦斯科金融公司（Wesco Financial Corporation）：巴菲特投资案例研究
+# 韦斯科金融公司（Wesco Financial Corporation）
 
 ## 1. 公司概况
 

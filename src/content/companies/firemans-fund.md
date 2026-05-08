@@ -5,7 +5,7 @@ industry: "保险"
 draft: false
 ---
 
-# Fireman's Fund 保险：巴菲特投资案例研究
+# Fireman's Fund 保险
 
 ## 1. 公司概况
 

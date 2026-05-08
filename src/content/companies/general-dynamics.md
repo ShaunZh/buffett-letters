@@ -5,7 +5,7 @@ industry: "国防/航空航天"
 draft: false
 ---
 
-# 通用动力（General Dynamics）：巴菲特投资案例研究
+# 通用动力（General Dynamics）
 
 ## 1. 公司概况
 

@@ -5,7 +5,7 @@ industry: "航空运输"
 draft: false
 ---
 
-# 全美航空（USAir）：巴菲特投资案例研究
+# 全美航空（USAir）
 
 ## 1. 公司概况
 

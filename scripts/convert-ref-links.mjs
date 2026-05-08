@@ -23,14 +23,13 @@ function parseRefLink(line) {
 }
 
 /**
- * Convert reference links to bullet list items
+ * Convert reference links to bullet list items and inline links
  */
 function convertRefLinksToBulletList(content) {
   const lines = content.split("\n");
   const refLinks = [];
   const nonRefLines = [];
   let inRefSection = false;
-  let refSectionHeaderIndex = -1;
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
@@ -39,7 +38,6 @@ function convertRefLinksToBulletList(content) {
     // Check for reference section header
     if (/^##\s+参考引用/.test(trimmed)) {
       inRefSection = true;
-      refSectionHeaderIndex = i;
       nonRefLines.push(line);
       continue;
     }
@@ -67,6 +65,39 @@ function convertRefLinksToBulletList(content) {
     return { content, changed: false };
   }
 
+  // Build a map from ref id to url for inline replacement
+  const refMap = new Map();
+  for (const ref of refLinks) {
+    refMap.set(ref.id, ref.url);
+  }
+
+  // Replace reference-style links in the body text (non-ref-section lines)
+  // Two formats:
+  // 1. [text][id] -> [text](url)
+  // 2. [id] (shorthand) -> [title](url) or [id](url) if no title
+  const processedLines = nonRefLines.map((line) => {
+    // First handle [text][id] format
+    let result = line.replace(/\[([^\]]+)\]\[([^\]]+)\]/g, (match, text, id) => {
+      const url = refMap.get(id);
+      if (url) {
+        return `[${text}](${url})`;
+      }
+      return match;
+    });
+    // Then handle [id] shorthand format (only if id matches a ref definition)
+    result = result.replace(/\[([^\]]+)\]/g, (match, id) => {
+      // Skip if this is already an inline link [text](url) or a link definition
+      if (match.includes("(") || match.includes(":")) return match;
+      const ref = refLinks.find((r) => r.id === id);
+      if (ref) {
+        const label = ref.title || ref.id;
+        return `[${label}](${ref.url})`;
+      }
+      return match;
+    });
+    return result;
+  });
+
   // Build bullet list from ref links
   const bulletItems = refLinks.map((ref) => {
     if (ref.title) {
@@ -77,16 +108,14 @@ function convertRefLinksToBulletList(content) {
 
   // Find where to insert bullet list (after the header)
   const resultLines = [];
-  let inserted = false;
 
-  for (let i = 0; i < nonRefLines.length; i++) {
-    const line = nonRefLines[i];
+  for (let i = 0; i < processedLines.length; i++) {
+    const line = processedLines[i];
     resultLines.push(line);
 
     if (/^##\s+参考引用/.test(line.trim())) {
       resultLines.push("");
       resultLines.push(...bulletItems);
-      inserted = true;
     }
   }
 
