@@ -33,7 +33,11 @@
       "Bash(curl -sL -m 10 \"https://www.insurancebusinessmag.com/us/guides/life/ten-interesting-facts-about-berkshire-hathaways-national-indemnity-company-301424.aspx\")",
       "Bash(curl -sL -m 10 \"https://en.wikipedia.org/w/api.php?action=query&titles=National_Indemnity_Company&prop=extracts&explaintext=1&format=json\")",
       "Bash(curl -sL -m 10 -H \"User-Agent: Mozilla/5.0\" \"https://en.wikipedia.org/w/api.php?action=parse&page=National_Indemnity_Company&prop=text&format=json\")",
-      "Bash(curl -v -sL -m 10 \"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=National+Indemnity+Company&format=json\")"
+      "Bash(curl -v -sL -m 10 \"https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=National+Indemnity+Company&format=json\")",
+      "Bash(vercel ls:*)",
+      "Bash(vercel inspect:*)",
+      "Bash(vercel env:*)",
+      "Bash(curl -s \"https://buffett-letters.vercel.app\" -I)"
     ]
   }
 }
