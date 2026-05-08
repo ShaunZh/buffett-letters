@@ -187,23 +187,23 @@ draft: false
 
 ## 参考引用
 
-[79p58]: /letters/1979-letter/#p58 "1979 年信 - See's 糖果债券类比"
-[83p74]: /letters/1983-letter/#p74 "1983 年信 - See's 十年财务表"
-[83p77]: /letters/1983-letter/#p77 "1983 年信 - 定价权与品牌偏好"
-[83p78]: /letters/1983-letter/#p78 "1983 年信 - Chuck Huggins 成本控制"
-[83p130]: /letters/1983-letter/#p130 "1983 年信 - 商誉附录"
-[85p48]: /letters/1985-letter/#p48 "1985 年信 - 经济商誉与通胀"
-[85p50]: /letters/1985-letter/#p50 "1985 年信 - 单店商誉超纺织设备"
-[91p42]: /letters/1991-letter/#p42 "1991 年信 - 20 年回顾与特许权认识"
-[91p43]: /letters/1991-letter/#p43 "1991 年信 - 20 年财务数据"
-[91p44]: /letters/1991-letter/#p44 "1991 年信 - 资本需求与现金分配"
-[91p45]: /letters/1991-letter/#p45 "1991 年信 - Chuck Huggins 手写协议"
-[99p108]: /letters/1999-letter/#p108 "1999 年信 - 累计 8.57 亿税前利润"
-[07p505]: /letters/2007-letter/#p505 "2007 年信 - 梦幻生意原型"
-[07p529]: /letters/2007-letter/#p529 "2007 年信 - 仅 3200 万再投入"
-[07p609]: /letters/2007-letter/#p609 "2007 年信 - 差点搞砸收购"
-[07p1113]: /letters/2007-letter/#p1113 "2007 年信 - Brad Kinstler 接管"
-[11p1134]: /letters/2011-letter/#p1134 "2011 年信 - 账面值为负"
-[11p1592]: /letters/2011-letter/#p1592 "2011 年信 - 抗通胀资产"
-[20p64]: /letters/2020-letter/#p64 "2020 年信 - Mary See 的故事"
-[14sp]: /special-letters/2014-letter/#p270 "2014 特别信 - 转折点与兔子繁殖"
+- [1979 年信 - See's 糖果债券类比](/letters/1979-letter/#p58)
+- [1983 年信 - See's 十年财务表](/letters/1983-letter/#p74)
+- [1983 年信 - 定价权与品牌偏好](/letters/1983-letter/#p77)
+- [1983 年信 - Chuck Huggins 成本控制](/letters/1983-letter/#p78)
+- [1983 年信 - 商誉附录](/letters/1983-letter/#p130)
+- [1985 年信 - 经济商誉与通胀](/letters/1985-letter/#p48)
+- [1985 年信 - 单店商誉超纺织设备](/letters/1985-letter/#p50)
+- [1991 年信 - 20 年回顾与特许权认识](/letters/1991-letter/#p42)
+- [1991 年信 - 20 年财务数据](/letters/1991-letter/#p43)
+- [1991 年信 - 资本需求与现金分配](/letters/1991-letter/#p44)
+- [1991 年信 - Chuck Huggins 手写协议](/letters/1991-letter/#p45)
+- [1999 年信 - 累计 8.57 亿税前利润](/letters/1999-letter/#p108)
+- [2007 年信 - 梦幻生意原型](/letters/2007-letter/#p505)
+- [2007 年信 - 仅 3200 万再投入](/letters/2007-letter/#p529)
+- [2007 年信 - 差点搞砸收购](/letters/2007-letter/#p609)
+- [2007 年信 - Brad Kinstler 接管](/letters/2007-letter/#p1113)
+- [2011 年信 - 账面值为负](/letters/2011-letter/#p1134)
+- [2011 年信 - 抗通胀资产](/letters/2011-letter/#p1592)
+- [2020 年信 - Mary See 的故事](/letters/2020-letter/#p64)
+- [2014 特别信 - 转折点与兔子繁殖](/special-letters/2014-letter/#p270)

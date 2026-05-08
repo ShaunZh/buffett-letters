@@ -266,34 +266,34 @@ draft: false
 
 ## 参考引用
 
-[88p99]: /letters/1988-letter/#p99 "1988 年信 - 首次买入房地美，最爱的持有期是永远"
-[89p102]: /letters/1989-letter/#p102 "1989 年信 - 持仓表格"
-[90p106]: /letters/1990-letter/#p106 "1990 年信 - 持仓表格"
-[91p24]: /letters/1991-letter/#p24 "1991 年信 - 透视收益表（3.4%）"
-[91p85]: /letters/1991-letter/#p85 "1991 年信 - 持仓表格"
-[92p40]: /letters/1992-letter/#p40 "1992 年信 - 透视收益表（8.2%）"
-[92p63]: /letters/1992-letter/#p63 "1992 年信 - 持仓表格"
-[92p64]: /letters/1992-letter/#p64 "1992 年信 - 增持一倍多"
-[93p37]: /letters/1993-letter/#p37 "1993 年信 - 透视收益表（6.8%）"
-[93p71]: /letters/1993-letter/#p71 "1993 年信 - 持仓表格"
-[94p72]: /letters/1994-letter/#p72 "1994 年信 - 透视收益表（6.3%）"
-[94p87]: /letters/1994-letter/#p87 "1994 年信 - 加州地震与房地美风险敞口"
-[94p95]: /letters/1994-letter/#p95 "1994 年信 - 持仓表格"
-[95p92]: /letters/1995-letter/#p92 "1995 年信 - 持仓表格"
-[96p51]: /letters/1996-letter/#p51 "1996 年信 - 巨灾叠加风险讨论"
-[96p79]: /letters/1996-letter/#p79 "1996 年信 - 透视收益表（8.4%）"
-[96p83]: /letters/1996-letter/#p83 "1996 年信 - 持仓表格"
-[97p71]: /letters/1997-letter/#p71 "1997 年信 - 透视收益表（8.6%）"
-[97p97]: /letters/1997-letter/#p97 "1997 年信 - 持仓表格"
-[98p85]: /letters/1998-letter/#p85 "1998 年信 - 持仓表格"
-[99p115]: /letters/1999-letter/#p115 "1999 年信 - 透视收益表（8.6%）"
-[99p119]: /letters/1999-letter/#p119 "1999 年信 - 持仓表格"
-[00p104]: /letters/2000-letter/#p104 "2000 年信 - 卖出几乎全部房地美和房利美"
-[00p142]: /letters/2000-letter/#p142 "2000 年信 - 透视收益表（0.3%）"
-[03p127]: /letters/2003-letter/#p127 "2003 年信 - 房地美恶作剧"
-[08p164]: /letters/2008-letter/#p164 "2008 年信 - 衍生品使房地美大量误报收益"
-[08p167]: /letters/2008-letter/#p167 "2008 年信 - GSE 作为最受严格监管的公司"
-[08p168]: /letters/2008-letter/#p168 "2008 年信 - OFHEO 庆祝卓越十年报告在丑闻爆发后仍未提及"
-[08p169]: /letters/2008-letter/#p169 "2008 年信 - OFHEO 归咎于每一方但国会和自身除外"
-[09p97]: /letters/2009-letter/#p97 "2009 年信 - 房地美和房利美决定贷款标准"
-[10p122]: /letters/2010-letter/#p122 "2010 年信 - 房地美贷款政策不利 Clayton Homes"
+- [1988 年信 - 首次买入房地美，最爱的持有期是永远](/letters/1988-letter/#p99)
+- [1989 年信 - 持仓表格](/letters/1989-letter/#p102)
+- [1990 年信 - 持仓表格](/letters/1990-letter/#p106)
+- [1991 年信 - 透视收益表（3.4%）](/letters/1991-letter/#p24)
+- [1991 年信 - 持仓表格](/letters/1991-letter/#p85)
+- [1992 年信 - 透视收益表（8.2%）](/letters/1992-letter/#p40)
+- [1992 年信 - 持仓表格](/letters/1992-letter/#p63)
+- [1992 年信 - 增持一倍多](/letters/1992-letter/#p64)
+- [1993 年信 - 透视收益表（6.8%）](/letters/1993-letter/#p37)
+- [1993 年信 - 持仓表格](/letters/1993-letter/#p71)
+- [1994 年信 - 透视收益表（6.3%）](/letters/1994-letter/#p72)
+- [1994 年信 - 加州地震与房地美风险敞口](/letters/1994-letter/#p87)
+- [1994 年信 - 持仓表格](/letters/1994-letter/#p95)
+- [1995 年信 - 持仓表格](/letters/1995-letter/#p92)
+- [1996 年信 - 巨灾叠加风险讨论](/letters/1996-letter/#p51)
+- [1996 年信 - 透视收益表（8.4%）](/letters/1996-letter/#p79)
+- [1996 年信 - 持仓表格](/letters/1996-letter/#p83)
+- [1997 年信 - 透视收益表（8.6%）](/letters/1997-letter/#p71)
+- [1997 年信 - 持仓表格](/letters/1997-letter/#p97)
+- [1998 年信 - 持仓表格](/letters/1998-letter/#p85)
+- [1999 年信 - 透视收益表（8.6%）](/letters/1999-letter/#p115)
+- [1999 年信 - 持仓表格](/letters/1999-letter/#p119)
+- [2000 年信 - 卖出几乎全部房地美和房利美](/letters/2000-letter/#p104)
+- [2000 年信 - 透视收益表（0.3%）](/letters/2000-letter/#p142)
+- [2003 年信 - 房地美恶作剧](/letters/2003-letter/#p127)
+- [2008 年信 - 衍生品使房地美大量误报收益](/letters/2008-letter/#p164)
+- [2008 年信 - GSE 作为最受严格监管的公司](/letters/2008-letter/#p167)
+- [2008 年信 - OFHEO 庆祝卓越十年报告在丑闻爆发后仍未提及](/letters/2008-letter/#p168)
+- [2008 年信 - OFHEO 归咎于每一方但国会和自身除外](/letters/2008-letter/#p169)
+- [2009 年信 - 房地美和房利美决定贷款标准](/letters/2009-letter/#p97)
+- [2010 年信 - 房地美贷款政策不利 Clayton Homes](/letters/2010-letter/#p122)

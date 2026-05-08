@@ -262,25 +262,25 @@ draft: false
 
 ## 参考引用
 
-[85p154]: /letters/1985-letter/#p154 "1985 年信 - 转投可口可乐"
-[88p99]: /letters/1988-letter/#p99 "1988 年信 - 开始买入"
-[89p102]: /letters/1989-letter/#p102 "1989 年信 - 25 倍市盈率"
-[89p104]: /letters/1989-letter/#p104 "1989 年信 - 继续持有"
-[89p106]: /letters/1989-letter/#p106 "1989 年信 - 全年持仓表格"
-[91p5]: /letters/1991-letter/#p5 "1991 年信 - 致股东"
-[91p8]: /letters/1991-letter/#p8 "1991 年信 - 樱桃可乐每日 5 罐"
-[93p12]: /letters/1993-letter/#p12 "1993 年信 - 1919 年 IPO 价格与复利"
-[93p74]: /letters/1993-letter/#p74 "1993 年信 - 1938 年 Fortune 文章和 50 倍增长"
-[93p87]: /letters/1993-letter/#p87 "1993 年信 - 护城河论述"
-[93p128]: /letters/1993-letter/#p128 "1993 年信 - Goizueta 管理层与价值"
-[94p16]: /letters/1994-letter/#p16 "1994 年信 - 致股东"
-[97p103]: /letters/1997-letter/#p103 "1997 年信 - Goizueta 去世"
-[11p112]: /letters/2011-letter/#p112 "2011 年信 - 致股东"
-[11p167]: /letters/2011-letter/#p167 "2011 年信 - 用劳动换可乐的抗通胀论述"
-[22p20]: /letters/2022-letter/#p20 "2022 年信 - 7 年购买计划与 13 亿美元成本"
-[22p21]: /letters/2022-letter/#p21 "2022 年信 - 股息从 7500 万到 7.04 亿美元"
-[22p25]: /letters/2022-letter/#p25 "2022 年信 - 花卉与杂草"
-[23p58]: /letters/2023-letter/#p58 "2023 年信 - 致股东"
-[23p61]: /letters/2023-letter/#p61 "2023 年信 - 瑞普·凡·温克尔式的沉睡"
-[23p64]: /letters/2023-letter/#p64 "2023 年信 - 坚守卓越企业"
-[24p47]: /letters/2024-letter/#p47 "2024 年信 - 家喻户晓的名字"
+- [1985 年信 - 转投可口可乐](/letters/1985-letter/#p154)
+- [1988 年信 - 开始买入](/letters/1988-letter/#p99)
+- [1989 年信 - 25 倍市盈率](/letters/1989-letter/#p102)
+- [1989 年信 - 继续持有](/letters/1989-letter/#p104)
+- [1989 年信 - 全年持仓表格](/letters/1989-letter/#p106)
+- [1991 年信 - 致股东](/letters/1991-letter/#p5)
+- [1991 年信 - 樱桃可乐每日 5 罐](/letters/1991-letter/#p8)
+- [1993 年信 - 1919 年 IPO 价格与复利](/letters/1993-letter/#p12)
+- [1993 年信 - 1938 年 Fortune 文章和 50 倍增长](/letters/1993-letter/#p74)
+- [1993 年信 - 护城河论述](/letters/1993-letter/#p87)
+- [1993 年信 - Goizueta 管理层与价值](/letters/1993-letter/#p128)
+- [1994 年信 - 致股东](/letters/1994-letter/#p16)
+- [1997 年信 - Goizueta 去世](/letters/1997-letter/#p103)
+- [2011 年信 - 致股东](/letters/2011-letter/#p112)
+- [2011 年信 - 用劳动换可乐的抗通胀论述](/letters/2011-letter/#p167)
+- [2022 年信 - 7 年购买计划与 13 亿美元成本](/letters/2022-letter/#p20)
+- [2022 年信 - 股息从 7500 万到 7.04 亿美元](/letters/2022-letter/#p21)
+- [2022 年信 - 花卉与杂草](/letters/2022-letter/#p25)
+- [2023 年信 - 致股东](/letters/2023-letter/#p58)
+- [2023 年信 - 瑞普·凡·温克尔式的沉睡](/letters/2023-letter/#p61)
+- [2023 年信 - 坚守卓越企业](/letters/2023-letter/#p64)
+- [2024 年信 - 家喻户晓的名字](/letters/2024-letter/#p47)

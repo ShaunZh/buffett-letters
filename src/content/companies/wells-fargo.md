@@ -361,50 +361,50 @@ draft: false
 
 ## 参考引用
 
-[90p106]: /letters/1990-letter/#p106 "1990 年信 - 持仓表：5,000,000 股富国银行"
-[90p107]: /letters/1990-letter/#p107 "1990 年信 - 富国银行持股近 10%"
-[90p108]: /letters/1990-letter/#p108 "1990 年信 - 银行业并非所爱"
-[90p109]: /letters/1990-letter/#p109 "1990 年信 - 只买管理良好的银行"
-[90p110]: /letters/1990-letter/#p110 "1990 年信 - 赖卡特和哈森：业内最佳管理者"
-[90p111]: /letters/1990-letter/#p111 "1990 年信 - 恐慌买入，5 倍市盈率"
-[90p112]: /letters/1990-letter/#p112 "1990 年信 - 560 亿资产，20% ROE"
-[90p113]: /letters/1990-letter/#p113 "1990 年信 - 西海岸房地产风险"
-[90p114]: /letters/1990-letter/#p114 "1990 年信 - 最坏情况分析"
-[90p115]: /letters/1990-letter/#p115 "1990 年信 - 欢迎下跌"
-[92p63]: /letters/1992-letter/#p63 "1992 年信 - 持仓表"
-[93p71]: /letters/1993-letter/#p71 "1993 年信 - 持仓表"
-[94p16]: /letters/1994-letter/#p16 "1994 年信 - 伯克希尔银行概念"
-[94p94]: /letters/1994-letter/#p94 "1994 年信 - 持仓表"
-[94p119]: /letters/1994-letter/#p119 "1994 年信 - 赖卡特退休"
-[96p83]: /letters/1996-letter/#p83 "1996 年信 - 持仓表"
-[97p29]: /letters/1997-letter/#p29 "1997 年信 - 回购收益"
-[97p97]: /letters/1997-letter/#p97 "1997 年信 - 持仓表"
-[98p85]: /letters/1998-letter/#p85 "1998 年信 - 持仓表"
-[00p103]: /letters/2000-letter/#p103 "2000 年信 - 持仓表"
-[03p164]: /letters/2003-letter/#p164 "2003 年信 - 增持富国银行"
-[04p62]: /letters/2004-letter/#p62 "2004 年信 - 四大持仓"
-[05p50]: /letters/2005-letter/#p50 "2005 年信 - 持仓表"
-[06p17]: /letters/2006-letter/#p17 "2006 年信 - 钦佩的 CEO"
-[06p127]: /letters/2006-letter/#p127 "2006 年信 - 持仓表"
-[07p14]: /letters/2007-letter/#p14 "2007 年信 - 旧方法有效"
-[07p72]: /letters/2007-letter/#p72 "2007 年信 - 威尔斯和法戈的故事"
-[07p133]: /letters/2007-letter/#p133 "2007 年信 - 持仓表"
-[09p111]: /letters/2009-letter/#p111 "2009 年信 - 持仓表"
-[10p75]: /letters/2010-letter/#p75 "2010 年信 - 股息恢复预期"
-[11p16]: /letters/2011-letter/#p16 "2011 年信 - 四大持仓"
-[11p134]: /letters/2011-letter/#p134 "2011 年信 - 持仓表"
-[11p137]: /letters/2011-letter/#p137 "2011 年信 - 银行业恢复元气"
-[12p29]: /letters/2012-letter/#p29 "2012 年信 - 四大持仓"
-[12p130]: /letters/2012-letter/#p130 "2012 年信 - 持仓表"
-[12p104]: /letters/2012-letter/#p104 "2012 年信 - 核心存款分析"
-[13p32]: /letters/2013-letter/#p32 "2013 年信 - 四大持仓"
-[13p126]: /letters/2013-letter/#p126 "2013 年信 - 持仓表"
-[14p34]: /letters/2014-letter/#p34 "2014 年信 - 十分之一百分点"
-[14p122]: /letters/2014-letter/#p122 "2014 年信 - 持仓表"
-[15p40]: /letters/2015-letter/#p40 "2015 年信 - 四大持仓"
-[15p42]: /letters/2015-letter/#p42 "2015 年信 - 47 亿美元收益"
-[15p148]: /letters/2015-letter/#p148 "2015 年信 - 持仓表"
-[16p76]: /letters/2016-letter/#p76 "2016 年信 - 持仓表"
-[17p47]: /letters/2017-letter/#p47 "2017 年信 - 持仓表"
-[18p102]: /letters/2018-letter/#p102 "2018 年信 - 持仓表"
-[19p68]: /letters/2019-letter/#p68 "2019 年信 - 持仓表"
+- [1990 年信 - 持仓表：5,000,000 股富国银行](/letters/1990-letter/#p106)
+- [1990 年信 - 富国银行持股近 10%](/letters/1990-letter/#p107)
+- [1990 年信 - 银行业并非所爱](/letters/1990-letter/#p108)
+- [1990 年信 - 只买管理良好的银行](/letters/1990-letter/#p109)
+- [1990 年信 - 赖卡特和哈森：业内最佳管理者](/letters/1990-letter/#p110)
+- [1990 年信 - 恐慌买入，5 倍市盈率](/letters/1990-letter/#p111)
+- [1990 年信 - 560 亿资产，20% ROE](/letters/1990-letter/#p112)
+- [1990 年信 - 西海岸房地产风险](/letters/1990-letter/#p113)
+- [1990 年信 - 最坏情况分析](/letters/1990-letter/#p114)
+- [1990 年信 - 欢迎下跌](/letters/1990-letter/#p115)
+- [1992 年信 - 持仓表](/letters/1992-letter/#p63)
+- [1993 年信 - 持仓表](/letters/1993-letter/#p71)
+- [1994 年信 - 伯克希尔银行概念](/letters/1994-letter/#p16)
+- [1994 年信 - 持仓表](/letters/1994-letter/#p94)
+- [1994 年信 - 赖卡特退休](/letters/1994-letter/#p119)
+- [1996 年信 - 持仓表](/letters/1996-letter/#p83)
+- [1997 年信 - 回购收益](/letters/1997-letter/#p29)
+- [1997 年信 - 持仓表](/letters/1997-letter/#p97)
+- [1998 年信 - 持仓表](/letters/1998-letter/#p85)
+- [2000 年信 - 持仓表](/letters/2000-letter/#p103)
+- [2003 年信 - 增持富国银行](/letters/2003-letter/#p164)
+- [2004 年信 - 四大持仓](/letters/2004-letter/#p62)
+- [2005 年信 - 持仓表](/letters/2005-letter/#p50)
+- [2006 年信 - 钦佩的 CEO](/letters/2006-letter/#p17)
+- [2006 年信 - 持仓表](/letters/2006-letter/#p127)
+- [2007 年信 - 旧方法有效](/letters/2007-letter/#p14)
+- [2007 年信 - 威尔斯和法戈的故事](/letters/2007-letter/#p72)
+- [2007 年信 - 持仓表](/letters/2007-letter/#p133)
+- [2009 年信 - 持仓表](/letters/2009-letter/#p111)
+- [2010 年信 - 股息恢复预期](/letters/2010-letter/#p75)
+- [2011 年信 - 四大持仓](/letters/2011-letter/#p16)
+- [2011 年信 - 持仓表](/letters/2011-letter/#p134)
+- [2011 年信 - 银行业恢复元气](/letters/2011-letter/#p137)
+- [2012 年信 - 四大持仓](/letters/2012-letter/#p29)
+- [2012 年信 - 持仓表](/letters/2012-letter/#p130)
+- [2012 年信 - 核心存款分析](/letters/2012-letter/#p104)
+- [2013 年信 - 四大持仓](/letters/2013-letter/#p32)
+- [2013 年信 - 持仓表](/letters/2013-letter/#p126)
+- [2014 年信 - 十分之一百分点](/letters/2014-letter/#p34)
+- [2014 年信 - 持仓表](/letters/2014-letter/#p122)
+- [2015 年信 - 四大持仓](/letters/2015-letter/#p40)
+- [2015 年信 - 47 亿美元收益](/letters/2015-letter/#p42)
+- [2015 年信 - 持仓表](/letters/2015-letter/#p148)
+- [2016 年信 - 持仓表](/letters/2016-letter/#p76)
+- [2017 年信 - 持仓表](/letters/2017-letter/#p47)
+- [2018 年信 - 持仓表](/letters/2018-letter/#p102)
+- [2019 年信 - 持仓表](/letters/2019-letter/#p68)

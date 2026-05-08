@@ -43,7 +43,8 @@
       "WebFetch(domain:vercel.com)",
       "WebFetch(domain:buffett-letters-8btxk3enj-hexon804s-projects.vercel.app)",
       "WebFetch(domain:buffett-letters.vercel.app)",
-      "Bash(vercel project:*)"
+      "Bash(vercel project:*)",
+      "Bash(node scripts/convert-ref-links.mjs)"
     ]
   }
 }
