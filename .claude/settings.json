@@ -37,7 +37,13 @@
       "Bash(vercel ls:*)",
       "Bash(vercel inspect:*)",
       "Bash(vercel env:*)",
-      "Bash(curl -s \"https://buffett-letters.vercel.app\" -I)"
+      "Bash(curl -s \"https://buffett-letters.vercel.app\" -I)",
+      "Bash(find . -name companies* -type f)",
+      "Bash(vercel log:*)",
+      "WebFetch(domain:vercel.com)",
+      "WebFetch(domain:buffett-letters-8btxk3enj-hexon804s-projects.vercel.app)",
+      "WebFetch(domain:buffett-letters.vercel.app)",
+      "Bash(vercel project:*)"
     ]
   }
 }

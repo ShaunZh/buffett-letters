@@ -95,6 +95,19 @@ function renderParagraph(lines = []) {
   return `<p>${lines.map((line) => renderInline(line)).join("<br />")}</p>`;
 }
 
+function isBlockquoteBlock(lines = []) {
+  return lines.length > 0 && lines.every((line) => line.trim().startsWith(">"));
+}
+
+function renderBlockquote(lines = []) {
+  const content = lines
+    .map((line) => line.replace(/^>\s?/, ""))
+    .filter((line) => line.trim())
+    .map((line) => renderInline(line))
+    .join("<br />");
+  return `<blockquote>${content}</blockquote>`;
+}
+
 function renderHeading(line = "") {
   const match = line.match(/^(#{1,6})\s+(.*)$/);
 
@@ -192,6 +205,10 @@ export function renderRichText(markdown = "") {
 
       if (block.length === 1 && /^(#{1,6})\s+/.test(block[0])) {
         return renderHeading(block[0]);
+      }
+
+      if (isBlockquoteBlock(block)) {
+        return renderBlockquote(block);
       }
 
       if (isTableBlock(block)) {
