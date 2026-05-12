@@ -1,0 +1,198 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const conceptOrder = [
+  "intrinsic-value",
+  "economic-moat",
+  "margin-of-safety",
+  "mr-market",
+  "owner-earnings",
+  "circle-of-competence",
+  "long-term-thinking",
+  "capital-allocation",
+  "insurance-float",
+  "concentrated-portfolio",
+];
+
+const allConcepts = await getCollection("concepts", ({ data }) => !data.draft);
+const concepts = conceptOrder
+  .map((slug) => allConcepts.find((c) => c.slug === slug))
+  .filter(Boolean);
+
+// Short descriptions for the index cards (manually curated)
+const conceptDescriptions: Record<string, string> = {
+  "intrinsic-value": "企业在其剩余寿命中可提取的现金的折现值。是评估投资吸引力的唯一合乎逻辑的方法。",
+  "economic-moat": "保护企业免受竞争侵蚀的持续竞争优势，如同护城河保护城堡。",
+  "margin-of-safety": "以远低于内在价值的价格买入，为判断失误和不确定性提供缓冲。",
+  "mr-market": "格雷厄姆的寓言：市场是一个情绪化的合伙人，其报价应被利用而非追随。",
+  "owner-earnings": "报告收益加上非现金费用，再减去维持竞争地位所需的资本支出。",
+  "circle-of-competence": "投资者能可靠评估企业经济特征的知识领域。边界的自知与圈内的深度同样重要。",
+  "long-term-thinking": "以数十年为视角评估企业，忽视短期波动，让复利创造价值。",
+  "capital-allocation": "CEO最重要却最少被讨论的技能：如何理性部署企业的财务资源。",
+  "insurance-float": "保险公司在收取保费与支付理赔之间持有的低成本资金池，是伯克希尔的核心引擎。",
+  "concentrated-portfolio": "对理解最深、确信度最高的少数企业集中重仓，而非广泛分散。",
+};
+---
+
+<BaseLayout title="核心概念 | 巴菲特的信" description="巴菲特致股东信中的8大核心投资概念，包含定义、演变历程与原始信件引用。">
+  <div class="concepts-index">
+    <header class="concepts-index__header">
+      <div class="concepts-index__tag">学习资源</div>
+      <h1 class="concepts-index__title">核心概念</h1>
+      <p class="concepts-index__subtitle">
+        从半个世纪的致股东信中提炼的投资智慧，每个概念附有双语引用、思想演变历程与信件索引。
+      </p>
+    </header>
+
+    <div class="concepts-grid">
+      {concepts.map((concept, i) => (
+        <a href={`/concepts/${concept.slug}/`} class="concept-card">
+          <div class="concept-card__index">{String(i + 1).padStart(2, "0")}</div>
+          <div class="concept-card__body">
+            <h2 class="concept-card__title">{concept.data.title_zh}</h2>
+            <p class="concept-card__title-en">{concept.data.title}</p>
+            <p class="concept-card__desc">{conceptDescriptions[concept.slug]}</p>
+          </div>
+          <div class="concept-card__arrow">→</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .concepts-index {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+  }
+
+  .concepts-index__header {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .concepts-index__tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    margin-bottom: 1.25rem;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .concepts-index__title {
+    font-size: clamp(2rem, 5vw, 2.8rem);
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 1rem;
+    line-height: 1.15;
+  }
+
+  .concepts-index__subtitle {
+    font-size: 1rem;
+    color: var(--muted);
+    line-height: 1.7;
+    max-width: 580px;
+    margin: 0;
+  }
+
+  .concepts-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .concept-card {
+    display: grid;
+    grid-template-columns: 3rem 1fr auto;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 2px 8px rgba(55, 40, 20, 0.04);
+    transition: background 0.2s, border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+  }
+
+  .concept-card:hover {
+    background: #fff;
+    border-color: var(--accent);
+    transform: translateX(4px);
+    box-shadow: 0 4px 16px rgba(138, 75, 47, 0.1);
+  }
+
+  .concept-card__index {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgba(138, 75, 47, 0.25);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .concept-card__body {
+    min-width: 0;
+  }
+
+  .concept-card__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text);
+    margin: 0 0 0.15rem;
+    line-height: 1.3;
+  }
+
+  .concept-card__title-en {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin: 0 0 0.6rem;
+    letter-spacing: 0.02em;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+  }
+
+  .concept-card__desc {
+    font-size: 0.88rem;
+    color: var(--muted);
+    line-height: 1.6;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .concept-card__arrow {
+    font-size: 1.1rem;
+    color: var(--accent);
+    opacity: 0.4;
+    transition: opacity 0.2s, transform 0.2s;
+    flex-shrink: 0;
+  }
+
+  .concept-card:hover .concept-card__arrow {
+    opacity: 1;
+    transform: translateX(4px);
+  }
+
+  @media (max-width: 520px) {
+    .concept-card {
+      grid-template-columns: 2rem 1fr auto;
+      gap: 1rem;
+      padding: 1.25rem 1rem;
+    }
+    .concept-card__index {
+      font-size: 1.1rem;
+    }
+  }
+</style>
